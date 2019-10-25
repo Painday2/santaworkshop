@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<unit type="dev" slot="1">
+	<object file="units/dev_tools/invisible_interaction_evidence/invisible_interaction_evidence" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData">
+			<var name="only_visible_in_editor" value="true" />
+		</extension>
+
+		<!-- -->
+		<extension name="interaction" class="SpecialEquipmentInteractionExt" >
+			<var name="_special_equipment" value="evidence" />
+			<var name="_remove_on_interact" value="true" />
+			<var name="tweak_data" value="invisible_interaction_gathering" />
+		</extension>
+
+		<extension name="damage" class="UnitDamage" />
+
+	</extensions>
+</unit>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/props/stn_prop_archives_filecabinet/stn_prop_archives_filecabinet" orientation_object="rp_stn_prop_archives_filecabinet" />
+	<sequence_manager file="units/payday2/props/stn_prop_archives_filecabinet/stn_prop_archives_filecabinet" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_stn_prop_archives_filecabinet" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+		<decal_mesh name="dm_paper_clean_left" 		enabled="true" 		material="paper" />
+		<decal_mesh name="dm_paper_clean_right" 	enabled="true" 		material="paper" />
+		<decal_mesh name="dm_paper_searched_left" 	enabled="false" 	material="paper" />
+		<decal_mesh name="dm_paper_searched_right" 	enabled="false" 	material="paper" />
+	</decal_surfaces>
+
+	<graphics>
+		<object name="g_filecabinet" enabled="true" />
+
+		<graphic_group name="grp_paper_clean_right" enabled="true">
+			<lod_object name="lod_paper_right"> 
+				<object name="g_filecabinet_clean_right_lod0" enabled="true"  max_distance="2500"  max_draw_lod="0" />
+				<object name="g_filecabinet_clean_right_lod1" enabled="true" lod="1" />
+			</lod_object>
+
+		</graphic_group>
+
+		<graphic_group name="grp_paper_searched_right" enabled="false">
+			<lod_object name="lod_paper_searched_right">
+				<object name="g_filecabinet_searched_right_lod0" enabled="true"  max_distance="2500"  max_draw_lod="0" />
+				<object name="g_filecabinet_searched_right_lod1" enabled="true" lod="1" />
+			</lod_object>
+		</graphic_group>
+
+		<graphic_group name="grp_paper_clean_left" enabled="true">
+			<lod_object name="lod_paper_left">
+				<object name="g_filecabinet_clean_left_lod0" enabled="true"  max_distance="2500"  max_draw_lod="0" />
+				<object name="g_filecabinet_clean_left_lod1" enabled="true" lod="1" />
+			</lod_object>
+
+		</graphic_group>
+
+		<graphic_group name="grp_paper_searched_left" enabled="false">
+			<lod_object name="lod_paper_searched_left">
+				<object name="g_filecabinet_searched_left_lod0" enabled="true"  max_distance="2500"  max_draw_lod="0" />
+				<object name="g_filecabinet_searched_left_lod1" enabled="true" lod="1" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

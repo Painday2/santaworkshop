@@ -1,0 +1,31 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_des/props/des_prop_rollupdoor/des_prop_rollupdoor" orientation_object="rp_des_prop_rollupdoor" />
+	<sequence_manager file="units/pd2_dlc_des/props/des_prop_rollupdoor/des_prop_rollupdoor" />
+	<animations>
+		<animation_group name="door" enabled="false">
+			<object name="anim_door" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_des_prop_rollupdoor" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_animated" enabled="true" template="animated">
+			<object name="anim_door" />
+			<object name="c_box_05" collision_type="box" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_metal_frame" enabled="true" material="sheet_metal" />
+		<decal_mesh name="dm_metal_door" enabled="true" material="sheet_metal" />
+		<decal_mesh name="dm_glass" enabled="true" material="glass_unbreakable" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_frame" enabled="true" />
+		<object name="g_door" enabled="true" />
+	</graphics>
+</dynamic_object>

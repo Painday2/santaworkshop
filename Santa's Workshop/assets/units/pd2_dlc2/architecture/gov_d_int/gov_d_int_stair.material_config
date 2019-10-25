@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="mat_stair" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_stair_df"/>
+    </material>
+</materials>

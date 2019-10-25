@@ -1,0 +1,12 @@
+<dynamic_object>
+    <diesel orientation_object="rp_nameplate_08" materials="units/world/props/nick/nick_diamondheist_nameplates" />
+    <bodies>
+        <body name="static_body" remove_ray_type="walk" enabled="true" template="static">
+            <object name="rp_nameplate_08" />
+            <object name="c_plate" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object name="g_plate" enabled="true"/>
+    </graphics>
+</dynamic_object>

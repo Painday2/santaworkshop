@@ -1,0 +1,6 @@
+{
+	"hud_int_use_files" : "Hold $BTN_INTERACT to scan the document",
+	"hud_action_use_files" : "Scanning Document...",
+	"hud_int_press_open_truck" : "Press $BTN_INTERACT to open the truck door"
+
+}

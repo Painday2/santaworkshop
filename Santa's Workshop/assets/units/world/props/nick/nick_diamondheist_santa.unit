@@ -1,0 +1,6 @@
+<unit type="dia" slot="1" >
+    <object file="units/world/props/nick/nick_diamondheist_santa" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

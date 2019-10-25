@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="mat_map" version="2" render_template="generic:DIFFUSE_TEXTURE">
+        <diffuse_texture file="units/payday2/props/hlm_prop_map/hlm_prop_map_df"/>
+    </material>
+</materials>

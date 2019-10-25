@@ -1,0 +1,15 @@
+<unit type="wwh" slot="1">
+	<object file="units/pd2_dlc_wwh/props/wwh_prop_pump_generator/wwh_prop_pump_generator" />
+    <network sync="spawn"/>
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+        <extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="hold_generator_start" />
+		</extension>
+    </extensions>
+	<sounds>
+		<default_soundsource source="int_locator"/>
+		<soundsource name="snd" source="int_locator" />
+	</sounds>
+</unit>

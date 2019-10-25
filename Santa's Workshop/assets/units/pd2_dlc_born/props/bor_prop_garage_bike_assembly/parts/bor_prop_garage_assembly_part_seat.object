@@ -1,0 +1,20 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/parts/bor_prop_garage_assembly_parts" orientation_object="rp_bor_prop_garage_assembly_part_seat" />
+	<sequence_manager file="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/parts/bor_prop_garage_assembly_parts" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_bor_prop_garage_assembly_part_seat" />
+			<object name="c_convex_seat_1" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_seat_2" collision_type="convex" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<graphic_group name="grp_part" enabled="true" >
+			<lod_object name="lod_g_seat">
+				<object name="g_seat_lod0" enabled="true" max_distance="500" />
+				<object name="g_seat_lod1" enabled="true" max_distance="1000" />
+				<object name="g_seat_lod2" enabled="true" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

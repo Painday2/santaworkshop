@@ -1,0 +1,20 @@
+<unit type="mus" slot="1" >
+	<object file="units/pd2_indiana/props/mus_prop_exhibit_a_map/mus_prop_exhibit_a_map" />
+	<network sync="spawn" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="CarryInteractionExt">
+			<var name="tweak_data" value="gen_pku_artifact_painting" />
+			<var name="_interact_object" value="interact"/>
+			<var name="_remove_on_interact" value="true" />
+			<var name="_global_event" value="pku_artifact_statue" />
+			<var name="_ray_object_names" type="table" >
+				<var value="interact"/>
+			</var>
+		</extension>
+		<extension name="carry_data" class="CarryData">
+			<var name="_carry_id" value="mus_artifact_paint" />
+		</extension>
+	</extensions>
+</unit>

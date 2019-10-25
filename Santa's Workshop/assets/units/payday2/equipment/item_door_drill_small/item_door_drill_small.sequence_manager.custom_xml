@@ -1,0 +1,89 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'activate'" triggable="true">
+			<function extension="'timer_gui'" function="'set_visible'" param1="false"/>
+			<animation_group enabled="true" from="0/30" loop="true" name="'anim'" speed="1" to="30"/>
+			<interaction enabled="true"/>
+			<body enabled="false" name="'body_static'"/>
+			<object enabled="false" name="'g_base'"/>
+			<object enabled="false" name="'g_drill'"/>
+			<object enabled="false" name="'g_drill_drill'"/>
+			<graphic_group name="'icon'" visibility="true"/>
+			<object enabled="false" name="'g_screen_off'"/>
+			<decal_mesh enabled="true" name="'g_base'"/>
+			<decal_mesh enabled="true" name="'g_drill'"/>
+			<body enabled="false" name="'body_animated_01'"/>
+			<body enabled="false" name="'body_animated_02'"/>
+			<body enabled="false" name="'body_animated_03'"/>
+			<body enabled="false" name="'body_animated_04'"/>
+			<body enabled="false" name="'body_animated_05'"/>
+			<body enabled="false" name="'body_animated_06'"/>
+			<body enabled="false" name="'body_static'"/>
+		</sequence>
+		<sequence editable_state="true" name="'deactivate'" triggable="true">
+			<function extension="'timer_gui'" function="'set_visible'" param1="false"/>
+			<animation_group enabled="false" from="0/30" loop="false" name="'anim'" speed="0" to="0"/>
+			<interaction enabled="false"/>
+			<body enabled="false" name="'body_static'"/>
+			<object enabled="false" name="'g_base'"/>
+			<object enabled="false" name="'g_drill'"/>
+			<object enabled="false" name="'g_drill_drill'"/>
+			<object enabled="false" name="'g_screen_off'"/>
+			<graphic_group name="'icon'" visibility="false"/>
+			<decal_mesh enabled="false" name="'g_base'"/>
+			<decal_mesh enabled="false" name="'g_drill'"/>
+			<body enabled="false" name="'body_animated_01'"/>
+			<body enabled="false" name="'body_animated_02'"/>
+			<body enabled="false" name="'body_animated_03'"/>
+			<body enabled="false" name="'body_animated_04'"/>
+			<body enabled="false" name="'body_animated_05'"/>
+			<body enabled="false" name="'body_animated_06'"/>
+			<body enabled="false" name="'body_static'"/>
+		</sequence>
+		<sequence name="'power_off'" triggable="true">
+			<function extension="'timer_gui'" function="'set_powered'" param1="false"/>
+			<animation_group enabled="false" from="0/30" loop="false" name="'anim'" speed="0" to="0"/>
+		</sequence>
+		<sequence name="'power_on'" triggable="true">
+			<function extension="'timer_gui'" function="'set_powered'" param1="true"/>
+			<animation_group enabled="true" from="0/30" loop="true" name="'anim'" speed="1" to="20"/>
+		</sequence>
+		<sequence name="'jammed_trigger'">
+			<animation_group enabled="false" from="0/30" loop="false" name="'anim'" speed="0" to="0"/>
+		</sequence>
+		<sequence name="'timer_done'">
+			<animation_group enabled="false" from="0/30" loop="false" name="'anim'" speed="0" to="0"/>
+			<body enabled="false" name="'body_animated_01'"/>
+			<body enabled="false" name="'body_animated_02'"/>
+			<body enabled="false" name="'body_animated_03'"/>
+			<body enabled="false" name="'body_animated_04'"/>
+			<body enabled="false" name="'body_animated_05'"/>
+			<body enabled="false" name="'body_animated_06'"/>
+			<body enabled="false" name="'body_static'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_show_texured'" once="true" triggable="false">
+			<body enabled="true" name="'body_static'"/>
+			<object enabled="true" name="'g_base'"/>
+			<object enabled="true" name="'g_drill'"/>
+			<object enabled="true" name="'g_drill_drill'"/>
+			<graphic_group name="'icon'" visibility="false"/>
+			<object enabled="false" name="'g_screen_off'"/>
+		</sequence>
+		<sequence name="'interact'">
+			<animation_group enabled="true" from="0/30" name="'anim_collision'" to="10/30"/>
+			<body enabled="true" name="'body_animated_01'"/>
+			<body enabled="true" name="'body_animated_02'"/>
+			<body enabled="true" name="'body_animated_03'"/>
+			<body enabled="true" name="'body_animated_04'"/>
+			<body enabled="true" name="'body_animated_05'"/>
+			<body enabled="true" name="'body_animated_06'"/>
+			<animation_group enabled="true" from="0/30" loop="true" name="'anim'" speed="1" to="30"/>
+			<run_sequence name="'int_seq_show_texured'"/>
+			<function extension="'timer_gui'" function="'set_visible'" param1="true"/>
+			<function extension="'timer_gui'" function="'start'" param1="'120'"/>
+			<sound action="'play'" event="'drill_apply_end'" object="'int_location'"/>
+			<decal_mesh enabled="true" name="'g_base'"/>
+			<decal_mesh enabled="true" name="'g_drill'"/>
+		</sequence>
+	</unit>
+</table>

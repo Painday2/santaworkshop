@@ -1,0 +1,8 @@
+<unit type="des" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_dlc_des/props/des_prop_rollupdoor/des_prop_rollupdoor" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

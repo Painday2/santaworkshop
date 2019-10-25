@@ -1,0 +1,49 @@
+<dynamic_object>
+    <diesel orientation_object="rp_gov_d_int_stair_room" materials="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_stair_room" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="rp_gov_d_int_stair_room" />
+			<object name="c_convex_00" collision_type="convex" padding="-2.5"/>
+			<object name="c_box_00" collision_type="box" padding="-2.5"/>
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_08" collision_type="box" padding="-2.5"/>
+			<object name="c_box_09" collision_type="box" padding="-2.5"/>
+			<object name="c_box_10" collision_type="box" padding="-2.5"/>
+			<object name="c_box_11" collision_type="box" padding="-2.5"/>
+			<object name="c_box_12" collision_type="box" padding="-2.5"/>
+			<object name="c_box_13" collision_type="box" padding="-2.5"/>
+			<object name="c_box_14" collision_type="box" padding="-2.5"/>
+			<object name="c_box_15" collision_type="box" padding="-2.5"/>
+			<object name="c_box_16" collision_type="box" padding="-2.5"/>
+			<object name="c_box_17" collision_type="box" padding="-2.5"/>
+			<object name="c_box_18" collision_type="box" padding="-2.5"/>
+			<object name="c_box_19" collision_type="box" padding="-2.5"/>
+			<object name="c_box_20" collision_type="box" padding="-2.5"/>
+			<object name="c_box_21" collision_type="box" padding="-2.5"/>
+			<object name="c_box_22" collision_type="box" padding="-2.5"/>
+			<object name="c_box_23" collision_type="box" padding="-2.5"/>
+			<object name="c_box_24" collision_type="box" padding="-2.5"/>
+			<object name="c_box_25" collision_type="box" padding="-2.5"/>
+        </body>
+		
+		<body enabled="true" template="fence" name="fence_body" >
+            <object name="c_box_fence_01" 	collision_type="box" 	padding="-2.5"/>
+			<object name="c_convex_fence_0" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_fence_1" collision_type="convex" padding="-2.5"/>
+        </body>
+		<body enabled="true" template="nav_walk" name="ramp_body" >
+            <object name="c_mesh_mopp_ramp" collision_type="mesh_mopp"/>
+        </body>
+		
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" />
+        <object enabled="true" name="g_stairs_rail" />
+    </graphics>
+</dynamic_object>

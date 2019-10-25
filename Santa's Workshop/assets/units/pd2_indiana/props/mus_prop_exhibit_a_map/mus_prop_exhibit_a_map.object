@@ -1,0 +1,19 @@
+<dynamic_object>
+	<diesel materials="units/pd2_indiana/props/mus_prop_exhibit_a_map/mus_prop_exhibit_a_map" orientation_object="rp_mus_prop_exhibit_a_map" />
+	<sequence_manager file="units/pd2_indiana/props/mus_prop_exhibit_a_map/mus_prop_exhibit_a_map" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_mus_prop_exhibit_a_map" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="dm_paper" enabled="true" material="thin_layer" />
+	</decal_surfaces>
+		<graphics>
+			<lod_object name="map">
+					<object name="g_lod_0" 	enabled="true"  max_distance="750" />
+					<object name="g_lod_1" 	enabled="true" />
+			</lod_object>
+		</graphics>		
+</dynamic_object>

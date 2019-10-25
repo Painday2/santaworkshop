@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<materials version="3">
+	<material version="2" render_template="generic:DIFFUSE_TEXTURE" name="mtr_interact_sphere">
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <diffuse_texture file="units/gui/gui_color_use_df"/>
+        <variable value="1 1 1" type="vector3" name="contour_color"/>
+    </material>
+</materials>

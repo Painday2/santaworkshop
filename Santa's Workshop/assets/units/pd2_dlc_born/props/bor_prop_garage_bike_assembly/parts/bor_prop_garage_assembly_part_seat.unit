@@ -1,0 +1,15 @@
+<unit type="bor" slot="1">
+	<object file="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/parts/bor_prop_garage_assembly_part_seat" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="CarryInteractionExt">
+			<var name="tweak_data" value="hold_born_take_bike_part" />
+			<var name="_remove_on_interact" value="true" />
+		</extension>
+		<extension name="carry_data" class="CarryData">
+			<var name="_carry_id" value="bike_part_light" />
+		</extension>
+	</extensions>
+</unit>

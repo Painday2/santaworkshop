@@ -1,0 +1,8 @@
+<materials version="3">
+    <material name="mat_duct_tape" render_template="generic:DIFFUSE_TEXTURE:GLOSS_CONTROL_VALUE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_prop_duct_tape_df"/>
+        <variable value="0.11400000751019" type="scalar" name="glossiness_control"/>
+        <bump_normal_texture file="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_prop_duct_tape_nm"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<unit type="stn" slot="1">
+	<object file="units/payday2/props/stn_prop_archives_filecabinet/stn_prop_archives_filecabinet" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

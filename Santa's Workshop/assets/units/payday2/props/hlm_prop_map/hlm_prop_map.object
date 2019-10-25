@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/payday2/props/hlm_prop_map/hlm_prop_map" orientation_object="rp_hlm_prop_map" />
+	<bodies>
+		<body name="bullet_body" enabled="true" template="raycoll_static">
+			<object name="rp_hlm_prop_map"/>
+			<object name="c_box" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+  
+  <decal_surfaces static="true" default_material="thin_layer"/>
+  
+  <graphics>
+    <object name="g_g" enabled="true" />
+  </graphics>
+</dynamic_object>
