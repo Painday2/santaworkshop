@@ -282,8 +282,13 @@
 		<unit force="true" path="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/parts/bor_prop_garage_assembly_part_exaust" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_duct_tape" type="unit">
-		<unit force="true" path="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_duct_tape" unload="true"/>
-		<object force="true" path="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_duct_tape" unload="true"/>
 		<material_config force="true" path="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_duct_tape" unload="true"/>
+		<object force="true" path="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_duct_tape" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_duct_tape" unload="true"/>
+	</add>
+	<add path="units/payday2/props/lxa_prop_gallery_animal_buffalo/lxa_prop_gallery_animal_buffalo" type="unit">
+		<unit force="true" path="units/payday2/props/lxa_prop_gallery_animal_buffalo/lxa_prop_gallery_animal_buffalo" unload="true"/>
+		<object force="true" path="units/payday2/props/lxa_prop_gallery_animal_buffalo/lxa_prop_gallery_animal_buffalo" unload="true"/>
+		<material_config force="true" path="units/payday2/props/lxa_prop_gallery_animal_buffalo/lxa_prop_gallery_animal_buffalo" unload="true"/>
 	</add>
 </table>

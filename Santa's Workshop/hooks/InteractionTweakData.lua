@@ -9,12 +9,11 @@ function InteractionTweakData:init(...)
 		timer = 3,
 		interact_distance = 150,
 		start_active = false,
-		stay_active = true,
 		sound_start = "bar_shuffle_papers",
 		sound_interupt = "bar_shuffle_papers_cancel",
-		sound_done = "bar_shuffle_papers_finished"
+		sound_done = "bar_shuffle_papers_finished",
 		special_equipment = "files",
-		special_equipment_block = "files",
+		special_equipment_block = "files"
 	}
 	
 	self.use_files = {

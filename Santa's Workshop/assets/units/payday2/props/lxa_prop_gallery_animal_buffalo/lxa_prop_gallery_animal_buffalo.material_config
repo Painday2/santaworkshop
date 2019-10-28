@@ -1,0 +1,9 @@
+<materials version="3">
+    <material name="mat_buffalo" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/lxa_prop_gallery_animal_buffalo/lxa_prop_gallery_animal_buffalo_df"/>
+        <bump_normal_texture file="units/payday2/props/lxa_prop_gallery_animal_buffalo/lxa_prop_gallery_animal_buffalo_nm"/>
+    </material>
+    <material name="mat_back" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/payday2/props/lxa_prop_gallery_animal_elephant/lxa_prop_gallery_animals_wood_df"/>
+    </material>
+</materials>
