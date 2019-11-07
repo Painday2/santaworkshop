@@ -1,0 +1,136 @@
+<table name="Santa's Workshop">
+	<Localization default="english.txt" directory="loc"/>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Pain" name_id="contract_pain" package="packages/contact_bain"/>
+	<level ai_group_type="America" briefing_dialog="" cube="cube_apply_heist_bank" id="santa_pain" max_bags="20" music="heist" team_ai_off="false">
+		<add file="levels/santa_pain/add.xml"/>
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="ifiwereblueiwoulddie.lua" source_file="lib/tweak_data/tweakdata"/>
+		</hooks>
+		<include directory="levels/santa_pain">
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="whitebox/whitebox.continent" type="binary"/>
+			<file file="whitebox/whitebox.mission" type="binary"/>
+			<file file="collision/collision.continent" type="binary"/>
+			<file file="collision/collision.mission" type="binary"/>
+			<file file="art2/art2.continent" type="binary"/>
+			<file file="art2/art2.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="lights_underground_lab/lights_underground_lab.continent" type="binary"/>
+			<file file="lights_underground_lab/lights_underground_lab.mission" type="binary"/>
+			<file file="terrain/terrain.continent" type="binary"/>
+			<file file="terrain/terrain.mission" type="binary"/>
+			<file file="art1/art1.continent" type="binary"/>
+			<file file="art1/art1.mission" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
+			<file file="environments/Dark_pain.environment" type="custom_xml"/>
+		</include>
+		<intro_event>
+			<value_node value=""/>
+		</intro_event>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
+		<packages>
+			<value_node value="packages/lvl_mad"/>
+			<value_node value="levels/narratives/elephant/mad/world"/>
+			<value_node value="levels/narratives/elephant/mad/world_sounds"/>
+			<value_node value="levels/narratives/elephant/mad/art2/art2"/>
+			<value_node value="levels/narratives/elephant/mad/collision/collision"/>
+			<value_node value="levels/narratives/elephant/mad/world/world"/>
+			<value_node value="levels/narratives/elephant/mad/whitebox/whitebox"/>
+			<value_node value="levels/narratives/elephant/mad/lights_underground_lab/lights_underground_lab"/>
+			<value_node value="levels/narratives/elephant/mad/terrain/terrain"/>
+			<value_node value="levels/narratives/elephant/mad/art1/art1"/>
+			<value_node value="levels/narratives/elephant/mad/editor_only/editor_only"/>
+			<value_node value="levels/narratives/h_watchdogs/stage_1/world/world"/>
+			<value_node value="levels/narratives/h_watchdogs/stage_1/world"/>
+			<value_node value="units/dev_tools/mission_elements/point_interaction/interaction_dummy"/>
+			<value_node value="levels/instances/unique/are_loot_shoot/world/world"/>
+			<value_node value="packages/narr_mia_2"/>
+			<value_node value="packages/narr_pines"/>
+			<value_node value="levels/narratives/dentist/hox/stage_2/art/art"/>
+			<value_node value="levels/narratives/dentist/hox/stage_2/world"/>
+			<value_node value="levels/instances/unique/nail_ladder_loc/world/world"/>
+			<value_node value="levels/narratives/dentist/hox/stage_2/art/art"/>
+			<value_node value="levels/instances/unique/chill/living_room/world/world"/>
+			<value_node value="levels/instances/unique/tag/tag_office/world/world"/>
+			<value_node value="packages/lvl_moon"/>
+			<value_node value="levels/instances/unique/chill/rust_stage_01/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<sounds directory="assets\soundbanks">
+			<sound path="jingle.ogg"/>
+		</sounds>
+	</level>
+	<narrative briefing_event="" contact="Pain" id="Santa's Workshop" jc="30" load_screen="guis/dlcs/pic/textures/loading/job_boilingpoint" region="street">
+		<chain>
+			<table level_id="santa_pain" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="62000"/>
+			<value_node value="124000"/>
+			<value_node value="310000"/>
+			<value_node value="620000"/>
+			<value_node value="800000"/>
+			<value_node value="800000"/>
+			<value_node value="800000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event/>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="46000"/>
+			<value_node value="46000"/>
+			<value_node value="46000"/>
+			<value_node value="46000"/>
+			<value_node value="46000"/>
+			<value_node value="46000"/>
+			<value_node value="46000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="31000"/>
+			<value_node value="31000"/>
+			<value_node value="31000"/>
+			<value_node value="31000"/>
+			<value_node value="31000"/>
+			<value_node value="31000"/>
+			<value_node value="31000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="135000"/>
+			<value_node value="275000"/>
+			<value_node value="692307"/>
+			<value_node value="1.35e+006"/>
+			<value_node value="1.8e+006"/>
+			<value_node value="1.8e+006"/>
+			<value_node value="1.8e+006"/>
+		</payout>
+	</narrative>
+</table>
