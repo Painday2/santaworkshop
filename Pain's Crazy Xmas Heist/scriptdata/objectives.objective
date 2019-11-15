@@ -1,2 +1,28 @@
 <table>
+	<objective description="obj_spain_01_desc" id="obj_spain_01" text="obj_spain_01"/>
+	<objective description="obj_spain_02_desc" id="obj_spain_02" text="obj_spain_02"/>
+	<objective description="obj_spain_03_desc" id="obj_spain_03" text="obj_spain_03"/>
+	<objective description="obj_spain_04_desc" id="obj_spain_04" text="obj_spain_04"/>
+	<objective description="obj_spain_05_desc" id="obj_spain_05" text="obj_spain_05"/>
+	<objective description="obj_spain_06_desc" id="obj_spain_06" text="obj_spain_06"/>
+	<objective description="obj_spain_07_desc" id="obj_spain_07" text="obj_spain_07"/>
+	<objective description="obj_spain_08_desc" id="obj_spain_08" text="obj_spain_08"/>
+	<objective description="obj_spain_09_desc" id="obj_spain_09" text="obj_spain_09"/>
+	<objective description="obj_spain_10_desc" id="obj_spain_10" text="obj_spain_10"/>
+	<objective description="obj_spain_11_desc" id="obj_spain_11" text="obj_spain_11"/>
+	<objective description="obj_spain_12_desc" id="obj_spain_12" text="obj_spain_12"/>
+	<objective amount="6" description="obj_spain_13_desc" id="obj_spain_13" text="obj_spain_13"/>
+	<objective description="obj_spain_14_desc" id="obj_spain_14" text="obj_spain_14"/>
+	<objective description="obj_spain_09a_desc" id="obj_spain_09a" text="obj_spain_09a"/>
+	<objective description="obj_spain_09b_desc" id="obj_spain_09b" text="obj_spain_09b"/>
+	<objective description="obj_spain_09c_desc" id="obj_spain_09c" text="obj_spain_09c"/>
+	<objective description="obj_spain_09d_desc" id="obj_spain_09d" text="obj_spain_09d"/>
+	<objective description="obj_spain_09e_desc" id="obj_spain_09e" text="obj_spain_09e"/>
+	<objective description="obj_spain_09f_desc" id="obj_spain_09f" text="obj_spain_09f"/>
+	<objective description="obj_spain_09g_desc" id="obj_spain_09g" text="obj_spain_09g"/>
+	<objective description="obj_spain_09h_desc" id="obj_spain_09h" text="obj_spain_09h"/>
+	<objective description="obj_spain_09i_desc" id="obj_spain_09i" text="obj_spain_09i"/>
+	<objective description="obj_spain_06a_desc" id="obj_spain_06a" text="obj_spain_06a"/>
+	<objective description="obj_spain_06b_desc" id="obj_spain_06b" text="obj_spain_06b"/>
+	<objective description="obj_spain_13a_desc" id="obj_spain_13a" text="obj_spain_13a"/>
 </table>

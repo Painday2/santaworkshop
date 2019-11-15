@@ -1,5 +1,4 @@
 <table directory="assets">
-	<texture path="levels/mods/santa_pain/cube_lights/dome_occlusion"/>
 	<movie force="true" path="movies/contact_bain1"/>
 	<movie force="true" path="movies/contact_bain2"/>
 	<movie force="true" path="movies/contact_bain3"/>
@@ -207,21 +206,27 @@
 		<sequence_manager force="true" path="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/parts/bor_prop_garage_assembly_parts" unload="true"/>
 		<unit force="true" path="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/parts/bor_prop_garage_assembly_part_exaust" unload="true"/>
 	</add>
-	<add path="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_duct_tape" type="unit">
-		<material_config force="true" path="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_duct_tape" unload="true"/>
-		<object force="true" path="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_duct_tape" unload="true"/>
-		<unit force="true" path="units/pd2_dlc_born/props/bor_prop_duct_tape/bor_duct_tape" unload="true"/>
-	</add>
 	<add path="units/payday2/props/lxa_prop_gallery_animal_buffalo/lxa_prop_gallery_animal_buffalo" type="unit">
 		<material_config force="true" path="units/payday2/props/lxa_prop_gallery_animal_buffalo/lxa_prop_gallery_animal_buffalo" unload="true"/>
 		<object force="true" path="units/payday2/props/lxa_prop_gallery_animal_buffalo/lxa_prop_gallery_animal_buffalo" unload="true"/>
 		<unit force="true" path="units/payday2/props/lxa_prop_gallery_animal_buffalo/lxa_prop_gallery_animal_buffalo" unload="true"/>
 	</add>
 	<add path="units/payday2/pickups/gen_pku_money/gen_pku_money" type="unit">
-		<unit force="true" path="units/payday2/pickups/gen_pku_money/gen_pku_money" unload="true"/>
-		<object force="true" path="units/payday2/pickups/gen_pku_money/gen_pku_money" unload="true"/>
-		<material_config force="true" path="units/payday2/pickups/gen_pku_money/gen_pku_money" unload="true"/>
-		<sequence_manager force="true" path="units/payday2/pickups/gen_pku_money/gen_pku_money" unload="true"/>
 		<effect force="true" load="true" path="effects/payday2/particles/grab/grab_money" unload="true"/>
+		<material_config force="true" path="units/payday2/pickups/gen_pku_money/gen_pku_money" unload="true"/>
+		<object force="true" path="units/payday2/pickups/gen_pku_money/gen_pku_money" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/pickups/gen_pku_money/gen_pku_money" unload="true"/>
+		<unit force="true" path="units/payday2/pickups/gen_pku_money/gen_pku_money" unload="true"/>
 	</add>
+	<add path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_explosion_4x4m" type="unit">
+		<unit force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_explosion_4x4m" unload="true"/>
+		<object force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_explosion_4x4m" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_explosion_4x4m" unload="true"/>
+		<unit force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_debris" unload="true"/>
+		<object force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_debris" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_debris" unload="true"/>
+		<physic_effect force="true" path="physic_effects/push_sphere_unit" unload="true"/>
+	</add>
+	<texture path="levels/mods/santa_pain/cube_lights/dome_occlusion"/>
 </table>
