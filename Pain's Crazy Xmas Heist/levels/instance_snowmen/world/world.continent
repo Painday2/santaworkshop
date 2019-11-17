@@ -1,0 +1,15 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="23.2761 -25.9888 44.4688" _prev_rot="-1.53576e-008 2.58348e-010 0.866025 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_chill/characters/npc_acc_weapon_wick/npc_acc_weapon_wick" name_id="npc_acc_weapon_wick_001" position="25.0082 -26.9888 44.4688" rotation="-1.53576e-008 2.58348e-010 0.866025 -0.5" unit_id="100001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_mad/architecture/mad_sawmill/mad_snow_man" name_id="mad_snow_man_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100002"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>
