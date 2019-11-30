@@ -201,11 +201,6 @@
 		<sequence_manager force="true" path="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/parts/bor_prop_garage_assembly_parts" unload="true"/>
 		<unit force="true" path="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/parts/bor_prop_garage_assembly_part_exaust" unload="true"/>
 	</add>
-	<add path="units/payday2/props/lxa_prop_gallery_animal_buffalo/lxa_prop_gallery_animal_buffalo" type="unit">
-		<material_config force="true" path="units/payday2/props/lxa_prop_gallery_animal_buffalo/lxa_prop_gallery_animal_buffalo" unload="true"/>
-		<object force="true" path="units/payday2/props/lxa_prop_gallery_animal_buffalo/lxa_prop_gallery_animal_buffalo" unload="true"/>
-		<unit force="true" path="units/payday2/props/lxa_prop_gallery_animal_buffalo/lxa_prop_gallery_animal_buffalo" unload="true"/>
-	</add>
 	<add path="units/payday2/pickups/gen_pku_money/gen_pku_money" type="unit">
 		<effect force="true" load="true" path="effects/payday2/particles/grab/grab_money" unload="true"/>
 		<material_config force="true" path="units/payday2/pickups/gen_pku_money/gen_pku_money" unload="true"/>
@@ -224,26 +219,51 @@
 		<physic_effect force="true" path="physic_effects/push_sphere_unit" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" type="unit">
-		<object force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" unload="true"/>
-		<model force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" unload="true"/>
-		<material_config force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_white_df" unload="true"/>
 		<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_white_df" unload="true"/>
 		<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_white_nm" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_white_df" unload="true"/>
+		<model force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" unload="true"/>
+		<object force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" unload="true"/>
 		<unit force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" unload="true"/>
 	</add>
+	<add path="units/pd2_dlc_des/characters/civ_male_des" type="unit">
+		<unit force="true" path="units/pd2_dlc_des/characters/civ_male_des/civ_male_des" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_des/characters/civ_male_des/civ_male_des_husk" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_des/characters/civ_male_des/civ_male_des" unload="true"/>
+		<model force="true" path="units/pd2_dlc_des/characters/civ_male_des/civ_male_des" unload="true"/>
+		<object force="true" path="units/pd2_dlc_des/characters/civ_male_des/civ_male_des" unload="true"/>
+	</add>
+	<texture force="true" path="units/pd2_dlc_des/characters/ene_male_des/beard_df" unload="true"/>
+	<texture force="true" path="units/pd2_dlc_des/characters/ene_male_des/beard_nm" unload="true"/>
+	<texture force="true" path="units/pd2_dlc_des/characters/ene_male_des/beard_op" unload="true"/>
+	<texture force="true" path="units/pd2_dlc_des/characters/ene_male_des/npc_enemy_des_body_df" unload="true"/>
+	<texture force="true" path="units/pd2_dlc_des/characters/ene_male_des/npc_enemy_des_body_nm" unload="true"/>
+	<texture force="true" path="units/pd2_dlc_des/characters/ene_male_des/npc_enemy_des_head_df" unload="true"/>
+	<texture force="true" path="units/pd2_dlc_des/characters/ene_male_des/npc_enemy_des_head_nm" unload="true"/>
 	<texture path="levels/mods/santa_pain/cube_lights/dome_occlusion"/>
 	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_a_df" unload="true"/>
 	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_c_int_floor_a_df" unload="true"/>
 	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_concrete_df" unload="true"/>
 	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_security_door_df" unload="true"/>
 	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_pillar_a_df" unload="true"/>
-	
+	<texture path="units/zdann/reindeer/reindeer_df"/>
+	<texture path="units/zdann/reindeer/reindeer_il"/>
+	<add path="units/payday2/pickups/gen_pku_crowbar/gen_pku_crowbar" type="unit">
+		<material_config force="true" path="units/payday2/pickups/gen_pku_crowbar/gen_pku_crowbar" unload="true"/>
+		<object force="true" path="units/payday2/pickups/gen_pku_crowbar/gen_pku_crowbar" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/pickups/gen_pku_crowbar/gen_pku_crowbar" unload="true"/>
+		<unit force="true" path="units/payday2/pickups/gen_pku_crowbar/gen_pku_crowbar" unload="true"/>
+	</add>
+	<add path="units/payday2/props/bnk_prop_phone/bnk_prop_phone" type="unit">
+		<material_config force="true" path="units/payday2/props/bnk_prop_phone/bnk_prop_phone" unload="true"/>
+		<object force="true" path="units/payday2/props/bnk_prop_phone/bnk_prop_phone" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/props/bnk_prop_phone/bnk_prop_phone" unload="true"/>
+		<unit force="true" path="units/payday2/props/bnk_prop_phone/bnk_prop_phone" unload="true"/>
+	</add>
+	<unit path="units/zdann/reindeer/reindeer"/>
 	<cooked_physics path="units/zdann/reindeer/reindeer"/>
-    <material_config path="units/zdann/reindeer/reindeer"/>
-    <model path="units/zdann/reindeer/reindeer"/>
-    <object path="units/zdann/reindeer/reindeer"/>
-    <sequence_manager path="units/zdann/reindeer/reindeer"/>
-    <unit path="units/zdann/reindeer/reindeer"/>
-    <texture path="units/zdann/reindeer/reindeer_df"/>
-    <texture path="units/zdann/reindeer/reindeer_il"/>
+	<material_config path="units/zdann/reindeer/reindeer"/>
+	<model path="units/zdann/reindeer/reindeer"/>
+	<object path="units/zdann/reindeer/reindeer"/>
+	<sequence_manager path="units/zdann/reindeer/reindeer"/>
 </table>

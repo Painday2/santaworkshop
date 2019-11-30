@@ -21,4 +21,12 @@ function InteractionTweakData:init(...)
 		interact_distance = 200
 		
 	}
+	
+	self.int_cut_santa = {
+		text_id = "int_cut_santa_dick",
+		axis = "y",
+		timer = 1,
+		interact_distance = 200,
+		
+	}
 end

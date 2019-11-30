@@ -1,0 +1,21 @@
+<table directory="assets">
+	<add path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_prop_keypad" type="unit">
+		<material_config force="true" path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_prop_keypad" unload="true"/>
+		<object force="true" path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_prop_keypad" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_prop_keypad" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_prop_keypad" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_interactable_button" type="unit">
+		<material_config force="true" path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_prop_keypad" unload="true"/>
+		<object force="true" path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_interactable_button" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_interactable_button" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_interactable_button" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small" type="unit">
+		<unit force="true" path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small" unload="true"/>
+		<object force="true" path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small" unload="true"/>
+		<font force="true" path="fonts/font_digital" unload="true"/>
+	</add>
+</table>
