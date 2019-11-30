@@ -1,6 +1,6 @@
 {
 	"heist_Santa's Workshop_name" : "Pain's Crazy Xmas Heist",
-	"heist_Santa's Workshop_desc" : "",
+	"heist_Santa's Workshop_brief" : "",
 	"heist_santa_pain_name" : "The North Pole",
 	"heist_santa_pain_brief" : "When I was eight years old, Santa gave me a sick ass bike for Christmas. I loved that thing more than I loved professional vaping tournaments.
 But one day, I woke up in the middle of the night and saw that fat bastard peddling away on my bike! My fucking bike!

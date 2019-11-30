@@ -1,0 +1,19 @@
+<dynamic_object>
+    <diesel orientation_object="rp_whiteboard_wall_180_121" materials="units/zdann/reindeer/reindeer" />
+	<sequence_manager file="units/zdann/reindeer/reindeer" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object collision_type="box" name="c_box_02" />
+			<object collision_type="box" name="c_box_05" />
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="wood" />
+    <graphics>
+		<graphic_group name="cow" enabled="true" culling_object="g_mesh">
+			<object enabled="true" name="g_cow" />
+			<object enabled="false" name="g_nose" />
+			<object enabled="false" name="g_rope" />
+		</graphic_group>
+    </graphics>
+</dynamic_object>

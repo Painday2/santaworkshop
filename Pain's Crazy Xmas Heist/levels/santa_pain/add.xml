@@ -37,11 +37,6 @@
 		<effect force="true" load="true" path="effects/payday2/particles/explosions/smoke_explosion/dark_smoke_big" unload="true"/>
 		<gui force="true" path="guis/timer_gui" unload="true"/>
 	</add>
-	<add path="units/pd2_dlc_chill/characters/npc_acc_weapon_wick/npc_acc_weapon_wick" type="unit">
-		<material_config force="true" path="units/pd2_dlc_chill/characters/npc_acc_weapon_wick/npc_acc_weapon_wick" unload="true"/>
-		<object force="true" path="units/pd2_dlc_chill/characters/npc_acc_weapon_wick/npc_acc_weapon_wick" unload="true"/>
-		<unit force="true" path="units/pd2_dlc_chill/characters/npc_acc_weapon_wick/npc_acc_weapon_wick" unload="true"/>
-	</add>
 	<add path="units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker" type="unit">
 		<material_config force="true" path="units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker" unload="true"/>
 		<object force="true" path="units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker" unload="true"/>
@@ -221,12 +216,34 @@
 	<add path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_explosion_4x4m" type="unit">
 		<unit force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_explosion_4x4m" unload="true"/>
 		<object force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_explosion_4x4m" unload="true"/>
-		<material_config force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_explosion_4x4m" unload="true"/>
 		<unit force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_debris" unload="true"/>
 		<object force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_debris" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_debris" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile" unload="true"/>
 		<physic_effect force="true" path="physic_effects/push_sphere_unit" unload="true"/>
 	</add>
+	<add path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" type="unit">
+		<object force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" unload="true"/>
+		<model force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_white_df" unload="true"/>
+		<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_white_df" unload="true"/>
+		<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_white_nm" unload="true"/>
+		<unit force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" unload="true"/>
+	</add>
 	<texture path="levels/mods/santa_pain/cube_lights/dome_occlusion"/>
+	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_a_df" unload="true"/>
+	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_c_int_floor_a_df" unload="true"/>
+	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_concrete_df" unload="true"/>
+	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_security_door_df" unload="true"/>
+	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_pillar_a_df" unload="true"/>
+	
+	<cooked_physics path="units/zdann/reindeer/reindeer"/>
+    <material_config path="units/zdann/reindeer/reindeer"/>
+    <model path="units/zdann/reindeer/reindeer"/>
+    <object path="units/zdann/reindeer/reindeer"/>
+    <sequence_manager path="units/zdann/reindeer/reindeer"/>
+    <unit path="units/zdann/reindeer/reindeer"/>
+    <texture path="units/zdann/reindeer/reindeer_df"/>
+    <texture path="units/zdann/reindeer/reindeer_il"/>
 </table>

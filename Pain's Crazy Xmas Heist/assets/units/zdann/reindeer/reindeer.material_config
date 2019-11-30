@@ -1,0 +1,14 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE" decal_material="wood" name="mtr_cow" version="2">
+        <diffuse_texture file="units/zdann/reindeer/reindeer_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" decal_material="wood" name="mtr_nose" version="2">
+        <diffuse_texture file="units/zdann/reindeer/reindeer_df"/>
+        <self_illumination_texture file="units/zdann/reindeer/reindeer_il"/>
+        <variable value="1" type="scalar" name="il_bloom"/>
+        <variable value="1" type="scalar" name="il_multiplier"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" decal_material="wood" name="mtr_rope" version="2">
+        <diffuse_texture file="units/zdann/reindeer/reindeer_df"/>
+    </material>
+</materials>

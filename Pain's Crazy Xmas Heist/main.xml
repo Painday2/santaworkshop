@@ -7,29 +7,29 @@
 			<hook file="ifiwereblueiwoulddie.lua" source_file="lib/tweak_data/tweakdata"/>
 		</hooks>
 		<include directory="levels/santa_pain">
-			<file file="world.world" type="generic_xml"/>
-			<file file="continents.continents" type="custom_xml"/>
-			<file file="mission.mission" type="custom_xml"/>
-			<file file="nav_manager_data.nav_data" type="generic_xml"/>
-			<file file="world_sounds.world_sounds" type="generic_xml"/>
-			<file file="world_cameras.world_cameras" type="custom_xml"/>
-			<file file="whitebox/whitebox.continent" type="custom_xml"/>
-			<file file="whitebox/whitebox.mission" type="generic_xml"/>
-			<file file="collision/collision.continent" type="custom_xml"/>
-			<file file="collision/collision.mission" type="generic_xml"/>
-			<file file="art2/art2.continent" type="custom_xml"/>
-			<file file="art2/art2.mission" type="generic_xml"/>
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
-			<file file="lights_underground_lab/lights_underground_lab.continent" type="custom_xml"/>
-			<file file="lights_underground_lab/lights_underground_lab.mission" type="generic_xml"/>
-			<file file="terrain/terrain.continent" type="custom_xml"/>
-			<file file="terrain/terrain.mission" type="generic_xml"/>
-			<file file="art1/art1.continent" type="custom_xml"/>
-			<file file="art1/art1.mission" type="generic_xml"/>
-			<file file="editor_only/editor_only.continent" type="custom_xml"/>
-			<file file="editor_only/editor_only.mission" type="generic_xml"/>
-			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="whitebox/whitebox.continent" type="binary"/>
+			<file file="whitebox/whitebox.mission" type="binary"/>
+			<file file="collision/collision.continent" type="binary"/>
+			<file file="collision/collision.mission" type="binary"/>
+			<file file="art2/art2.continent" type="binary"/>
+			<file file="art2/art2.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="lights_underground_lab/lights_underground_lab.continent" type="binary"/>
+			<file file="lights_underground_lab/lights_underground_lab.mission" type="binary"/>
+			<file file="terrain/terrain.continent" type="binary"/>
+			<file file="terrain/terrain.mission" type="binary"/>
+			<file file="art1/art1.continent" type="binary"/>
+			<file file="art1/art1.mission" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
 			<file file="environments/Dark_pain.environment" type="custom_xml"/>
 		</include>
 		<intro_event>
@@ -101,6 +101,13 @@
 			</mod>
 		</script_data_mods>
 	</level>
+	<Achievements icon="" id="santa_pain_achievements">
+		<achievement icon="" id="p_santa_rein" rank="3" reward_amount="15" reward_type="cc"/>
+		<achievement icon="" id="p_santa_truck" rank="1" reward_amount="3" reward_type="cc"/>
+		<achievement hidden_achievement="true" icon="" id="p_santa_secret" rank="4" reward_amount="30" reward_type="cc"/>
+		<achievement icon="" id="p_santa_kill" rank="3" reward_amount="15" reward_type="cc"/>
+		<achievement icon="" id="p_santa_ds" rank="4" reward_amount="30" reward_type="cc"/>
+	</Achievements>
 	<Localization default="english.txt" directory="loc"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Pain" name_id="contract_pain" package="packages/contact_bain"/>
 	<instance id="instance_snowman">
@@ -115,7 +122,6 @@
 	<narrative briefing_event="" contact="Pain" id="Santa's Workshop" jc="30" load_screen="guis/dlcs/pic/textures/loading/job_boilingpoint" region="street">
 		<chain>
 			<table level_id="santa_pain" type="d" type_id="heist_type_assault"/>
-			<table level_id="instance_snowmen" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
 			<value_node value="62000"/>
