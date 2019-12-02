@@ -1,13 +1,10 @@
 <?xml version="1.0"?>
 <unit type="being" slot="21">
 	<anim_state_machine name="anims/units/enemies/cop/cop_machine" />
-	<object file="units/mainman/characters/ene_bo_shield/ene_bo_shield" />
+	<object file="units/mainman/characters/ene_the_boss/ene_the_boss" />
 
 	<dependencies>
 		
-		<depends_on bnk="soundbanks/regular_vox" />
-		<depends_on unit="units/payday2/characters/ene_acc_shield_lights/ene_acc_shield_lights" />
-		<depends_on unit="units/payday2/weapons/wpn_npc_smg_mp9/wpn_npc_smg_mp9" />
 	</dependencies>
 
 	<extensions>

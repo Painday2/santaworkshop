@@ -260,10 +260,21 @@
 		<sequence_manager force="true" path="units/payday2/props/bnk_prop_phone/bnk_prop_phone" unload="true"/>
 		<unit force="true" path="units/payday2/props/bnk_prop_phone/bnk_prop_phone" unload="true"/>
 	</add>
-	<unit path="units/zdann/reindeer/reindeer"/>
+	<add path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor_01" type="unit">
+		<unit force="true" path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor_01" unload="true"/>
+		<object force="true" path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor_01" unload="true"/>
+		<material_config force="true" path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor_01" unload="true"/>
+	</add>
 	<cooked_physics path="units/zdann/reindeer/reindeer"/>
 	<material_config path="units/zdann/reindeer/reindeer"/>
 	<model path="units/zdann/reindeer/reindeer"/>
 	<object path="units/zdann/reindeer/reindeer"/>
 	<sequence_manager path="units/zdann/reindeer/reindeer"/>
+	<unit path="units/zdann/reindeer/reindeer"/>
+	<animation_states force="true" path="anims\units\escort_guy\escort_undercover" unload="true"/>
+	<animation_subset force="true" path="anims\units\escort_guy\escort_undercover" unload="true"/>
+	<animation_def force="true" path="anims\units\escort_guy\escort_undercover_def" unload="true"/>
+	<animation_state_machine force="true" path="anims\units\escort_guy\escort_undercover_machine" unload="true"/>
+	
 </table>

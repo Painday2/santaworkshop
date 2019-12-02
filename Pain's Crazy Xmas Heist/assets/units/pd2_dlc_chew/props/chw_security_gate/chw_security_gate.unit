@@ -1,0 +1,17 @@
+<unit type="chw" slot="1">
+	<object file="units/pd2_dlc_chew/props/chw_security_gate/chw_security_gate" />
+	<network sync="spawn"/>
+	<dependencies>
+		<depends_on unit="units/payday2/equipment/item_door_drill_small/item_door_drill_small" />
+		<depends_on unit="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge_single" />
+		<depends_on effect="effects/payday2/particles/explosions/shapecharger_explosion" />
+		<depends_on bnk="soundbanks/regular_sfx" />
+	</dependencies>
+	<extensions>
+		<extension name="base" class="MissionDoor" >
+			<var name="tweak_data" value="cage_door_deluxe" />
+		</extension>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

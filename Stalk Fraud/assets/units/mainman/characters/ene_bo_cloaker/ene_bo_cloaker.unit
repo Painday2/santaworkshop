@@ -1,12 +1,10 @@
 <?xml version="1.0"?>
 <unit type="being" slot="21">
 	<anim_state_machine name="anims/units/enemies/cop/cop_machine" />
-	<object file="units/mainman/characters/ene_bo_cloaker/ene_bo_cloaker" />
+	<object file="units/mainman/characters/ene_the_boss/ene_the_boss" />
 
 	<dependencies>
-		<depends_on bnk="soundbanks/regular_vox" />
-		<depends_on effect="effects/particles/character/cloaker_goggle" />
-		<depends_on unit="units/payday2/characters/ene_acc_baton/ene_acc_baton" />
+		
 	</dependencies>
 
 	<extensions>

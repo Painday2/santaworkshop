@@ -64,6 +64,8 @@
 			<value_node value="levels/instances/unique/tag/tag_office/world/world"/>
 			<value_node value="packages/lvl_moon"/>
 			<value_node value="levels/instances/unique/chill/rust_stage_01/world/world"/>
+			<value_node value="levels/narratives/bain/shadow_raid/editor_only/editor_only"/>
+			<value_node value="packages/narr_red2"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -104,6 +106,9 @@
 	<level ai_group_type="america" id="pain_computer" max_bags="54">
 		<add file="levels/pain_computer/add.xml"/>
 		<assets/>
+		<hooks directory="hooks">
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+		</hooks>
 		<include directory="levels/pain_computer">
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>
@@ -122,6 +127,8 @@
 		<packages>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
 			<value_node value="levels/narratives/locke/tag/art/art"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
+			<value_node value="levels/narratives/bain/shadow_raid/editor_only/editor_only"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -129,15 +136,6 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<Achievements icon="" id="santa_pain_achievements">
-		<achievement icon="" id="p_santa_rein" rank="3" reward_amount="15" reward_type="cc"/>
-		<achievement icon="" id="p_santa_truck" rank="1" reward_amount="3" reward_type="cc"/>
-		<achievement hidden_achievement="true" icon="" id="p_santa_secret" rank="4" reward_amount="30" reward_type="cc"/>
-		<achievement icon="" id="p_santa_kill" rank="3" reward_amount="15" reward_type="cc"/>
-		<achievement icon="" id="p_santa_ds" rank="4" reward_amount="30" reward_type="cc"/>
-	</Achievements>
-	<Localization default="english.txt" directory="loc"/>
-	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Pain" name_id="contract_pain" package="packages/contact_bain"/>
 	<instance id="instance_snowman">
 		<add file="levels/instance_snowmen/add.xml"/>
 		<include directory="levels/instance_snowmen">
@@ -147,10 +145,27 @@
 		<packages/>
 		<script_data_mods/>
 	</instance>
+	<instance id="pain_computer">
+		<add file="levels/pain_computer/add.xml"/>
+		<include directory="levels/pain_computer">
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+		</include>
+		<packages/>
+		<script_data_mods/>
+	</instance>
+	<Achievements icon="" id="santa_pain_achievements">
+		<achievement icon="" id="p_santa_rein" rank="3" reward_amount="15" reward_type="cc"/>
+		<achievement icon="" id="p_santa_truck" rank="1" reward_amount="3" reward_type="cc"/>
+		<achievement hidden_achievement="true" icon="" id="p_santa_secret" rank="4" reward_amount="30" reward_type="cc"/>
+		<achievement icon="" id="p_santa_kill" rank="3" reward_amount="15" reward_type="cc"/>
+		<achievement icon="" id="p_santa_ds" rank="4" reward_amount="30" reward_type="cc"/>
+	</Achievements>
+	<Localization default="english.txt" directory="loc"/>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Pain" name_id="contract_pain" package="packages/contact_bain"/>
 	<narrative briefing_event="" contact="Pain" id="Santa's Workshop" jc="30" load_screen="guis/dlcs/pic/textures/loading/job_boilingpoint" region="street">
 		<chain>
 			<table level_id="santa_pain" type="d" type_id="heist_type_assault"/>
-			<table level_id="pain_computer" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
 			<value_node value="62000"/>

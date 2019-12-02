@@ -26,6 +26,14 @@ function InteractionTweakData:init(...)
 		text_id = "int_cut_santa_dick",
 		axis = "y",
 		timer = 1,
+		interact_distance = 200
+		
+	}
+	self.int_start_trivia = {
+		text_id = "int_start_trivia",
+		action_text_id = "hud_start_trivia",
+		axis = "y",
+		timer = 1,
 		interact_distance = 200,
 		
 	}

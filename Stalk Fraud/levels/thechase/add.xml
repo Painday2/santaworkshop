@@ -4,6 +4,7 @@
 	<model path="units/mainman/characters/ene_acc_vr/ene_acc_vr"/>
 	<object path="units/mainman/characters/ene_acc_vr/ene_acc_vr"/>
 	<unit load="true" path="units/mainman/characters/ene_acc_vr/ene_acc_vr"/>
+	
 	<cooked_physics path="units/mainman/characters/ene_the_boss/ene_the_boss"/>
 	<material_config path="units/mainman/characters/ene_the_boss/ene_the_boss"/>
 	<material_config path="units/mainman/characters/ene_the_boss/ene_the_boss_contour"/>
@@ -11,55 +12,28 @@
 	<object path="units/mainman/characters/ene_the_boss/ene_the_boss"/>
 	<unit load="true" path="units/mainman/characters/ene_the_boss/ene_the_boss"/>
 	<unit load="true" path="units/mainman/characters/ene_the_boss/ene_the_boss_husk"/>
-	<cooked_physics path="units/mainman/characters/ene_bo_cloaker/ene_bo_cloaker"/>
-	<material_config path="units/mainman/characters/ene_bo_cloaker/ene_bo_cloaker"/>
-	<material_config path="units/mainman/characters/ene_bo_cloaker/ene_bo_cloaker_contour"/>
-	<model path="units/mainman/characters/ene_bo_cloaker/ene_bo_cloaker"/>
-	<object path="units/mainman/characters/ene_bo_cloaker/ene_bo_cloaker"/>
+	
 	<unit load="true" path="units/mainman/characters/ene_bo_cloaker/ene_bo_cloaker"/>
 	<unit load="true" path="units/mainman/characters/ene_bo_cloaker/ene_bo_cloaker_husk"/>
-	<cooked_physics path="units/mainman/characters/ene_bo_shield/ene_bo_shield"/>
-	<material_config path="units/mainman/characters/ene_bo_shield/ene_bo_shield"/>
-	<material_config path="units/mainman/characters/ene_bo_shield/ene_bo_shield_contour"/>
-	<model path="units/mainman/characters/ene_bo_shield/ene_bo_shield"/>
-	<object path="units/mainman/characters/ene_bo_shield/ene_bo_shield"/>
+	
 	<unit load="true" path="units/mainman/characters/ene_bo_shield/ene_bo_shield"/>
 	<unit load="true" path="units/mainman/characters/ene_bo_shield/ene_bo_shield_husk"/>
-	<cooked_physics path="units/mainman/characters/ene_bo_tazer/ene_bo_tazer"/>
-	<material_config path="units/mainman/characters/ene_bo_tazer/ene_bo_tazer"/>
-	<material_config path="units/mainman/characters/ene_bo_tazer/ene_bo_tazer_contour"/>
-	<model path="units/mainman/characters/ene_bo_tazer/ene_bo_tazer"/>
-	<object path="units/mainman/characters/ene_bo_tazer/ene_bo_tazer"/>
+	
 	<unit load="true" path="units/mainman/characters/ene_bo_tazer/ene_bo_tazer"/>
 	<unit load="true" path="units/mainman/characters/ene_bo_tazer/ene_bo_tazer_husk"/>
-	<cooked_physics path="units/mainman/characters/ene_bo_dozer/ene_bo_dozer"/>
-	<material_config path="units/mainman/characters/ene_bo_dozer/ene_bo_dozer"/>
-	<material_config path="units/mainman/characters/ene_bo_dozer/ene_bo_dozer_contour"/>
-	<model path="units/mainman/characters/ene_bo_dozer/ene_bo_dozer"/>
-	<object path="units/mainman/characters/ene_bo_dozer/ene_bo_dozer"/>
+	
 	<unit load="true" path="units/mainman/characters/ene_bo_dozer/ene_bo_dozer"/>
 	<unit load="true" path="units/mainman/characters/ene_bo_dozer/ene_bo_dozer_husk"/>
-	<cooked_physics path="units/mainman/characters/ene_bo_swat/ene_bo_swat"/>
-	<material_config path="units/mainman/characters/ene_bo_swat/ene_bo_swat"/>
-	<material_config path="units/mainman/characters/ene_bo_swat/ene_bo_swat_contour"/>
-	<model path="units/mainman/characters/ene_bo_swat/ene_bo_swat"/>
-	<object path="units/mainman/characters/ene_bo_swat/ene_bo_swat"/>
+	
 	<unit load="true" path="units/mainman/characters/ene_bo_swat/ene_bo_swat"/>
 	<unit load="true" path="units/mainman/characters/ene_bo_swat/ene_bo_swat_husk"/>
-	<cooked_physics path="units/mainman/characters/ene_bo_sniper/ene_bo_sniper"/>
-	<material_config path="units/mainman/characters/ene_bo_sniper/ene_bo_sniper"/>
-	<material_config path="units/mainman/characters/ene_bo_sniper/ene_bo_sniper_contour"/>
-	<model path="units/mainman/characters/ene_bo_sniper/ene_bo_sniper"/>
-	<object path="units/mainman/characters/ene_bo_sniper/ene_bo_sniper"/>
+	
 	<unit load="true" path="units/mainman/characters/ene_bo_sniper/ene_bo_sniper"/>
 	<unit load="true" path="units/mainman/characters/ene_bo_sniper/ene_bo_sniper_husk"/>
-	<cooked_physics path="units/mainman/characters/ene_bo_medic/ene_bo_medic"/>
-	<material_config path="units/mainman/characters/ene_bo_medic/ene_bo_medic"/>
-	<material_config path="units/mainman/characters/ene_bo_medic/ene_bo_medic_contour"/>
-	<model path="units/mainman/characters/ene_bo_medic/ene_bo_medic"/>
-	<object path="units/mainman/characters/ene_bo_medic/ene_bo_medic"/>
+	
 	<unit load="true" path="units/mainman/characters/ene_bo_medic/ene_bo_medic"/>
 	<unit load="true" path="units/mainman/characters/ene_bo_medic/ene_bo_medic_husk"/>
+	
 	<cooked_physics path="units/mainman/characters/ene_the_super_boss/ene_the_super_boss"/>
 	<material_config path="units/mainman/characters/ene_the_super_boss/ene_the_super_boss"/>
 	<material_config path="units/mainman/characters/ene_the_super_boss/ene_the_super_boss_contour"/>
