@@ -1,15 +1,16 @@
 <?xml version="1.0"?>
 <unit type="being" slot="16">
-	<anim_state_machine name="anims/units/escort_guy/escort_undercover_machine" />
+	<anim_state_machine name="anims/units/enemies/cop/cop_machine" />
 	<object file="units/pd2_dlc_des/characters/civ_male_des/civ_male_des" />
 
 	<dependencies>
+		<depends_on bnk="soundbanks/safehouse_vo" />
 	</dependencies>
 
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="base" class="CivilianBase" >
-			<var name="_tweak_table" value="escort_undercover" />
+			<var name="_tweak_table" value="robbers_safehouse" />
 			<var name="unintimidateable" value="true" />
 		</extension>
 		<extension name="inventory" class="CopInventory" />

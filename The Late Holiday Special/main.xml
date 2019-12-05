@@ -160,6 +160,8 @@
 		<achievement hidden_achievement="true" icon="" id="p_santa_secret" rank="4" reward_amount="30" reward_type="cc"/>
 		<achievement icon="" id="p_santa_kill" rank="3" reward_amount="15" reward_type="cc"/>
 		<achievement icon="" id="p_santa_ds" rank="4" reward_amount="30" reward_type="cc"/>
+		<achievement icon="" id="p_santa_all" rank="2" reward_amount="9" reward_type="cc"/>
+		<achievement icon="" id="p_santa_speed" rank="2" reward_amount="9" reward_type="cc"/>
 	</Achievements>
 	<Localization default="english.txt" directory="loc"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Pain" name_id="contract_pain" package="packages/contact_bain"/>

@@ -4,7 +4,6 @@
 	<object file="units/mainman/characters/ene_the_boss/ene_the_boss" />
 
 	<dependencies>
-		
 		<depends_on bnk="soundbanks/regular_vox" />
 	</dependencies>
 

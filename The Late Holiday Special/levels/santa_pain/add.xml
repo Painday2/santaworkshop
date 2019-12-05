@@ -161,6 +161,8 @@
 		<object force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv" unload="true"/>
 		<unit force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv" unload="true"/>
+		<texture force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv_screens_il" unload="true"/>
+		<texture force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv_screens_df" unload="true"/>
 	</add>
 	<add path="units/world/props/melee_box/melee_box" type="unit">
 		<material_config force="true" path="units/world/props/melee_box/melee_box" unload="true"/>
