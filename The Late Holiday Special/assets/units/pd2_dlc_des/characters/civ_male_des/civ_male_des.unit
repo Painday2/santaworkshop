@@ -19,7 +19,6 @@
 		<extension name="character_damage" class="CivilianDamage" >
 			<var name="immortal" value="true" />
 		</extension>
-		<extension name="character_damage" class="CivilianDamage" />
 		<extension name="movement" class="CopMovement" >
 			<var name="_footwear" value="hardsole" />
 		</extension>

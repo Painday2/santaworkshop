@@ -45,6 +45,7 @@
 	<texture load="true" path="units/mainman/characters/ene_the_super_boss/npc_blue_andersson_nm"/>
 	<texture load="true" path="units/mainman/characters/ene_the_super_boss/npc_blue_head_andersson_df"/>
 	<texture load="true" path="units/mainman/characters/ene_the_super_boss/npc_blue_head_andersson_df"/>
+	
 	<movie path="Sounds/stop"/>
 	<texture path="levels/mods/thechase/cube_lights/300054"/>
 	<texture path="levels/mods/thechase/cube_lights/300663"/>

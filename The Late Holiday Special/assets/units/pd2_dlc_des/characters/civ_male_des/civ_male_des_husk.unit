@@ -14,7 +14,7 @@
 			<var name="unintimidateable" value="true" />
 		</extension>
 		<extension name="inventory" class="HuskCopInventory" />
-		<extension name="brain" class="HuskCopBrain" />
+		<extension name="brain" class="HuskCivilianBrain" />
 		<extension name="anim_data" class="PlayerAnimationData" />
 		<extension name="character_damage" class="HuskCivilianDamage" >
 			<var name="immortal" value="true" />

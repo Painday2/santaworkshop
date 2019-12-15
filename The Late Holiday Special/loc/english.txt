@@ -93,7 +93,7 @@ This one is personal.",
 	"p_santa_all_name" : "",
 	"p_santa_all_desc" : "",
 	"p_santa_all_objective" : "Secure all of the bags on Overkill and above."
-	"p_santa_speed_name" : "5:45",
+	"p_santa_speed_name" : "5:35",
 	"p_santa_speed_desc" : "",
 	"p_santa_speed_objective" : ""
 	
