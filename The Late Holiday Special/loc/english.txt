@@ -73,12 +73,12 @@ This one is personal.",
 	"obj_spain_14" : "Escape",
 	"obj_spain_14_desc" : "",
 	
-	"santa_pain_achievements_name" : "Pain's Crazy Xmas Heist Achievements",
+	"santa_pain_achievements_name" : "The Late Holiday Special Achievements",
 	"santa_pain_achievements_desc" : "",
 	"p_santa_rein_name" : "Rudolph the red knows reindeer",
 	"p_santa_rein_desc" : "",
 	"p_santa_rein_objective" : "Don't get the wrong reindeer once.",
-	"p_santa_truck_name" : "Vertellis",
+	"p_santa_truck_name" : "I'm not ready!",
 	"p_santa_truck_desc" : "",
 	"p_santa_truck_objective" : "Have pain yell at you for doing nothing.",
 	"p_santa_secret_name" : "",
@@ -87,14 +87,17 @@ This one is personal.",
 	"p_santa_kill_name" : "Happy Holidays Painsters",
 	"p_santa_kill_desc" : "",
 	"p_santa_kill_objective" : "Kill 1225 enemies as a team in a single round.",
-	"p_santa_ds_name" : "",
+	"p_santa_ds_name" : "Jingle my bells",
 	"p_santa_ds_desc" : "",
 	"p_santa_ds_objective" : "Complete the heist on death sentence.",
-	"p_santa_all_name" : "",
+	"p_santa_all_name" : "Full Stocking",
 	"p_santa_all_desc" : "",
 	"p_santa_all_objective" : "Secure all of the bags on Overkill and above."
 	"p_santa_speed_name" : "5:35",
 	"p_santa_speed_desc" : "",
-	"p_santa_speed_objective" : ""
+	"p_santa_speed_objective" : "Open Santa's office in 5:35.",
+	
+	"bm_wskn_universalspain" : "Holiday Special",
+	"bm_wskn_universalspain_desc" : "Ho ho ho, Merry Christmas Painsters!"
 	
 }

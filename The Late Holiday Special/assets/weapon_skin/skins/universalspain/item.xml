@@ -1,0 +1,14 @@
+<ugcitem>
+	<param key="type" value="weapon_skin"/>
+	<param key="name" value="spain"/>
+	<node name="data">
+		<param key="pattern_gradient_name" value="patgra_spain.tga"/>
+		<param key="name_id" value="bm_wskn_flint_spain"/>
+		<param key="weapon_id" value="flint"/>
+		<param key="base_gradient_name" value="base_spain.tga"/>
+		<param key="id" value="n_flint_mkp"/>
+		<param key="reserve_quality" value="true"/>
+		<param key="pattern_name" value="pat_spain.tga"/>
+	</node>
+	<param key="timestamp" value="2019348154553"/>
+</ugcitem>
