@@ -228,20 +228,21 @@
 		<object force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" unload="true"/>
 		<unit force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" unload="true"/>
 	</add>
-	<add path="units/pd2_dlc_des/characters/civ_male_des" type="unit">
-		<unit force="true" path="units/pd2_dlc_des/characters/civ_male_des/civ_male_des" unload="true"/>
-		<unit force="true" path="units/pd2_dlc_des/characters/civ_male_des/civ_male_des_husk" unload="true"/>
-		<material_config force="true" path="units/pd2_dlc_des/characters/civ_male_des/civ_male_des" unload="true"/>
-		<model force="true" path="units/pd2_dlc_des/characters/civ_male_des/civ_male_des" unload="true"/>
-		<object force="true" path="units/pd2_dlc_des/characters/civ_male_des/civ_male_des" unload="true"/>
+	<add path="units/mainman/characters/civ_santa" type="unit">
+		<unit force="true" path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
+		<unit force="true" path="units/mainman/characters/civ_santa/civ_santa_husk" unload="true"/>
+		<material_config force="true" path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
+		<model force="true" path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
+		<object force="true" path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
 	</add>
-	<texture force="true" path="units/pd2_dlc_des/characters/ene_male_des/beard_df" unload="true"/>
-	<texture force="true" path="units/pd2_dlc_des/characters/ene_male_des/beard_nm" unload="true"/>
-	<texture force="true" path="units/pd2_dlc_des/characters/ene_male_des/beard_op" unload="true"/>
-	<texture force="true" path="units/pd2_dlc_des/characters/ene_male_des/npc_enemy_des_body_df" unload="true"/>
-	<texture force="true" path="units/pd2_dlc_des/characters/ene_male_des/npc_enemy_des_body_nm" unload="true"/>
-	<texture force="true" path="units/pd2_dlc_des/characters/ene_male_des/npc_enemy_des_head_df" unload="true"/>
-	<texture force="true" path="units/pd2_dlc_des/characters/ene_male_des/npc_enemy_des_head_nm" unload="true"/>
+	<texture force="true" path="units/mainman/characters/santa_texture/beard_df" unload="true"/>
+	<texture force="true" path="units/mainman/characters/santa_texture/beard_nm" unload="true"/>
+	<texture force="true" path="units/mainman/characters/santa_texture/beard_op" unload="true"/>
+	<texture force="true" path="units/mainman/characters/santa_texture/civ_santa_body_df" unload="true"/>
+	<texture force="true" path="units/mainman/characters/santa_texture/civ_santa_body_nm" unload="true"/>
+	<texture force="true" path="units/mainman/characters/santa_texture/civ_santa_head_df" unload="true"/>
+	<texture force="true" path="units/mainman/characters/santa_texture/civ_santa_head_nm" unload="true"/>
+	
 	<texture path="levels/mods/santa_pain/cube_lights/dome_occlusion"/>
 	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_a_df" unload="true"/>
 	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_c_int_floor_a_df" unload="true"/>
