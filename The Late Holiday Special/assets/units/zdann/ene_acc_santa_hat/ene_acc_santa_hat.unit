@@ -1,0 +1,7 @@
+<unit type="gen" slot="30" >
+    <object file="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+		<extension name="damage" class="UnitDamage" />
+    </extensions>
+</unit>

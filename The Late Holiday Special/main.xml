@@ -3,6 +3,7 @@
 		<add file="levels/santa_pain/add.xml"/>
 		<assets/>
 		<hooks directory="hooks">
+			<hook file="hooks/copbase.lua" source_file="lib/units/enemies/cop/copbase"/>
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="ifiwereblueiwoulddie.lua" source_file="lib/tweak_data/tweakdata"/>
 			<hook file="achievementmanager.lua" source_file="lib/managers/dialogmanager"/>
@@ -67,6 +68,7 @@
 			<value_node value="levels/instances/unique/chill/rust_stage_01/world/world"/>
 			<value_node value="levels/narratives/bain/shadow_raid/editor_only/editor_only"/>
 			<value_node value="packages/narr_red2"/>
+			<value_node value="levels/narratives/bain/roberts/world_sounds"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

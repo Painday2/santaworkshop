@@ -1,0 +1,7 @@
+<dynamic_object>
+    <diesel orientation_object="rp_ene_acc_spook_santa_hat" materials="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_red" />
+	<sequence_manager file="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat" />
+    <graphics>
+		<object enabled="true" name="g_hat" />
+    </graphics>
+</dynamic_object>

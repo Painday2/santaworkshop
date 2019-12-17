@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/zdann/gen_pku_cookies/gen_pku_cookies" orientation_object="rp_gen_pku_money" />
+  <sequence_manager file="units/zdann/gen_pku_cookies/gen_pku_cookies" />
+
+  <bodies>
+    <body name="body_money" enabled="true" template="static">
+      <object name="rp_gen_pku_money" />
+    </body>
+  </bodies>
+
+  <decal_surfaces default_material="glass"/>
+
+  <graphics>
+	<graphic_group name="cookies" enabled="true" culling_object="g_money">
+		<object enabled="true" name="g_glass" />
+		<object enabled="true" name="g_milk" />
+		<object enabled="true" name="g_plate" />
+	</graphic_group>  
+  </graphics>
+</dynamic_object> 

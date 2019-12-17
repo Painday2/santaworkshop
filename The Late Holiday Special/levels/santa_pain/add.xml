@@ -8,35 +8,33 @@
 		<sequence_manager force="true" path="units/pd2_dlc_des/props/des_prop_rollupdoor/des_prop_rollupdoor" unload="true"/>
 		<unit force="true" path="units/pd2_dlc_des/props/des_prop_rollupdoor/des_prop_rollupdoor" unload="true"/>
 	</add>
-	<add path="units/payday2/props/are_int_double_door/are_int_double_door" type="unit">
-		<unit force="true" path="units/payday2/props/are_int_double_door/are_int_double_door" unload="true"/>
-		<object force="true" path="units/payday2/props/are_int_double_door/are_int_double_door" unload="true"/>
-		<material_config force="true" path="units/payday2/props/are_int_double_door/are_int_double_door" unload="true"/>
-		<sequence_manager force="true" path="units/payday2/props/are_int_double_door/are_int_double_door" unload="true"/>
-		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
-		<unit force="true" path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
-		<object force="true" path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
-		<material_config force="true" path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
-		<sequence_manager force="true" path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
-		<effect force="true" load="true" path="effects/payday2/environment/drill" unload="true"/>
-		<effect force="true" load="true" path="effects/payday2/environment/parts/drill_sparks_particles" unload="true"/>
-		<effect force="true" load="true" path="effects/payday2/environment/parts/drill_sparks" unload="true"/>
-		<effect force="true" load="true" path="effects/payday2/environment/drill_jammed" unload="true"/>
-		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
-		<unit force="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
-		<object force="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
-		<material_config force="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
-		<sequence_manager force="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
-		<effect force="true" load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
-		<effect force="true" load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
-		<effect force="true" load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
-		<effect force="true" load="true" path="effects/payday2/particles/explosions/shapecharger_explosion" unload="true"/>
-		<effect force="true" load="true" path="effects/payday2/particles/explosions/smoke_explosion/smoke" unload="true"/>
-		<effect force="true" load="true" path="effects/payday2/particles/explosions/smoke_explosion/fire_smoke_mid" unload="true"/>
-		<effect force="true" load="true" path="effects/payday2/particles/explosions/sparks/sparks" unload="true"/>
-		<effect force="true" load="true" path="effects/payday2/particles/explosions/smoke_explosion/dark_smoke_big" unload="true"/>
-		<gui force="true" path="guis/timer_gui" unload="true"/>
-	</add>
+	<unit force="true" path="units/payday2/props/are_int_double_door/are_int_double_door" unload="true"/>
+	<object force="true" path="units/payday2/props/are_int_double_door/are_int_double_door" unload="true"/>
+	<material_config force="true" path="units/payday2/props/are_int_double_door/are_int_double_door" unload="true"/>
+	<sequence_manager force="true" path="units/payday2/props/are_int_double_door/are_int_double_door" unload="true"/>
+	<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+	<unit force="true" path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+	<object force="true" path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+	<material_config force="true" path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+	<sequence_manager force="true" path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+	<effect force="true" load="true" path="effects/payday2/environment/drill" unload="true"/>
+	<effect force="true" load="true" path="effects/payday2/environment/parts/drill_sparks_particles" unload="true"/>
+	<effect force="true" load="true" path="effects/payday2/environment/parts/drill_sparks" unload="true"/>
+	<effect force="true" load="true" path="effects/payday2/environment/drill_jammed" unload="true"/>
+	<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+	<unit force="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+	<object force="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+	<material_config force="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+	<sequence_manager force="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+	<effect force="true" load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+	<effect force="true" load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+	<effect force="true" load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+	<effect force="true" load="true" path="effects/payday2/particles/explosions/shapecharger_explosion" unload="true"/>
+	<effect force="true" load="true" path="effects/payday2/particles/explosions/smoke_explosion/smoke" unload="true"/>
+	<effect force="true" load="true" path="effects/payday2/particles/explosions/smoke_explosion/fire_smoke_mid" unload="true"/>
+	<effect force="true" load="true" path="effects/payday2/particles/explosions/sparks/sparks" unload="true"/>
+	<effect force="true" load="true" path="effects/payday2/particles/explosions/smoke_explosion/dark_smoke_big" unload="true"/>
+	<gui force="true" path="guis/timer_gui" unload="true"/>
 	<add path="units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker" type="unit">
 		<material_config force="true" path="units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker" unload="true"/>
 		<object force="true" path="units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker" unload="true"/>
@@ -91,12 +89,6 @@
 		<object force="true" path="units/payday2/props/gen_prop_security_console/gen_prop_security_console" unload="true"/>
 		<sequence_manager force="true" path="units/payday2/props/gen_prop_security_console/gen_prop_security_console" unload="true"/>
 		<unit force="true" path="units/payday2/props/gen_prop_security_console/gen_prop_security_console" unload="true"/>
-	</add>
-	<add path="units/characters/accessories/rope_ladder/rope_ladder" type="unit">
-		<material_config force="true" path="units/characters/accessories/rope_ladder/rope_ladder" unload="true"/>
-		<object force="true" path="units/characters/accessories/rope_ladder/rope_ladder" unload="true"/>
-		<sequence_manager force="true" path="units/characters/accessories/rope_ladder/rope_ladder" unload="true"/>
-		<unit force="true" path="units/characters/accessories/rope_ladder/rope_ladder" unload="true"/>
 	</add>
 	<add path="units/payday2/equipment/gen_interactable_hack_computer/gen_interactable_hack_computer_b" type="unit">
 		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
@@ -157,12 +149,12 @@
 		<unit force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_security_door" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv" type="unit">
+		<texture force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv_screens_il" unload="true"/>
+		<texture force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv_screens_df" unload="true"/>
 		<material_config force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv" unload="true"/>
 		<object force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv" unload="true"/>
 		<unit force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv" unload="true"/>
-		<texture force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv_screens_il" unload="true"/>
-		<texture force="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_tv/vit_prop_peoc_tv_screens_df" unload="true"/>
 	</add>
 	<add path="units/world/props/melee_box/melee_box" type="unit">
 		<material_config force="true" path="units/world/props/melee_box/melee_box" unload="true"/>
@@ -203,13 +195,6 @@
 		<sequence_manager force="true" path="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/parts/bor_prop_garage_assembly_parts" unload="true"/>
 		<unit force="true" path="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/parts/bor_prop_garage_assembly_part_exaust" unload="true"/>
 	</add>
-	<add path="units/payday2/pickups/gen_pku_money/gen_pku_money" type="unit">
-		<effect force="true" load="true" path="effects/payday2/particles/grab/grab_money" unload="true"/>
-		<material_config force="true" path="units/payday2/pickups/gen_pku_money/gen_pku_money" unload="true"/>
-		<object force="true" path="units/payday2/pickups/gen_pku_money/gen_pku_money" unload="true"/>
-		<sequence_manager force="true" path="units/payday2/pickups/gen_pku_money/gen_pku_money" unload="true"/>
-		<unit force="true" path="units/payday2/pickups/gen_pku_money/gen_pku_money" unload="true"/>
-	</add>
 	<add path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_explosion_4x4m" type="unit">
 		<unit force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_explosion_4x4m" unload="true"/>
 		<object force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_explosion_4x4m" unload="true"/>
@@ -228,13 +213,11 @@
 		<object force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" unload="true"/>
 		<unit force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" unload="true"/>
 	</add>
-	<add path="units/mainman/characters/civ_santa" type="unit">
-		<unit force="true" path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
-		<unit force="true" path="units/mainman/characters/civ_santa/civ_santa_husk" unload="true"/>
-		<material_config force="true" path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
-		<model force="true" path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
-		<object force="true" path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
-	</add>
+	<unit force="true" path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
+	<unit force="true" path="units/mainman/characters/civ_santa/civ_santa_husk" unload="true"/>
+	<material_config force="true" path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
+	<model force="true" path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
+	<object force="true" path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
 	<texture force="true" path="units/mainman/characters/santa_texture/beard_df" unload="true"/>
 	<texture force="true" path="units/mainman/characters/santa_texture/beard_nm" unload="true"/>
 	<texture force="true" path="units/mainman/characters/santa_texture/beard_op" unload="true"/>
@@ -242,7 +225,6 @@
 	<texture force="true" path="units/mainman/characters/santa_texture/civ_santa_body_nm" unload="true"/>
 	<texture force="true" path="units/mainman/characters/santa_texture/civ_santa_head_df" unload="true"/>
 	<texture force="true" path="units/mainman/characters/santa_texture/civ_santa_head_nm" unload="true"/>
-	
 	<texture path="levels/mods/santa_pain/cube_lights/dome_occlusion"/>
 	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_a_df" unload="true"/>
 	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_c_int_floor_a_df" unload="true"/>
@@ -264,10 +246,10 @@
 		<unit force="true" path="units/payday2/props/bnk_prop_phone/bnk_prop_phone" unload="true"/>
 	</add>
 	<add path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor_01" type="unit">
-		<unit force="true" path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor_01" unload="true"/>
-		<object force="true" path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor_01" unload="true"/>
 		<material_config force="true" path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor" unload="true"/>
+		<object force="true" path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor_01" unload="true"/>
 		<sequence_manager force="true" path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor_01" unload="true"/>
+		<unit force="true" path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor_01" unload="true"/>
 	</add>
 	<cooked_physics path="units/zdann/reindeer/reindeer"/>
 	<material_config path="units/zdann/reindeer/reindeer"/>
@@ -275,9 +257,66 @@
 	<object path="units/zdann/reindeer/reindeer"/>
 	<sequence_manager path="units/zdann/reindeer/reindeer"/>
 	<unit path="units/zdann/reindeer/reindeer"/>
-	<animation_states force="true" path="anims\units\escort_guy\escort_undercover" unload="true"/>
-	<animation_subset force="true" path="anims\units\escort_guy\escort_undercover" unload="true"/>
+	<cooked_physics path="units/zdann/gen_pku_cookies/gen_pku_cookies"/>
+	<material_config path="units/zdann/gen_pku_cookies/gen_pku_cookies"/>
+	<model path="units/zdann/gen_pku_cookies/gen_pku_cookies"/>
+	<object path="units/zdann/gen_pku_cookies/gen_pku_cookies"/>
+	<sequence_manager path="units/zdann/gen_pku_cookies/gen_pku_cookies"/>
+	<unit path="units/zdann/gen_pku_cookies/gen_pku_cookies"/>
+	<texture path="units/zdann/gen_pku_cookies/plate_atlas_df"/>
+	<add path="units/payday2/props/com_prop_christmas_gifts/com_prop_christmas_gift_multi" type="unit">
+		<unit force="true" path="units/payday2/props/com_prop_christmas_gifts/com_prop_christmas_gift_multi" unload="true"/>
+		<object force="true" path="units/payday2/props/com_prop_christmas_gifts/com_prop_christmas_gift_multi" unload="true"/>
+		<material_config force="true" path="units/payday2/props/com_prop_christmas_gifts/com_prop_christmas_gift_multi" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/props/com_prop_christmas_gifts/com_prop_christmas_gift_multi" unload="true"/>
+		<unit force="true" path="units/payday2/props/com_prop_store_wines/com_prop_store_wines_cognac" unload="true"/>
+		<object force="true" path="units/payday2/props/com_prop_store_wines/com_prop_store_wines_cognac" unload="true"/>
+		<material_config force="true" path="units/payday2/props/com_prop_store_wines/com_prop_store_wines_cognac" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/props/com_prop_store_wines/com_prop_store_wines_single" unload="true"/>
+		<material_config force="true" path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<unit force="true" path="units/payday2/props/com_prop_store_wines/com_prop_store_wines_red2" unload="true"/>
+		<object force="true" path="units/payday2/props/com_prop_store_wines/com_prop_store_wines_red2" unload="true"/>
+		<material_config force="true" path="units/payday2/props/com_prop_store_wines/com_prop_store_wines_red2" unload="true"/>
+		<unit force="true" path="units/payday2/props/com_prop_store_wines/com_prop_store_wines_white" unload="true"/>
+		<object force="true" path="units/payday2/props/com_prop_store_wines/com_prop_store_wines_white" unload="true"/>
+		<material_config force="true" path="units/payday2/props/com_prop_store_wines/com_prop_store_wines_white" unload="true"/>
+		<unit force="true" path="units/payday2/props/com_prop_store_wines/com_prop_store_wines_champagne" unload="true"/>
+		<object force="true" path="units/payday2/props/com_prop_store_wines/com_prop_store_wines_champagne" unload="true"/>
+		<material_config force="true" path="units/payday2/props/com_prop_store_wines/com_prop_store_wines_champagne" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_moon/props/moo_props_store_boxes/moo_props_store_boxes_tin_boy" unload="true"/>
+		<object force="true" path="units/pd2_dlc_moon/props/moo_props_store_boxes/moo_props_store_boxes_tin_boy" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_moon/props/moo_props_store_boxes/moo_props_store_boxes" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_moon/props/moo_props_store_boxes/moo_props_store_boxes" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_moon/props/moo_props_store_boxes/moo_props_store_boxes_expensive_wine" unload="true"/>
+		<object force="true" path="units/pd2_dlc_moon/props/moo_props_store_boxes/moo_props_store_boxes_expensive_wine" unload="true"/>
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+		<effect force="true" load="true" path="effects/particles/dest/brown_bottle_dest" unload="true"/>
+	</add>
+	<cooked_physics path="units/zdann/gen_pku_bike/gen_pku_bike"/>
+	<material_config path="units/zdann/gen_pku_bike/gen_pku_bike"/>
+	<model path="units/zdann/gen_pku_bike/gen_pku_bike"/>
+	<object path="units/zdann/gen_pku_bike/gen_pku_bike"/>
+	<sequence_manager path="units/zdann/gen_pku_bike/gen_pku_bike"/>
+	<unit path="units/zdann/gen_pku_bike/gen_pku_bike"/>
+	<texture path="units/zdann/gen_pku_bike/bike_df"/>
 	<animation_def force="true" path="anims\units\escort_guy\escort_undercover_def" unload="true"/>
 	<animation_state_machine force="true" path="anims\units\escort_guy\escort_undercover_machine" unload="true"/>
-	
+	<animation_states force="true" path="anims\units\escort_guy\escort_undercover" unload="true"/>
+	<animation_subset force="true" path="anims\units\escort_guy\escort_undercover" unload="true"/>
+	<cooked_physics path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
+    <model path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
+    <object path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
+    <sequence_manager path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
+    <unit path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
+    <material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_red"/>
+    <material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_blue"/>
+    <material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_green"/>
+    <material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_orange"/>
+    <material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_purple"/>
+    <material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_yellow"/>
+    <texture path="units/zdann/ene_acc_santa_hat/textures/blue_df"/>
+    <texture path="units/zdann/ene_acc_santa_hat/textures/green_df"/>
+    <texture path="units/zdann/ene_acc_santa_hat/textures/orange_df"/>
+    <texture path="units/zdann/ene_acc_santa_hat/textures/purple_df"/>
+    <texture path="units/zdann/ene_acc_santa_hat/textures/yellow_df"/>
 </table>

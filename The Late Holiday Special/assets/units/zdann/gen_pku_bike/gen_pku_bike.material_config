@@ -1,0 +1,5 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE" name="mtr_trike" version="2">
+        <diffuse_texture file="units/zdann/gen_pku_bike/bike_df"/>
+    </material>
+</materials>

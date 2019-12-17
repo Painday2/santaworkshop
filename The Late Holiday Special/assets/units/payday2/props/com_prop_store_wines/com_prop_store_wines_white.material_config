@@ -1,0 +1,6 @@
+<materials version="3">
+        <material name="com_prop_store_wines_white_mat" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/com_prop_store_wines/com_prop_store_wine_white_df"/>
+        <bump_normal_texture file="units/payday2/props/com_prop_store_wines/com_prop_store_wine_white_nm"/>
+    </material>
+</materials>

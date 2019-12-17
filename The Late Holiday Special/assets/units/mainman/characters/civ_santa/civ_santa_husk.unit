@@ -10,7 +10,7 @@
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="base" class="HuskCivilianBase" >
-			<var name="_tweak_table" value="civilian" />
+			<var name="_tweak_table" value="robbers_safehouse" />
 			<var name="unintimidateable" value="true" />
 		</extension>
 		<extension name="inventory" class="HuskCopInventory" />

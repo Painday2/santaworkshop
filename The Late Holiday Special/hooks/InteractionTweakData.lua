@@ -37,4 +37,14 @@ function InteractionTweakData:init(...)
 		interact_distance = 200,
 		
 	}
+	
+	self.gen_pku_bike = {
+        text_id = "hud_int_take_bike",
+        action_text_id = "hud_action_taking_bike",
+        timer = 3,
+        sound_start = "bar_bag_money",
+        sound_interupt = "bar_bag_money_cancel",
+        sound_done = "bar_bag_money_finished",
+        blocked_hint = "carry_block"
+    }
 end

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dynamic_object>
+    <diesel orientation_object="rp_gen_pku_fusion_reactor_1" materials="units/zdann/gen_pku_bike/gen_pku_bike" />
+	<sequence_manager file="units/zdann/gen_pku_bike/gen_pku_bike" />
+	
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object collision_type="box" name="c_box_01" />
+            <object collision_type="box" name="c_box_02" />
+        </body>
+    </bodies>
+	
+  <graphics>
+	<graphic_group name="trike" enabled="true" culling_object="g_g">
+		<object enabled="true" name="g_trike" />
+	</graphic_group>  
+  </graphics>
+</dynamic_object>

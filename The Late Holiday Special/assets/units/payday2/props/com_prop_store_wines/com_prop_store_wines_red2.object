@@ -1,0 +1,11 @@
+<dynamic_object>
+    <diesel orientation_object="rp_com_prop_store_wines_red2" materials="units/payday2/props/com_prop_store_wines/com_prop_store_wines_red2" />
+    <bodies>
+        <body enabled="false" template="static" name="static_body" >
+            <object collision_type="convex" name="c_convex_01" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>
