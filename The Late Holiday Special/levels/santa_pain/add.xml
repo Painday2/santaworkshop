@@ -356,9 +356,38 @@
 		<material_config force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
 		<sequence_manager force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
 	</add>
-	<animation_def force="true" path="anims\units\escort_guy\escort_undercover_def" unload="true"/>
-	<animation_state_machine force="true" path="anims\units\escort_guy\escort_undercover_machine" unload="true"/>
-	<animation_states force="true" path="anims\units\escort_guy\escort_undercover" unload="true"/>
-	<animation_subset force="true" path="anims\units\escort_guy\escort_undercover" unload="true"/>
 	<gui force="true" path="guis/timer_gui" unload="true"/>
+	<sequence_manager path="units/zdann/characters/ragdoll"/>
+   
+    <cooked_physics path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1"/>
+    <material_config path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1"/>
+    <material_config path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1_contour"/>
+    <model path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1"/>
+    <object path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1"/>
+    <unit path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1"/>
+    <unit path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1_husk"/>
+   
+    <cooked_physics path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2"/>
+    <material_config path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2"/>
+    <material_config path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2_contour"/>
+    <model path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2"/>
+    <object path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2"/>
+    <unit path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2"/>
+    <unit path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2_husk"/>
+ 
+    <cooked_physics path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3"/>
+    <material_config path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3"/>
+    <material_config path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3_contour"/>
+    <model path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3"/>
+    <object path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3"/>
+    <unit path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3"/>
+    <unit path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3_husk"/>
+   
+    <cooked_physics path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4"/>
+    <material_config path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4"/>
+    <material_config path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4_contour"/>
+    <model path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4"/>
+    <object path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4"/>
+    <unit path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4"/>
+    <unit path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4_husk"/>
 </table>

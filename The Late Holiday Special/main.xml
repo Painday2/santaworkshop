@@ -18,6 +18,7 @@
 			<hook file="achievementmanager.lua" source_file="lib/managers/dialogmanager"/>
 			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="assetstweakdata.lua" source_file="lib/tweak_data/assetstweakdata"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
 		</hooks>
 		<include directory="levels/santa_pain">
 			<file file="world.world" type="binary"/>
