@@ -2,28 +2,39 @@
 	"heist_Santa's Workshop_name" : "The Late Holiday Special",
 	"heist_Santa's Workshop_brief" : "",
 	"heist_santa_pain_name" : "The North Pole",
-	"heist_santa_pain_brief" : "When I was eight years old, Santa gave me a sick ass bike for Christmas. I loved that thing more than I loved professional vaping tournaments.
-But one day, I woke up in the middle of the night and saw that fat bastard peddling away on my bike! My fucking bike!
-So, we're gonna get revenge on this asshole. Switch is gonna drive you over to the North Pole so you can break into his workshop and get my bike back.
-Steal anything else that jolly fuck has in his vault while you're at it.
+	"heist_santa_pain_brief" : "It's that time of year again, boys. Time for people to sing shitty Christmas songs, watch shitty Christmas films, and eat shitty Christmas food. Oh, and time for me not to get any fucking presents!
+I've been on Santa's naughty list ever since we killed Bo, or maybe it was the other time we killed him. Either way, that means I'm not gonna get a sick bike for Christmas this year.
+But you guys can fix that.
 
-This one is personal.",
+Switch is gonna drop you off at the North Pole. You're gonna sneak in, put me on the nice list, and steal that bike I wanted for good measure.
+That'll show that dumb fuck Santa for trying to ruin my Christmas.
+",
 
-	"hud_carry_hope_diamond" : "Pain's Bike",
-	"hud_carry_coke" : "Milk and Cookies",
-	"hud_int_hold_take_cocaine" : "Hold $BTN_INTERACT to grab the Milk and Cookies",
-	"hud_action_taking_cocaine" : "Grabbing Milk and Cookies...",
+	"hud_carry_bike" : "Pain's Bike",
+	"hud_carry_cookie" : "Milk and Cookies",
+	"hud_int_hold_take_cookies" : "Hold $BTN_INTERACT to grab the Milk and Cookies",
+	"hud_action_taking_cookies" : "Grabbing Milk and Cookies...",
 	"hud_int_take_bike" : "Hold $BTN_INTERACT to grab Pain's Bike",
-	"hud_action_taking_bike" : "Grabbing Pain's Bike",
-	"hud_int_use_files" : "Hold $BTN_INTERACT to scan the document",
-	"hud_action_use_files" : "Scanning Document...",
-	"hud_int_press_open_truck" : "Press $BTN_INTERACT to open the truck door",
-	"hud_int_hold_born_ride_the_bike" : "Hold $BTN_INTERACT to build the bike",
+	"hud_action_taking_bike" : "Grabbing Pain's Bike...",
+	
+	"hud_int_scan_files" : "Hold $BTN_INTERACT to scan the document",
+	"hud_action_scan_files" : "Scanning Document...",
+	"hud_int_press_open_truck_door" : "Press $BTN_INTERACT to open the truck door",
+	"hud_int_hold_build_bike" : "Hold $BTN_INTERACT to build the bike",
 	"int_cut_santa_dick" : "Hold $BTN_INTERACT to threaten santa's dick",
-	"hud_int_remove_rope" : "Hold $BTN_INTERACT to tie up the reindeer",
-	"hud_action_remove_rope" : "Tying reindeer...",
+	"hud_int_add_rope" : "Hold $BTN_INTERACT to tie up the reindeer",
+	"hud_action_add_rope" : "Tying reindeer...",
 	"int_start_trivia" : "Hold $BTN_INTERACT to start trivia",
 	"hud_start_trivia" : "Starting trivia...",
+	"hud_int_hold_answer_clause" : "Press $BTN_INTERACT to call Ms. Clause",
+	
+	"pain_zipline_name" : "Bag Zipline",
+	"pain_zipline_desc" : "A zipline to help move bags to the escape zone.",
+	"pain_chimichanga_name" : "Chimichanga",
+	"pain_chimichanga_desc" : "For if anyone gets a little hungry.",
+	"pain_radio_name" : "Radio assistance",
+	"pain_radio_desc" : "Cocke has sent in a radio for you to get some assistance with one of the objectives.",
+	
 	
 	"obj_spain_01" : "GTFO of the truck",
 	"obj_spain_01_desc" : "What the fuck are you standing around for?",

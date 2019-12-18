@@ -1,12 +1,23 @@
 <table name="Santa's Workshop">
 	<level ai_group_type="America" briefing_dialog="" cube="cube_apply_heist_bank" id="santa_pain" max_bags="20" music="heist" team_ai_off="false">
 		<add file="levels/santa_pain/add.xml"/>
-		<assets/>
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="camera_access"/>
+			<asset name="bodybags_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="pain_zipline"/>
+			<asset name="pain_radio"/>
+			<asset name="pain_chimichanga"/>
+		</assets>
 		<hooks directory="hooks">
-			<hook file="hooks/copbase.lua" source_file="lib/units/enemies/cop/copbase"/>
+			<hook file="copbase.lua" source_file="lib/units/enemies/cop/copbase"/>
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="ifiwereblueiwoulddie.lua" source_file="lib/tweak_data/tweakdata"/>
 			<hook file="achievementmanager.lua" source_file="lib/managers/dialogmanager"/>
+			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="assetstweakdata.lua" source_file="lib/tweak_data/assetstweakdata"/>
 		</hooks>
 		<include directory="levels/santa_pain">
 			<file file="world.world" type="binary"/>
@@ -33,6 +44,7 @@
 			<file file="editor_only/editor_only.mission" type="binary"/>
 			<file file="cover_data.cover_data" type="binary"/>
 			<file file="environments/Dark_pain.environment" type="custom_xml"/>
+			<file file="environments/Dark_pain_outside.environment" type="custom_xml"/>
 		</include>
 		<intro_event>
 			<value_node value=""/>
@@ -175,11 +187,15 @@
 		<texture load="true" path="guis/textures/p_spain_icon"/>
 		<texture load="true" path="guis/textures/p_sf_banner"/>
 		<texture path="guis/dlcs/universalspain/weapon_skins/universalspain"/>
+		<texture load="true" path="guis/textures/map_icon"/>
+		<texture load="true" path="guis/textures/assets/asset_zipline"/>
+		<texture load="true" path="guis/textures/assets/asset_chimichanga"/>
+		<texture load="true" path="guis/textures/assets/asset_radio"/>
 	</AddFiles>
 	<Localization default="english.txt" directory="loc"/>
 	<WeaponSkin desc="bm_wskn_universalspain_desc" id="universalspain" name="bm_wskn_universalspain" rarity="epic" skin_folder="assets/weapon_skin/skins/universalspain" universal="true" weapon_id="flint"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Pain" name_id="contract_pain" package="packages/contact_bain"/>
-	<narrative briefing_event="" contact="Pain" id="Santa's Workshop" jc="30" load_screen="guis/dlcs/pic/textures/loading/job_boilingpoint" region="street">
+	<narrative briefing_event="" contact="Pain" icon="guis/textures/map_icon" id="Santa's Workshop" jc="30" load_screen="guis/dlcs/pic/textures/loading/job_boilingpoint" region="street">
 		<chain>
 			<table level_id="santa_pain" type="d" type_id="heist_type_assault"/>
 		</chain>
