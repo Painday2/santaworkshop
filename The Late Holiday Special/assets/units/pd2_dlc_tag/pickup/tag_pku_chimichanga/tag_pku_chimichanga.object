@@ -1,0 +1,13 @@
+<dynamic_object>
+    <diesel orientation_object="rp_tag_pku_chimichanga" materials="units/pd2_dlc_tag/pickup/tag_pku_chimichanga/tag_pku_chimichanga" />
+    <sequence_manager file="units/pd2_dlc_tag/pickup/tag_pku_chimichanga/tag_pku_chimichanga" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="c_box_01" collision_type="box" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_g" />
+        <object enabled="true" name="g_sallad" />
+    </graphics>
+</dynamic_object>

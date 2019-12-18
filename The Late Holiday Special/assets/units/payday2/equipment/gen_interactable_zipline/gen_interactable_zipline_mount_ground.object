@@ -1,0 +1,43 @@
+<dynamic_object>
+    <diesel orientation_object="rp_gen_interactable_zipline_mount_ground" materials="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" />
+	<sequence_manager file="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" />
+    <animations>
+        <animation_group name="anim" enabled="false" >
+            <object name="anim_bolt_1" enabled="true" />
+            <object name="anim_leg" enabled="true" />
+            <object name="anim_leg_pneu" enabled="true" />
+            <object name="anim_leg_rotation" enabled="true" />
+            <object name="anim_foot" enabled="true" />
+            <object name="anim_foot_right" enabled="true" />
+            <object name="anim_foot_left" enabled="true" />
+            <object name="anim_truss_1" enabled="true" />
+            <object name="anim_truss_2" enabled="true" />
+            <object name="anim_bolt_2" enabled="true" />
+            <object name="anim_foot_bolt" enabled="true" />
+            <object name="anim_foot_bolt_r" enabled="true" />
+        </animation_group>
+    </animations>
+    <bodies>
+        <body enabled="true" template="editor" name="static_body" >
+            <object collision_type="box" name="c_box" />
+        </body>
+        <body enabled="true" template="static" name="convex" >
+            <object collision_type="convex" name="c_convex" padding="-2" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_leg_1" shadow_caster="true" />
+        <object enabled="true" name="g_leg_hinge" shadow_caster="true" />
+        <object enabled="true" name="g_foot_main" shadow_caster="true" />
+        <object enabled="true" name="g_foot_right" shadow_caster="true" />
+        <object enabled="true" name="g_foot_left" shadow_caster="true" />
+        <object enabled="true" name="g_mount" shadow_caster="true" />
+        <object enabled="true" name="g_truss" shadow_caster="true" />
+        <object enabled="true" name="g_box_1" shadow_caster="true" />
+        <object enabled="true" name="g_bolt_1" />
+        <object enabled="true" name="g_bolt_2" />
+        <object enabled="true" name="g_bolt_l" />
+        <object enabled="true" name="g_bolt_r" />
+        <object enabled="false" name="g_outline" />
+    </graphics>
+</dynamic_object>

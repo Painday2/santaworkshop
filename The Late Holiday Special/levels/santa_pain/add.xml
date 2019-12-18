@@ -34,7 +34,6 @@
 	<effect force="true" load="true" path="effects/payday2/particles/explosions/smoke_explosion/fire_smoke_mid" unload="true"/>
 	<effect force="true" load="true" path="effects/payday2/particles/explosions/sparks/sparks" unload="true"/>
 	<effect force="true" load="true" path="effects/payday2/particles/explosions/smoke_explosion/dark_smoke_big" unload="true"/>
-	<gui force="true" path="guis/timer_gui" unload="true"/>
 	<add path="units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker" type="unit">
 		<material_config force="true" path="units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker" unload="true"/>
 		<object force="true" path="units/world/props/secret_stash_circuitbreaker/secret_stash_circuitbreaker" unload="true"/>
@@ -299,24 +298,67 @@
 	<sequence_manager path="units/zdann/gen_pku_bike/gen_pku_bike"/>
 	<unit path="units/zdann/gen_pku_bike/gen_pku_bike"/>
 	<texture path="units/zdann/gen_pku_bike/bike_df"/>
+	<cooked_physics path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
+	<model path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
+	<object path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
+	<sequence_manager path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
+	<unit path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
+	<material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_red"/>
+	<material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_blue"/>
+	<material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_green"/>
+	<material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_orange"/>
+	<material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_purple"/>
+	<material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_yellow"/>
+	<texture path="units/zdann/ene_acc_santa_hat/textures/blue_df"/>
+	<texture path="units/zdann/ene_acc_santa_hat/textures/green_df"/>
+	<texture path="units/zdann/ene_acc_santa_hat/textures/orange_df"/>
+	<texture path="units/zdann/ene_acc_santa_hat/textures/purple_df"/>
+	<texture path="units/zdann/ene_acc_santa_hat/textures/yellow_df"/>
+	<add path="units/pd2_dlc_aru/props/aru_prop_desk_radio/aru_prop_desk_radio" type="unit">
+		<unit force="true" path="units/pd2_dlc_aru/props/aru_prop_desk_radio/aru_prop_desk_radio" unload="true"/>
+		<object force="true" path="units/pd2_dlc_aru/props/aru_prop_desk_radio/aru_prop_desk_radio" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_aru/props/aru_prop_desk_radio/aru_prop_desk_radio" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_brb/environments/effects/brb_effect_snow" type="unit">
+		<unit force="true" path="units/pd2_dlc_brb/environments/effects/brb_effect_snow" unload="true"/>
+		<object force="true" path="units/pd2_dlc_brb/environments/effects/brb_effect_snow" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_brb/environments/effects/brb_effect_snow" unload="true"/>
+		<effect force="true" load="true" path="effects/particles/snow/snow_02" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_tag/pickup/tag_pku_chimichanga/tag_pku_chimichanga" type="unit">
+		<unit force="true" path="units/pd2_dlc_tag/pickup/tag_pku_chimichanga/tag_pku_chimichanga" unload="true"/>
+		<object force="true" path="units/pd2_dlc_tag/pickup/tag_pku_chimichanga/tag_pku_chimichanga" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_tag/pickup/tag_pku_chimichanga/tag_pku_chimichanga" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_tag/pickup/tag_pku_chimichanga/tag_pku_chimichanga" unload="true"/>
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_club_discoball/com_prop_club_discoball" type="unit">
+		<unit force="true" path="units/payday2/props/com_prop_club_discoball/com_prop_club_discoball" unload="true"/>
+		<object force="true" path="units/payday2/props/com_prop_club_discoball/com_prop_club_discoball" unload="true"/>
+		<material_config force="true" path="units/payday2/props/com_prop_club_discoball/com_prop_club_discoball" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" type="unit">
+		<unit force="true" path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" unload="true"/>
+		<object force="true" path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" unload="true"/>
+		<material_config force="true" path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" unload="true"/>
+		<bnk force="true" path="soundbanks/zipline" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_equipment_camera_hackingtool/gen_equipment_camera_hackingtool" type="unit">
+		<unit force="true" path="units/payday2/equipment/gen_equipment_camera_hackingtool/gen_equipment_camera_hackingtool" unload="true"/>
+		<object force="true" path="units/payday2/equipment/gen_equipment_camera_hackingtool/gen_equipment_camera_hackingtool" unload="true"/>
+		<material_config force="true" path="units/payday2/equipment/gen_equipment_camera_hackingtool/gen_equipment_camera_hackingtool" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/equipment/gen_equipment_camera_hackingtool/gen_equipment_camera_hackingtool" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" type="unit">
+		<unit force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
+		<object force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
+		<material_config force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
+	</add>
 	<animation_def force="true" path="anims\units\escort_guy\escort_undercover_def" unload="true"/>
 	<animation_state_machine force="true" path="anims\units\escort_guy\escort_undercover_machine" unload="true"/>
 	<animation_states force="true" path="anims\units\escort_guy\escort_undercover" unload="true"/>
 	<animation_subset force="true" path="anims\units\escort_guy\escort_undercover" unload="true"/>
-	<cooked_physics path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
-    <model path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
-    <object path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
-    <sequence_manager path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
-    <unit path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
-    <material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_red"/>
-    <material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_blue"/>
-    <material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_green"/>
-    <material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_orange"/>
-    <material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_purple"/>
-    <material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_yellow"/>
-    <texture path="units/zdann/ene_acc_santa_hat/textures/blue_df"/>
-    <texture path="units/zdann/ene_acc_santa_hat/textures/green_df"/>
-    <texture path="units/zdann/ene_acc_santa_hat/textures/orange_df"/>
-    <texture path="units/zdann/ene_acc_santa_hat/textures/purple_df"/>
-    <texture path="units/zdann/ene_acc_santa_hat/textures/yellow_df"/>
+	<gui force="true" path="guis/timer_gui" unload="true"/>
 </table>
