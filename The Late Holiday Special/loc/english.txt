@@ -3,6 +3,7 @@
 	"heist_Santa's Workshop_brief" : "",
 	"heist_santa_pain_name" : "The North Pole",
 	"heist_santa_pain_brief" : "It's that time of year again, boys. Time for people to sing shitty Christmas songs, watch shitty Christmas films, and eat shitty Christmas food. Oh, and time for me not to get any fucking presents!
+
 I've been on Santa's naughty list ever since we killed Bo, or maybe it was the other time we killed him. Either way, that means I'm not gonna get a sick bike for Christmas this year.
 But you guys can fix that.
 

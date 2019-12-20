@@ -1,5 +1,5 @@
 <table name="Santa's Workshop">
-	<level ai_group_type="America" briefing_dialog="" cube="cube_apply_heist_bank" id="santa_pain" max_bags="20" music="heist" team_ai_off="false">
+	<level ai_group_type="America" briefing_dialog="" cube="cube_apply_heist_bank" id="santa_pain" max_bags="21" music="heist" team_ai_off="false">
 		<add file="levels/santa_pain/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>

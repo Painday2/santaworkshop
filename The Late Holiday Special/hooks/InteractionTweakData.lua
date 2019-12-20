@@ -1,6 +1,7 @@
 Hooks:PostHook(InteractionTweakData, "init", "pain3_interactions", function(self, tweak_data)
 	self.hostage_stay.interaction_obj = Idstring("Hips")
     self.hostage_move.interaction_obj = Idstring("Hips")
+	
 	self.use_files = {
 		text_id = "hud_int_use_files",
 		action_text_id = "hud_action_use_files",
@@ -62,7 +63,7 @@ Hooks:PostHook(InteractionTweakData, "init", "pain3_interactions", function(self
 		equipment_text_id = "hud_equipment_need_files",
 		special_equipment = "files",
 		equipment_consume = true,
-		timer = 1,
+		timer = 2,
 		sound_start = "bar_scan_hand",
 		sound_interupt = "bar_scan_hand_cancel",
 		sound_done = "bar_scan_hand_finished",
@@ -95,11 +96,10 @@ Hooks:PostHook(InteractionTweakData, "init", "pain3_interactions", function(self
 		sound_cancel = "bar_remove_rope_cancel",
 		sound_done = "bar_remove_rope_finish"
 	}
-	
-	self.answer_call = {
+
+	self.hospital_phone = {
+		icon = "interaction_answerphone",
 		text_id = "hud_int_hold_answer_clause",
-		action_text_id = "hud_action_answering_call",
-		timer = 0.5,
 		start_active = false
 	}
 end)

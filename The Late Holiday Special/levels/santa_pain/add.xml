@@ -224,14 +224,14 @@
 	<texture force="true" path="units/mainman/characters/santa_texture/civ_santa_body_nm" unload="true"/>
 	<texture force="true" path="units/mainman/characters/santa_texture/civ_santa_head_df" unload="true"/>
 	<texture force="true" path="units/mainman/characters/santa_texture/civ_santa_head_nm" unload="true"/>
-	<texture path="levels/mods/santa_pain/cube_lights/dome_occlusion"/>
+	<texture path="levels/mods/santa_pain/cube_lights/dome_occlusion" unload="true"/>
 	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_a_df" unload="true"/>
 	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_c_int_floor_a_df" unload="true"/>
 	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_concrete_df" unload="true"/>
 	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_security_door_df" unload="true"/>
 	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_pillar_a_df" unload="true"/>
-	<texture path="units/zdann/reindeer/reindeer_df"/>
-	<texture path="units/zdann/reindeer/reindeer_il"/>
+	<texture path="units/zdann/reindeer/reindeer_df" unload="true"/>
+	<texture path="units/zdann/reindeer/reindeer_il" unload="true"/>
 	<add path="units/payday2/pickups/gen_pku_crowbar/gen_pku_crowbar" type="unit">
 		<material_config force="true" path="units/payday2/pickups/gen_pku_crowbar/gen_pku_crowbar" unload="true"/>
 		<object force="true" path="units/payday2/pickups/gen_pku_crowbar/gen_pku_crowbar" unload="true"/>
@@ -250,19 +250,19 @@
 		<sequence_manager force="true" path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor_01" unload="true"/>
 		<unit force="true" path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor_01" unload="true"/>
 	</add>
-	<cooked_physics path="units/zdann/reindeer/reindeer"/>
-	<material_config path="units/zdann/reindeer/reindeer"/>
-	<model path="units/zdann/reindeer/reindeer"/>
-	<object path="units/zdann/reindeer/reindeer"/>
-	<sequence_manager path="units/zdann/reindeer/reindeer"/>
-	<unit path="units/zdann/reindeer/reindeer"/>
-	<cooked_physics path="units/zdann/gen_pku_cookies/gen_pku_cookies"/>
-	<material_config path="units/zdann/gen_pku_cookies/gen_pku_cookies"/>
-	<model path="units/zdann/gen_pku_cookies/gen_pku_cookies"/>
-	<object path="units/zdann/gen_pku_cookies/gen_pku_cookies"/>
-	<sequence_manager path="units/zdann/gen_pku_cookies/gen_pku_cookies"/>
-	<unit path="units/zdann/gen_pku_cookies/gen_pku_cookies"/>
-	<texture path="units/zdann/gen_pku_cookies/plate_atlas_df"/>
+	<cooked_physics path="units/zdann/reindeer/reindeer" unload="true"/>
+	<material_config force="true" path="units/zdann/reindeer/reindeer" unload="true"/>
+	<model force="true" path="units/zdann/reindeer/reindeer" unload="true"/>
+	<object path="units/zdann/reindeer/reindeer" unload="true"/>
+	<sequence_manager force="true" path="units/zdann/reindeer/reindeer" unload="true"/>
+	<unit force="true" path="units/zdann/reindeer/reindeer" unload="true"/>
+	<cooked_physics path="units/zdann/gen_pku_cookies/gen_pku_cookies" unload="true"/>
+	<material_config force="true" path="units/zdann/gen_pku_cookies/gen_pku_cookies" unload="true"/>
+	<model force="true" path="units/zdann/gen_pku_cookies/gen_pku_cookies" unload="true"/>
+	<object path="units/zdann/gen_pku_cookies/gen_pku_cookies" unload="true"/>
+	<sequence_manager force="true" path="units/zdann/gen_pku_cookies/gen_pku_cookies" unload="true"/>
+	<unit force="true" path="units/zdann/gen_pku_cookies/gen_pku_cookies" unload="true"/>
+	<texture force="true" path="units/zdann/gen_pku_cookies/plate_atlas_df" unload="true"/>
 	<add path="units/payday2/props/com_prop_christmas_gifts/com_prop_christmas_gift_multi" type="unit">
 		<unit force="true" path="units/payday2/props/com_prop_christmas_gifts/com_prop_christmas_gift_multi" unload="true"/>
 		<object force="true" path="units/payday2/props/com_prop_christmas_gifts/com_prop_christmas_gift_multi" unload="true"/>
@@ -291,103 +291,99 @@
 		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
 		<effect force="true" load="true" path="effects/particles/dest/brown_bottle_dest" unload="true"/>
 	</add>
-	<cooked_physics path="units/zdann/gen_pku_bike/gen_pku_bike"/>
-	<material_config path="units/zdann/gen_pku_bike/gen_pku_bike"/>
-	<model path="units/zdann/gen_pku_bike/gen_pku_bike"/>
-	<object path="units/zdann/gen_pku_bike/gen_pku_bike"/>
-	<sequence_manager path="units/zdann/gen_pku_bike/gen_pku_bike"/>
-	<unit path="units/zdann/gen_pku_bike/gen_pku_bike"/>
-	<texture path="units/zdann/gen_pku_bike/bike_df"/>
-	<cooked_physics path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
-	<model path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
-	<object path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
-	<sequence_manager path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
-	<unit path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat"/>
-	<material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_red"/>
-	<material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_blue"/>
-	<material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_green"/>
-	<material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_orange"/>
-	<material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_purple"/>
-	<material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_yellow"/>
-	<texture path="units/zdann/ene_acc_santa_hat/textures/blue_df"/>
-	<texture path="units/zdann/ene_acc_santa_hat/textures/green_df"/>
-	<texture path="units/zdann/ene_acc_santa_hat/textures/orange_df"/>
-	<texture path="units/zdann/ene_acc_santa_hat/textures/purple_df"/>
-	<texture path="units/zdann/ene_acc_santa_hat/textures/yellow_df"/>
+	<cooked_physics path="units/zdann/gen_pku_bike/gen_pku_bike" unload="true"/>
+	<material_config force="true" path="units/zdann/gen_pku_bike/gen_pku_bike" unload="true"/>
+	<model force="true" path="units/zdann/gen_pku_bike/gen_pku_bike" unload="true"/>
+	<object path="units/zdann/gen_pku_bike/gen_pku_bike" unload="true"/>
+	<sequence_manager force="true" path="units/zdann/gen_pku_bike/gen_pku_bike" unload="true"/>
+	<unit force="true" path="units/zdann/gen_pku_bike/gen_pku_bike" unload="true"/>
+	<texture force="true" path="units/zdann/gen_pku_bike/bike_df" unload="true"/>
+	<cooked_physics path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat" unload="true"/>
+	<model force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat" unload="true"/>
+	<object force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat" unload="true"/>
+	<sequence_manager force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat" unload="true"/>
+	<unit force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat" unload="true"/>
+	<material_config force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_red" unload="true"/>
+	<material_config force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_blue" unload="true"/>
+	<material_config force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_green" unload="true"/>
+	<material_config force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_orange" unload="true"/>
+	<material_config force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_purple" unload="true"/>
+	<material_config force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_yellow" unload="true"/>
+	<texture force="true" path="units/zdann/ene_acc_santa_hat/textures/blue_df" unload="true"/>
+	<texture force="true" path="units/zdann/ene_acc_santa_hat/textures/green_df" unload="true"/>
+	<texture force="true" path="units/zdann/ene_acc_santa_hat/textures/orange_df" unload="true"/>
+	<texture force="true" path="units/zdann/ene_acc_santa_hat/textures/purple_df" unload="true"/>
+	<texture force="true" path="units/zdann/ene_acc_santa_hat/textures/yellow_df" unload="true"/>
 	<add path="units/pd2_dlc_aru/props/aru_prop_desk_radio/aru_prop_desk_radio" type="unit">
-		<unit force="true" path="units/pd2_dlc_aru/props/aru_prop_desk_radio/aru_prop_desk_radio" unload="true"/>
-		<object force="true" path="units/pd2_dlc_aru/props/aru_prop_desk_radio/aru_prop_desk_radio" unload="true"/>
 		<material_config force="true" path="units/pd2_dlc_aru/props/aru_prop_desk_radio/aru_prop_desk_radio" unload="true"/>
+		<object force="true" path="units/pd2_dlc_aru/props/aru_prop_desk_radio/aru_prop_desk_radio" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_aru/props/aru_prop_desk_radio/aru_prop_desk_radio" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_brb/environments/effects/brb_effect_snow" type="unit">
-		<unit force="true" path="units/pd2_dlc_brb/environments/effects/brb_effect_snow" unload="true"/>
-		<object force="true" path="units/pd2_dlc_brb/environments/effects/brb_effect_snow" unload="true"/>
-		<material_config force="true" path="units/pd2_dlc_brb/environments/effects/brb_effect_snow" unload="true"/>
 		<effect force="true" load="true" path="effects/particles/snow/snow_02" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_brb/environments/effects/brb_effect_snow" unload="true"/>
+		<object force="true" path="units/pd2_dlc_brb/environments/effects/brb_effect_snow" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_brb/environments/effects/brb_effect_snow" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_tag/pickup/tag_pku_chimichanga/tag_pku_chimichanga" type="unit">
-		<unit force="true" path="units/pd2_dlc_tag/pickup/tag_pku_chimichanga/tag_pku_chimichanga" unload="true"/>
-		<object force="true" path="units/pd2_dlc_tag/pickup/tag_pku_chimichanga/tag_pku_chimichanga" unload="true"/>
-		<material_config force="true" path="units/pd2_dlc_tag/pickup/tag_pku_chimichanga/tag_pku_chimichanga" unload="true"/>
-		<sequence_manager force="true" path="units/pd2_dlc_tag/pickup/tag_pku_chimichanga/tag_pku_chimichanga" unload="true"/>
 		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_tag/pickup/tag_pku_chimichanga/tag_pku_chimichanga" unload="true"/>
+		<object force="true" path="units/pd2_dlc_tag/pickup/tag_pku_chimichanga/tag_pku_chimichanga" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_tag/pickup/tag_pku_chimichanga/tag_pku_chimichanga" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_tag/pickup/tag_pku_chimichanga/tag_pku_chimichanga" unload="true"/>
 	</add>
 	<add path="units/payday2/props/com_prop_club_discoball/com_prop_club_discoball" type="unit">
-		<unit force="true" path="units/payday2/props/com_prop_club_discoball/com_prop_club_discoball" unload="true"/>
-		<object force="true" path="units/payday2/props/com_prop_club_discoball/com_prop_club_discoball" unload="true"/>
 		<material_config force="true" path="units/payday2/props/com_prop_club_discoball/com_prop_club_discoball" unload="true"/>
+		<object force="true" path="units/payday2/props/com_prop_club_discoball/com_prop_club_discoball" unload="true"/>
+		<unit force="true" path="units/payday2/props/com_prop_club_discoball/com_prop_club_discoball" unload="true"/>
 	</add>
 	<add path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" type="unit">
-		<unit force="true" path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" unload="true"/>
-		<object force="true" path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" unload="true"/>
-		<material_config force="true" path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" unload="true"/>
-		<sequence_manager force="true" path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" unload="true"/>
 		<bnk force="true" path="soundbanks/zipline" unload="true"/>
+		<material_config force="true" path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" unload="true"/>
+		<object force="true" path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" unload="true"/>
+		<unit force="true" path="units/payday2/equipment/gen_equipment_zipline_motor/gen_equipment_zipline_motor" unload="true"/>
 	</add>
 	<add path="units/payday2/equipment/gen_equipment_camera_hackingtool/gen_equipment_camera_hackingtool" type="unit">
-		<unit force="true" path="units/payday2/equipment/gen_equipment_camera_hackingtool/gen_equipment_camera_hackingtool" unload="true"/>
-		<object force="true" path="units/payday2/equipment/gen_equipment_camera_hackingtool/gen_equipment_camera_hackingtool" unload="true"/>
 		<material_config force="true" path="units/payday2/equipment/gen_equipment_camera_hackingtool/gen_equipment_camera_hackingtool" unload="true"/>
+		<object force="true" path="units/payday2/equipment/gen_equipment_camera_hackingtool/gen_equipment_camera_hackingtool" unload="true"/>
 		<sequence_manager force="true" path="units/payday2/equipment/gen_equipment_camera_hackingtool/gen_equipment_camera_hackingtool" unload="true"/>
+		<unit force="true" path="units/payday2/equipment/gen_equipment_camera_hackingtool/gen_equipment_camera_hackingtool" unload="true"/>
 	</add>
 	<add path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" type="unit">
-		<unit force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
-		<object force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
 		<material_config force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
+		<object force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
 		<sequence_manager force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
+		<unit force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
 	</add>
+	<sequence_manager force="true" path="units/zdann/characters/ragdoll" unload="true"/>
+	<cooked_physics path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
+	<material_config force="true" path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
+	<material_config force="true" path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1_contour" unload="true"/>
+	<model force="true" path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
+	<object force="true" path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
+	<unit force="true" path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
+	<unit force="true" path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1_husk" unload="true"/>
+	<cooked_physics path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
+	<material_config force="true" path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
+	<material_config force="true" path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2_contour" unload="true"/>
+	<model force="true" path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
+	<object force="true" path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
+	<unit force="true" path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
+	<unit force="true" path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2_husk" unload="true"/>
+	<cooked_physics path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
+	<material_config force="true" path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
+	<material_config force="true" path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3_contour" unload="true"/>
+	<model force="true" path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
+	<object force="true" path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
+	<unit force="true" path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
+	<unit force="true" path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3_husk" unload="true"/>
+	<cooked_physics path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
+	<material_config force="true" path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
+	<material_config force="true" path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4_contour" unload="true"/>
+	<model force="true" path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
+	<object force="true" path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
+	<unit force="true" path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
+	<unit force="true" path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4_husk" unload="true"/>
 	<gui force="true" path="guis/timer_gui" unload="true"/>
-	<sequence_manager path="units/zdann/characters/ragdoll"/>
-   
-    <cooked_physics path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1"/>
-    <material_config path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1"/>
-    <material_config path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1_contour"/>
-    <model path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1"/>
-    <object path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1"/>
-    <unit path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1"/>
-    <unit path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1_husk"/>
-   
-    <cooked_physics path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2"/>
-    <material_config path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2"/>
-    <material_config path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2_contour"/>
-    <model path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2"/>
-    <object path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2"/>
-    <unit path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2"/>
-    <unit path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2_husk"/>
- 
-    <cooked_physics path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3"/>
-    <material_config path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3"/>
-    <material_config path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3_contour"/>
-    <model path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3"/>
-    <object path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3"/>
-    <unit path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3"/>
-    <unit path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3_husk"/>
-   
-    <cooked_physics path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4"/>
-    <material_config path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4"/>
-    <material_config path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4_contour"/>
-    <model path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4"/>
-    <object path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4"/>
-    <unit path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4"/>
-    <unit path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4_husk"/>
 </table>
