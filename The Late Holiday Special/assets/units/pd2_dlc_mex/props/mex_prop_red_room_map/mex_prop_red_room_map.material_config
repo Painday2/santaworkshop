@@ -1,0 +1,8 @@
+<materials version="3">
+	<material name="mtr_map" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map_df" />
+	</material>
+    <material name="mtr_mullplan" render_template="decal:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_dlc_mex/props/mex_prop_runway_gate_rail/mex_mullplan_circle_df"/>
+    </material>
+</materials>

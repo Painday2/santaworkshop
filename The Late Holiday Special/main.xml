@@ -1,5 +1,9 @@
 <table name="The Late Holiday Special">
 	<level ai_group_type="America" briefing_dialog="" cube="cube_apply_heist_bank" id="santa_pain" max_bags="21" music="heist" team_ai_off="false">
+		<AddFiles directory="assets">
+			<font load="true" path="fonts/marker_large" unload="false"/>
+			<texture path="fonts/marker_large"/>
+		</AddFiles>
 		<add file="levels/santa_pain/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
@@ -172,11 +176,11 @@
 		<packages/>
 		<script_data_mods/>
 	</instance>
-	<Achievements banner="guis/textures/p_sf_banner" icon="guis/textures/p_spain_icon" id="santa_pain_achievements">
+	<Achievements banner="guis/textures/p_spain_banner" icon="guis/textures/p_spain_icon" id="santa_pain_achievements">
 		<achievement icon="guis/textures/p_spain_rein" id="p_santa_rein" rank="3" reward_amount="15" reward_type="cc"/>
 		<achievement icon="guis/textures/p_spain_truck" id="p_santa_truck" rank="1" reward_amount="3" reward_type="cc"/>
 		<achievement icon="guis/textures/p_spain_kill" id="p_santa_kill" rank="3" reward_amount="15" reward_type="cc"/>
-		<achievement icon="guis/textures/p_spain_secret" hidden_achievement="true" id="p_santa_secret" rank="4" reward_amount="30" reward_type="cc"/>
+		<achievement hidden_achievement="true" icon="guis/textures/p_spain_secret" id="p_santa_secret" rank="4" reward_amount="30" reward_type="cc"/>
 		<achievement icon="guis/textures/p_spain_ds" id="p_santa_ds" rank="4" reward_amount="30" reward_type="cc"/>
 		<achievement icon="guis/textures/p_spain_all" id="p_santa_all" rank="2" reward_amount="9" reward_type="cc"/>
 		<achievement icon="guis/textures/p_spain_speed" id="p_santa_speed" rank="2" reward_amount="9" reward_type="cc"/>
@@ -190,7 +194,7 @@
 		<texture load="true" path="guis/textures/p_spain_secret"/>
 		<texture load="true" path="guis/textures/p_spain_truck"/>
 		<texture load="true" path="guis/textures/p_spain_icon"/>
-		<texture load="true" path="guis/textures/p_sf_banner"/>
+		<texture load="true" path="guis/textures/p_spain_banner"/>
 		<texture path="guis/dlcs/universalspain/weapon_skins/universalspain"/>
 		<texture load="true" path="guis/textures/map_icon"/>
 		<texture load="true" path="guis/textures/assets/asset_zipline"/>

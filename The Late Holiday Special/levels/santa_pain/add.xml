@@ -405,4 +405,12 @@
 		<material_config force="true" path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_case" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_key_case" unload="true"/>
 	</add>
+	
+	<unit force="true" path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
+	<material_config force="true" path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
+	<cooked_physics force="true" path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
+	<model force="true" path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
+	<object force="true" path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
+	<unit force="true" path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
+	<texture force="true" path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map_df" unload="true"/>
 </table>
