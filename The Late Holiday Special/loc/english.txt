@@ -1,6 +1,6 @@
 {
-	"heist_Santa's Workshop_name" : "The Late Holiday Special",
-	"heist_Santa's Workshop_brief" : "",
+	"heist_The Late Holiday Special_name" : "The Late Holiday Special",
+	"heist_The Late Holiday Special_brief" : "",
 	"heist_santa_pain_name" : "The North Pole",
 	"heist_santa_pain_brief" : "It's that time of year again, boys. Time for people to sing shitty Christmas songs, watch shitty Christmas films, and eat shitty Christmas food. Oh, and time for me not to get any fucking presents!
 
@@ -98,7 +98,7 @@ That'll show that dumb fuck Santa for trying to ruin my Christmas.
 	"p_santa_truck_name" : "I'm not ready!",
 	"p_santa_truck_desc" : "",
 	"p_santa_truck_objective" : "Have pain yell at you for doing nothing.",
-	"p_santa_secret_name" : "",
+	"p_santa_secret_name" : "Lump of Coal",
 	"p_santa_secret_desc" : "",
 	"p_santa_secret_objective" : "",
 	"p_santa_kill_name" : "Happy Holidays Painsters",

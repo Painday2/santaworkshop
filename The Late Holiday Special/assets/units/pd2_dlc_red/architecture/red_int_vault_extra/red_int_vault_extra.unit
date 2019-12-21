@@ -1,0 +1,8 @@
+<unit type="red" slot="1">
+	<object file="units/pd2_dlc_red/architecture/red_int_vault_extra/red_int_vault_extra" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

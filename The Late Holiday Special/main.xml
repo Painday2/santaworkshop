@@ -1,4 +1,4 @@
-<table name="Santa's Workshop">
+<table name="The Late Holiday Special">
 	<level ai_group_type="America" briefing_dialog="" cube="cube_apply_heist_bank" id="santa_pain" max_bags="21" music="heist" team_ai_off="false">
 		<add file="levels/santa_pain/add.xml"/>
 		<assets>
@@ -82,6 +82,8 @@
 			<value_node value="levels/narratives/bain/shadow_raid/editor_only/editor_only"/>
 			<value_node value="packages/narr_red2"/>
 			<value_node value="levels/narratives/bain/roberts/world_sounds"/>
+			<value_node value="levels/instances/unique/bph/bph_cell_keypad/world/world"/>
+			<value_node value="levels/instances/unique/crojob/random_loot/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -174,6 +176,7 @@
 		<achievement icon="guis/textures/p_spain_rein" id="p_santa_rein" rank="3" reward_amount="15" reward_type="cc"/>
 		<achievement icon="guis/textures/p_spain_truck" id="p_santa_truck" rank="1" reward_amount="3" reward_type="cc"/>
 		<achievement icon="guis/textures/p_spain_kill" id="p_santa_kill" rank="3" reward_amount="15" reward_type="cc"/>
+		<achievement icon="guis/textures/p_spain_secret" hidden_achievement="true" id="p_santa_secret" rank="4" reward_amount="30" reward_type="cc"/>
 		<achievement icon="guis/textures/p_spain_ds" id="p_santa_ds" rank="4" reward_amount="30" reward_type="cc"/>
 		<achievement icon="guis/textures/p_spain_all" id="p_santa_all" rank="2" reward_amount="9" reward_type="cc"/>
 		<achievement icon="guis/textures/p_spain_speed" id="p_santa_speed" rank="2" reward_amount="9" reward_type="cc"/>
@@ -184,6 +187,7 @@
 		<texture load="true" path="guis/textures/p_spain_kill"/>
 		<texture load="true" path="guis/textures/p_spain_rein"/>
 		<texture load="true" path="guis/textures/p_spain_speed"/>
+		<texture load="true" path="guis/textures/p_spain_secret"/>
 		<texture load="true" path="guis/textures/p_spain_truck"/>
 		<texture load="true" path="guis/textures/p_spain_icon"/>
 		<texture load="true" path="guis/textures/p_sf_banner"/>
@@ -193,10 +197,11 @@
 		<texture load="true" path="guis/textures/assets/asset_chimichanga"/>
 		<texture load="true" path="guis/textures/assets/asset_radio"/>
 	</AddFiles>
+	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
 	<Localization default="english.txt" directory="loc"/>
 	<WeaponSkin desc="bm_wskn_universalspain_desc" id="universalspain" name="bm_wskn_universalspain" rarity="epic" skin_folder="assets/weapon_skin/skins/universalspain" universal="true" weapon_id="flint"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Pain" name_id="contract_pain" package="packages/contact_bain"/>
-	<narrative briefing_event="" contact="Pain" icon="guis/textures/map_icon" id="Santa's Workshop" jc="30" load_screen="guis/dlcs/pic/textures/loading/job_boilingpoint" region="street">
+	<narrative briefing_event="" contact="Pain" icon="guis/textures/map_icon" id="The Late Holiday Special" jc="30" load_screen="guis/dlcs/pic/textures/loading/job_boilingpoint" region="street">
 		<chain>
 			<table level_id="santa_pain" type="d" type_id="heist_type_assault"/>
 		</chain>
@@ -215,7 +220,9 @@
 		<crimenet_videos>
 			<value_node value="cn_branchbank2"/>
 		</crimenet_videos>
-		<debrief_event/>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
 		<experience_mul>
 			<value_node value="1"/>
 			<value_node value="1"/>

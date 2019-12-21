@@ -212,18 +212,18 @@
 		<object force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" unload="true"/>
 		<unit force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" unload="true"/>
 	</add>
-	<unit force="true" path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
-	<unit force="true" path="units/mainman/characters/civ_santa/civ_santa_husk" unload="true"/>
-	<material_config force="true" path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
-	<model force="true" path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
-	<object force="true" path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
-	<texture force="true" path="units/mainman/characters/santa_texture/beard_df" unload="true"/>
-	<texture force="true" path="units/mainman/characters/santa_texture/beard_nm" unload="true"/>
-	<texture force="true" path="units/mainman/characters/santa_texture/beard_op" unload="true"/>
-	<texture force="true" path="units/mainman/characters/santa_texture/civ_santa_body_df" unload="true"/>
-	<texture force="true" path="units/mainman/characters/santa_texture/civ_santa_body_nm" unload="true"/>
-	<texture force="true" path="units/mainman/characters/santa_texture/civ_santa_head_df" unload="true"/>
-	<texture force="true" path="units/mainman/characters/santa_texture/civ_santa_head_nm" unload="true"/>
+	<unit path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
+	<unit path="units/mainman/characters/civ_santa/civ_santa_husk" unload="true"/>
+	<material_config path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
+	<model path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
+	<object path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
+	<texture path="units/mainman/characters/santa_texture/beard_df" unload="true"/>
+	<texture path="units/mainman/characters/santa_texture/beard_nm" unload="true"/>
+	<texture path="units/mainman/characters/santa_texture/beard_op" unload="true"/>
+	<texture path="units/mainman/characters/santa_texture/civ_santa_body_df" unload="true"/>
+	<texture path="units/mainman/characters/santa_texture/civ_santa_body_nm" unload="true"/>
+	<texture path="units/mainman/characters/santa_texture/civ_santa_head_df" unload="true"/>
+	<texture path="units/mainman/characters/santa_texture/civ_santa_head_nm" unload="true"/>
 	<texture path="levels/mods/santa_pain/cube_lights/dome_occlusion" unload="true"/>
 	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_a_df" unload="true"/>
 	<texture force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_c_int_floor_a_df" unload="true"/>
@@ -251,18 +251,18 @@
 		<unit force="true" path="units/payday2/props/lcm_prop_securitydoor/lcm_prop_securitydoor_01" unload="true"/>
 	</add>
 	<cooked_physics path="units/zdann/reindeer/reindeer" unload="true"/>
-	<material_config force="true" path="units/zdann/reindeer/reindeer" unload="true"/>
-	<model force="true" path="units/zdann/reindeer/reindeer" unload="true"/>
+	<material_config path="units/zdann/reindeer/reindeer" unload="true"/>
+	<model path="units/zdann/reindeer/reindeer" unload="true"/>
 	<object path="units/zdann/reindeer/reindeer" unload="true"/>
-	<sequence_manager force="true" path="units/zdann/reindeer/reindeer" unload="true"/>
-	<unit force="true" path="units/zdann/reindeer/reindeer" unload="true"/>
+	<sequence_manager path="units/zdann/reindeer/reindeer" unload="true"/>
+	<unit path="units/zdann/reindeer/reindeer" unload="true"/>
 	<cooked_physics path="units/zdann/gen_pku_cookies/gen_pku_cookies" unload="true"/>
-	<material_config force="true" path="units/zdann/gen_pku_cookies/gen_pku_cookies" unload="true"/>
-	<model force="true" path="units/zdann/gen_pku_cookies/gen_pku_cookies" unload="true"/>
+	<material_config path="units/zdann/gen_pku_cookies/gen_pku_cookies" unload="true"/>
+	<model path="units/zdann/gen_pku_cookies/gen_pku_cookies" unload="true"/>
 	<object path="units/zdann/gen_pku_cookies/gen_pku_cookies" unload="true"/>
-	<sequence_manager force="true" path="units/zdann/gen_pku_cookies/gen_pku_cookies" unload="true"/>
-	<unit force="true" path="units/zdann/gen_pku_cookies/gen_pku_cookies" unload="true"/>
-	<texture force="true" path="units/zdann/gen_pku_cookies/plate_atlas_df" unload="true"/>
+	<sequence_manager path="units/zdann/gen_pku_cookies/gen_pku_cookies" unload="true"/>
+	<unit path="units/zdann/gen_pku_cookies/gen_pku_cookies" unload="true"/>
+	<texture path="units/zdann/gen_pku_cookies/plate_atlas_df" unload="true"/>
 	<add path="units/payday2/props/com_prop_christmas_gifts/com_prop_christmas_gift_multi" type="unit">
 		<unit force="true" path="units/payday2/props/com_prop_christmas_gifts/com_prop_christmas_gift_multi" unload="true"/>
 		<object force="true" path="units/payday2/props/com_prop_christmas_gifts/com_prop_christmas_gift_multi" unload="true"/>
@@ -292,28 +292,28 @@
 		<effect force="true" load="true" path="effects/particles/dest/brown_bottle_dest" unload="true"/>
 	</add>
 	<cooked_physics path="units/zdann/gen_pku_bike/gen_pku_bike" unload="true"/>
-	<material_config force="true" path="units/zdann/gen_pku_bike/gen_pku_bike" unload="true"/>
-	<model force="true" path="units/zdann/gen_pku_bike/gen_pku_bike" unload="true"/>
+	<material_config path="units/zdann/gen_pku_bike/gen_pku_bike" unload="true"/>
+	<model path="units/zdann/gen_pku_bike/gen_pku_bike" unload="true"/>
 	<object path="units/zdann/gen_pku_bike/gen_pku_bike" unload="true"/>
-	<sequence_manager force="true" path="units/zdann/gen_pku_bike/gen_pku_bike" unload="true"/>
-	<unit force="true" path="units/zdann/gen_pku_bike/gen_pku_bike" unload="true"/>
-	<texture force="true" path="units/zdann/gen_pku_bike/bike_df" unload="true"/>
+	<sequence_manager path="units/zdann/gen_pku_bike/gen_pku_bike" unload="true"/>
+	<unit path="units/zdann/gen_pku_bike/gen_pku_bike" unload="true"/>
+	<texture path="units/zdann/gen_pku_bike/bike_df" unload="true"/>
 	<cooked_physics path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat" unload="true"/>
-	<model force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat" unload="true"/>
-	<object force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat" unload="true"/>
-	<sequence_manager force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat" unload="true"/>
-	<unit force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat" unload="true"/>
-	<material_config force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_red" unload="true"/>
-	<material_config force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_blue" unload="true"/>
-	<material_config force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_green" unload="true"/>
-	<material_config force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_orange" unload="true"/>
-	<material_config force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_purple" unload="true"/>
-	<material_config force="true" path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_yellow" unload="true"/>
-	<texture force="true" path="units/zdann/ene_acc_santa_hat/textures/blue_df" unload="true"/>
-	<texture force="true" path="units/zdann/ene_acc_santa_hat/textures/green_df" unload="true"/>
-	<texture force="true" path="units/zdann/ene_acc_santa_hat/textures/orange_df" unload="true"/>
-	<texture force="true" path="units/zdann/ene_acc_santa_hat/textures/purple_df" unload="true"/>
-	<texture force="true" path="units/zdann/ene_acc_santa_hat/textures/yellow_df" unload="true"/>
+	<model path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat" unload="true"/>
+	<object path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat" unload="true"/>
+	<sequence_manager path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat" unload="true"/>
+	<unit path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat" unload="true"/>
+	<material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_red" unload="true"/>
+	<material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_blue" unload="true"/>
+	<material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_green" unload="true"/>
+	<material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_orange" unload="true"/>
+	<material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_purple" unload="true"/>
+	<material_config path="units/zdann/ene_acc_santa_hat/ene_acc_santa_hat_yellow" unload="true"/>
+	<texture path="units/zdann/ene_acc_santa_hat/textures/blue_df" unload="true"/>
+	<texture path="units/zdann/ene_acc_santa_hat/textures/green_df" unload="true"/>
+	<texture path="units/zdann/ene_acc_santa_hat/textures/orange_df" unload="true"/>
+	<texture path="units/zdann/ene_acc_santa_hat/textures/purple_df" unload="true"/>
+	<texture path="units/zdann/ene_acc_santa_hat/textures/yellow_df" unload="true"/>
 	<add path="units/pd2_dlc_aru/props/aru_prop_desk_radio/aru_prop_desk_radio" type="unit">
 		<material_config force="true" path="units/pd2_dlc_aru/props/aru_prop_desk_radio/aru_prop_desk_radio" unload="true"/>
 		<object force="true" path="units/pd2_dlc_aru/props/aru_prop_desk_radio/aru_prop_desk_radio" unload="true"/>
@@ -356,34 +356,53 @@
 		<sequence_manager force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
 		<unit force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
 	</add>
-	<sequence_manager force="true" path="units/zdann/characters/ragdoll" unload="true"/>
+	<sequence_manager path="units/zdann/characters/ragdoll" unload="true"/>
 	<cooked_physics path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
-	<material_config force="true" path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
-	<material_config force="true" path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1_contour" unload="true"/>
-	<model force="true" path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
-	<object force="true" path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
-	<unit force="true" path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
-	<unit force="true" path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1_husk" unload="true"/>
+	<material_config path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
+	<material_config path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1_contour" unload="true"/>
+	<model path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
+	<object path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
+	<unit path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
+	<unit path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1_husk" unload="true"/>
 	<cooked_physics path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
-	<material_config force="true" path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
-	<material_config force="true" path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2_contour" unload="true"/>
-	<model force="true" path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
-	<object force="true" path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
-	<unit force="true" path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
-	<unit force="true" path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2_husk" unload="true"/>
+	<material_config path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
+	<material_config path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2_contour" unload="true"/>
+	<model path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
+	<object path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
+	<unit path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
+	<unit path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2_husk" unload="true"/>
 	<cooked_physics path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
-	<material_config force="true" path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
-	<material_config force="true" path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3_contour" unload="true"/>
-	<model force="true" path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
-	<object force="true" path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
-	<unit force="true" path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
-	<unit force="true" path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3_husk" unload="true"/>
+	<material_config path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
+	<material_config path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3_contour" unload="true"/>
+	<model path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
+	<object path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
+	<unit path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
+	<unit path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3_husk" unload="true"/>
 	<cooked_physics path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
-	<material_config force="true" path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
-	<material_config force="true" path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4_contour" unload="true"/>
-	<model force="true" path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
-	<object force="true" path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
-	<unit force="true" path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
-	<unit force="true" path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4_husk" unload="true"/>
-	<gui force="true" path="guis/timer_gui" unload="true"/>
+	<material_config path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
+	<material_config path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4_contour" unload="true"/>
+	<model path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
+	<object path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
+	<unit path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
+	<unit path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4_husk" unload="true"/>
+	<add path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_medium" type="unit">
+		<font force="true" path="fonts/font_digital" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small" unload="true"/>
+		<object force="true" path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_medium" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_medium" unload="true"/>
+	</add>
+	<texture path="fonts/marker_large"/>
+	<add path="units/pd2_dlc_red/architecture/red_int_vault_extra/red_int_vault_extra" type="unit">
+		<material_config force="true" path="units/pd2_dlc_red/architecture/red" unload="true"/>
+		<object force="true" path="units/pd2_dlc_red/architecture/red_int_vault_extra/red_int_vault_extra" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_red/architecture/red_int_vault_extra/red_int_vault_extra" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_red/architecture/red_int_vault_extra/red_int_vault_extra" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_key_case_green" type="unit">
+		<unit force="true" path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_key_case_green" unload="true"/>
+		<object force="true" path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_key_case_green" unload="true"/>
+		<material_config force="true" path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_case" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_key_case" unload="true"/>
+	</add>
 </table>
