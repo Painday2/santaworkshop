@@ -1,5 +1,5 @@
 <table name="The Late Holiday Special">
-	<level ai_group_type="America" briefing_dialog="" cube="cube_apply_heist_bank" id="santa_pain" max_bags="21" music="heist" team_ai_off="false">
+	<level ai_group_type="America" briefing_dialog="" cube="cube_apply_heist_bank" id="santa_pain" max_bags="91" music="heist" team_ai_off="false">
 		<AddFiles directory="assets">
 			<font load="true" path="fonts/marker_large" unload="false"/>
 			<texture path="fonts/marker_large"/>

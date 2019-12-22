@@ -1,5 +1,5 @@
 function CopBase:_chk_spawn_gear()
-	if self:has_tag("tank") then 
+	if self:has_tag("tank") or self._tweak_table == "drug_lord_boss"  then 
 		return
 	end
 	local align_obj_name = Idstring("Head")

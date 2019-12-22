@@ -400,12 +400,11 @@
 		<unit force="true" path="units/pd2_dlc_red/architecture/red_int_vault_extra/red_int_vault_extra" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_key_case_green" type="unit">
-		<unit force="true" path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_key_case_green" unload="true"/>
-		<object force="true" path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_key_case_green" unload="true"/>
 		<material_config force="true" path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_case" unload="true"/>
+		<object force="true" path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_key_case_green" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_key_case" unload="true"/>
+		<unit force="true" path="units/pd2_dlc_tng/equipment/gen_interactable_key_case/gen_interactable_key_case_green" unload="true"/>
 	</add>
-	
 	<unit force="true" path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
 	<material_config force="true" path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
 	<cooked_physics force="true" path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
@@ -413,4 +412,32 @@
 	<object force="true" path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
 	<unit force="true" path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
 	<texture force="true" path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map_df" unload="true"/>
+	<unit path="units/mainman/characters/ene_the_boss/ene_the_boss" unload="true"/>
+	<unit path="units/mainman/characters/ene_the_boss/ene_the_boss_husk" unload="true"/>
+	<cooked_physics path="units/mainman/characters/ene_the_boss/ene_the_boss" unload="true"/>
+	<material_config path="units/mainman/characters/ene_the_boss/ene_the_boss" unload="true"/>
+	<model path="units/mainman/characters/ene_the_boss/ene_the_boss" unload="true"/>
+	<object path="units/mainman/characters/ene_the_boss/ene_the_boss" unload="true"/>
+	<material_config path="units/mainman/characters/ene_the_boss/ene_the_boss_contour" unload="true"/>
+	<texture path="units/mainman/characters/ene_the_boss/npc_enemy_gb_head_df" unload="true"/>
+	<texture path="units/mainman/characters/ene_the_boss/npc_enemy_gb_head_nm" unload="true"/>
+	<texture path="units/mainman/characters/ene_the_boss/npc_enemy_gb_body_df" unload="true"/>
+	<texture path="units/mainman/characters/ene_the_boss/npc_enemy_gb_body_nm" unload="true"/>
+	<add path="units/equipment/vault_drill/vault_drill" type="unit">
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+		<effect force="true" load="true" path="effects/particles/equipment/vault_drill/drill_jammed" unload="true"/>
+		<gui force="true" path="guis/timer_gui" unload="true"/>
+		<material_config force="true" path="units/equipment/vault_drill/vault_drill_new" unload="true"/>
+		<object force="true" path="units/equipment/vault_drill/vault_drill" unload="true"/>
+		<sequence_manager force="true" path="units/equipment/vault_drill/vault_drill" unload="true"/>
+		<unit force="true" path="units/equipment/vault_drill/vault_drill" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" type="unit">
+		<unit force="true" path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+		<object force="true" path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+		<material_config force="true" path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+		<gui force="true" path="guis/timer_gui" unload="true"/>
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+	</add>
 </table>
