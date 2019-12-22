@@ -27,7 +27,7 @@ That'll show that dumb fuck Santa for trying to ruin my Christmas.
 	"hud_action_add_rope" : "Tying reindeer...",
 	"int_start_trivia" : "Hold $BTN_INTERACT to start trivia",
 	"hud_start_trivia" : "Starting trivia...",
-	"hud_int_hold_answer_clause" : "Press $BTN_INTERACT to call Ms. Clause",
+	"hud_int_hold_answer_clause" : "Press $BTN_INTERACT to call Mrs. Clause",
 	
 	"pain_zipline_name" : "Bag Zipline",
 	"pain_zipline_desc" : "A zipline to help move bags to the escape zone.",
