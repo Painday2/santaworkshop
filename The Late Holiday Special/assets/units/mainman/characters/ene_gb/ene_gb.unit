@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <unit type="being" slot="21">
 	<anim_state_machine name="anims/units/enemies/cop/cop_machine" />
-	<object file="units/mainman/characters/ene_the_boss/ene_the_boss" />
+	<object file="units/mainman/characters/ene_gb/ene_gb" />
 
 	<dependencies>
 		
@@ -10,6 +10,7 @@
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="base" class="CopBase" >
+			<var name="can_be_marked" value="true" />
 			<var name="_tweak_table" value="drug_lord_boss" />
 			<var name="_default_weapon_id" value="m249" />
 		</extension>
@@ -34,7 +35,7 @@
 		<extension name="sound" class="CopSound" />
 	</extensions>
 
-	<network sync="spawn" remote_unit="units/mainman/characters/ene_the_boss/ene_the_boss_husk"/>
+	<network sync="spawn" remote_unit="units/mainman/characters/ene_gb/ene_gb_husk"/>
 
   <sounds>
 		<default_soundsource source="Hips"/>
