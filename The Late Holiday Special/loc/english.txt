@@ -114,6 +114,9 @@ That'll show that dumb fuck Santa for trying to ruin my Christmas.
 	"p_santa_speed_desc" : "",
 	"p_santa_speed_objective" : "Open Santa's office in 5:35.",
 	
+	"menu_jukebox_screen_music_painchristmas" : "Dude, Christmas is fucking FUCKED",
+	"menu_jukebox_music_painchristmas" : "Dude, Christmas is fucking FUCKED",
+	
 	"bm_wskn_universalspain" : "Holiday Special",
 	"bm_wskn_universalspain_desc" : "Ho ho ho, Merry Christmas Painsters!"
 	

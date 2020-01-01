@@ -1,5 +1,5 @@
 <table name="The Late Holiday Special">
-	<level ai_group_type="America" briefing_dialog="" cube="cube_apply_heist_bank" id="santa_pain" max_bags="91" music="heist" team_ai_off="false">
+	<level ai_group_type="America" briefing_dialog="tlhs_brief" cube="cube_apply_heist_bank" id="santa_pain" max_bags="91" music="heist" team_ai_off="false">
 		<AddFiles directory="assets">
 			<font load="true" path="fonts/marker_large" unload="false"/>
 			<texture path="fonts/marker_large"/>
@@ -94,9 +94,6 @@
 				<options merge_mode="add" mode="add"/>
 			</mod>
 		</script_data_mods>
-		<sounds directory="assets\soundbanks">
-			<sound path="jingle.ogg"/>
-		</sounds>
 	</level>
 	<level ai_group_type="america" id="instance_snowmen">
 		<add file="levels/instance_snowmen/add.xml"/>
@@ -187,7 +184,6 @@
 	</Achievements>
 	<AddFiles directory="assets">
 		<texture load="true" path="guis/textures/p_spain_all"/>
-		<texture load="true" path="guis/textures/p_spain_ds"/>
 		<texture load="true" path="guis/textures/p_spain_kill"/>
 		<texture load="true" path="guis/textures/p_spain_rein"/>
 		<texture load="true" path="guis/textures/p_spain_speed"/>
@@ -204,7 +200,16 @@
 		<font load="true" path="fonts/marker_large" unload="false"/>
 	</AddFiles>
 	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
+	<HeistMusic directory="assets/sounds/song" id="music_painchristmas" volume="0.9">
+		<event name="setup" source="stealth.ogg" start_source="stealthintro.ogg"/>
+		<event name="anticipation" source="anticiloop.ogg" start_source="anticipation.ogg"/>
+		<event alt_source="assaultalt.ogg" name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
+		<event name="control" source="control.ogg" start_source="controlintro.ogg"/>
+	</HeistMusic>
 	<Localization default="english.txt" directory="loc"/>
+	<Sounds directory="assets/sounds/vo/pain">
+		<sound id="tlhs_brief" path="tlhs_briefing.ogg"/>
+	</Sounds>
 	<WeaponSkin desc="bm_wskn_universalspain_desc" id="universalspain" name="bm_wskn_universalspain" rarity="epic" skin_folder="assets/weapon_skin/skins/universalspain" universal="true" weapon_id="flint"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Pain" name_id="contract_pain" package="packages/contact_bain"/>
 	<narrative briefing_event="" contact="Pain" icon="guis/textures/map_icon" id="The Late Holiday Special" jc="30" load_screen="guis/dlcs/pic/textures/loading/job_boilingpoint" region="street">

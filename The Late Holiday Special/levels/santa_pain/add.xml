@@ -423,15 +423,6 @@
 	<texture path="units/mainman/characters/ene_gb/npc_enemy_gb_head_nm" unload="true"/>
 	<texture path="units/mainman/characters/ene_gb/npc_enemy_gb_body_df" unload="true"/>
 	<texture path="units/mainman/characters/ene_gb/npc_enemy_gb_body_nm" unload="true"/>
-	<add path="units/equipment/vault_drill/vault_drill" type="unit">
-		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
-		<effect force="true" load="true" path="effects/particles/equipment/vault_drill/drill_jammed" unload="true"/>
-		<gui force="true" path="guis/timer_gui" unload="true"/>
-		<material_config force="true" path="units/equipment/vault_drill/vault_drill_new" unload="true"/>
-		<object force="true" path="units/equipment/vault_drill/vault_drill" unload="true"/>
-		<sequence_manager force="true" path="units/equipment/vault_drill/vault_drill" unload="true"/>
-		<unit force="true" path="units/equipment/vault_drill/vault_drill" unload="true"/>
-	</add>
 	<add path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" type="unit">
 		<unit force="true" path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
 		<object force="true" path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
