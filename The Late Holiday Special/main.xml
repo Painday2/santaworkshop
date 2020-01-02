@@ -184,6 +184,7 @@
 	</Achievements>
 	<AddFiles directory="assets">
 		<texture load="true" path="guis/textures/p_spain_all"/>
+		<texture load="true" path="guis/textures/p_spain_ds"/>
 		<texture load="true" path="guis/textures/p_spain_kill"/>
 		<texture load="true" path="guis/textures/p_spain_rein"/>
 		<texture load="true" path="guis/textures/p_spain_speed"/>
@@ -192,7 +193,7 @@
 		<texture load="true" path="guis/textures/p_spain_icon"/>
 		<texture load="true" path="guis/textures/p_spain_banner"/>
 		<texture path="guis/dlcs/universalspain/weapon_skins/universalspain"/>
-		<texture load="true" path="guis/textures/map_icon"/>
+		<texture load="true" path="guis/textures/spain_icon"/>
 		<texture load="true" path="guis/textures/assets/asset_zipline"/>
 		<texture load="true" path="guis/textures/assets/asset_chimichanga"/>
 		<texture load="true" path="guis/textures/assets/asset_radio"/>
@@ -212,7 +213,7 @@
 	</Sounds>
 	<WeaponSkin desc="bm_wskn_universalspain_desc" id="universalspain" name="bm_wskn_universalspain" rarity="epic" skin_folder="assets/weapon_skin/skins/universalspain" universal="true" weapon_id="flint"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Pain" name_id="contract_pain" package="packages/contact_bain"/>
-	<narrative briefing_event="" contact="Pain" icon="guis/textures/map_icon" id="The Late Holiday Special" jc="30" load_screen="guis/dlcs/pic/textures/loading/job_boilingpoint" region="street">
+	<narrative briefing_event="" contact="Pain" icon="guis/textures/spain_icon" id="The Late Holiday Special" jc="30" load_screen="guis/dlcs/pic/textures/loading/job_boilingpoint" region="street">
 		<chain>
 			<table level_id="santa_pain" type="d" type_id="heist_type_assault"/>
 		</chain>
