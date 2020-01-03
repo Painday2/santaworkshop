@@ -25,10 +25,10 @@
 			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
 		</hooks>
 		<include directory="levels/santa_pain">
+			<file file="nav_manager_data.nav_data" type="binary"/>
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>
 			<file file="mission.mission" type="binary"/>
-			<file file="nav_manager_data.nav_data" type="binary"/>
 			<file file="world_sounds.world_sounds" type="binary"/>
 			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="whitebox/whitebox.continent" type="binary"/>
@@ -208,8 +208,22 @@
 		<event name="control" source="control.ogg" start_source="controlintro.ogg"/>
 	</HeistMusic>
 	<Localization default="english.txt" directory="loc"/>
-	<Sounds directory="assets/sounds/vo/pain">
-		<sound id="tlhs_brief" path="tlhs_briefing.ogg"/>
+	<Sounds directory="assets/sounds/vo">
+		<sound id="tlhs_brief" path="pain/tlhs_briefing.ogg"/>
+		<sound id="pain_blow_wall1" path="pain/blow_wall1.ogg" subtitle_id="pain_blow_wall1_sub"/>
+		<sound id="pain_blow_wall2" path="pain/blow_wall2.ogg" subtitle_id="pain_blow_wall2_sub"/>
+		<sound id="pain_blow_wall3" path="pain/blow_wall3.ogg" subtitle_id="pain_blow_wall3_sub"/>
+		<sound id="pain_find_box1" path="pain/find_box1.ogg" subtitle_id="pain_find_box1_sub"/>
+		<sound id="pain_find_box2" path="pain/find_box2.ogg" subtitle_id="pain_find_box2_sub"/>
+		<sound id="pain_find_box3" path="pain/find_box3.ogg" subtitle_id="pain_find_box3_sub"/>
+		<sound id="pain_see_snowmen1" path="pain/see_snowmen1.ogg" subtitle_id="pain_see_snowmen1_sub"/>
+		<sound id="pain_see_snowmen2" path="pain/see_snowmen2.ogg" subtitle_id="pain_see_snowmen2_sub"/>
+		<sound id="pain_see_snowmen3" path="pain/see_snowmen3.ogg" subtitle_id="pain_see_snowmen3_sub"/>
+		<sound id="pain_skydive1" path="pain/skydive1.ogg" subtitle_id="pain_skydive1_sub"/>
+		<sound id="pain_skydive2" path="pain/skydive2.ogg" subtitle_id="pain_skydive2_sub"/>
+		<sound id="pain_skydive3" path="pain/skydive3.ogg" subtitle_id="pain_skydive3_sub"/>
+		<sound id="pain_skydive4" path="pain/skydive4.ogg" subtitle_id="pain_skydive4_sub"/>
+		<sound id="pain_skydive5" path="pain/skydive5.ogg" subtitle_id="pain_skydive5_sub"/>
 	</Sounds>
 	<WeaponSkin desc="bm_wskn_universalspain_desc" id="universalspain" name="bm_wskn_universalspain" rarity="epic" skin_folder="assets/weapon_skin/skins/universalspain" universal="true" weapon_id="flint"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Pain" name_id="contract_pain" package="packages/contact_bain"/>
