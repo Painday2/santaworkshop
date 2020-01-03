@@ -212,8 +212,8 @@
 		<object force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" unload="true"/>
 		<unit force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" unload="true"/>
 	</add>
-	<unit path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
-	<unit path="units/mainman/characters/civ_santa/civ_santa_husk" unload="true"/>
+	<unit path="units/mainman/characters/civ_santa/civ_santa" load="true" unload="true"/>
+	<unit path="units/mainman/characters/civ_santa/civ_santa_husk" load="true" unload="true"/>
 	<material_config path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
 	<model path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
 	<object path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
@@ -362,29 +362,29 @@
 	<material_config path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1_contour" unload="true"/>
 	<model path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
 	<object path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
-	<unit path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
-	<unit path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1_husk" unload="true"/>
+	<unit path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" load="true" unload="true"/>
+	<unit path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1_husk" load="true" unload="true"/>
 	<cooked_physics path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
 	<material_config path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
 	<material_config path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2_contour" unload="true"/>
 	<model path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
 	<object path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
-	<unit path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" unload="true"/>
-	<unit path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2_husk" unload="true"/>
+	<unit path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2" load="true" unload="true"/>
+	<unit path="units/zdann/characters/civ_male_helper_2/civ_male_helper_2_husk" load="true" unload="true"/>
 	<cooked_physics path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
 	<material_config path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
 	<material_config path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3_contour" unload="true"/>
 	<model path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
 	<object path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
-	<unit path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" unload="true"/>
-	<unit path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3_husk" unload="true"/>
+	<unit path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3" load="true" unload="true"/>
+	<unit path="units/zdann/characters/civ_male_helper_3/civ_male_helper_3_husk" load="true" unload="true"/>
 	<cooked_physics path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
 	<material_config path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
 	<material_config path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4_contour" unload="true"/>
 	<model path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
 	<object path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
-	<unit path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" unload="true"/>
-	<unit path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4_husk" unload="true"/>
+	<unit path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4" load="true" unload="true"/>
+	<unit path="units/zdann/characters/civ_male_helper_4/civ_male_helper_4_husk" load="true" unload="true"/>
 	<add path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_medium" type="unit">
 		<font force="true" path="fonts/font_digital" unload="true"/>
 		<material_config force="true" path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_small" unload="true"/>
@@ -412,8 +412,8 @@
 	<object force="true" path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
 	<unit force="true" path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map" unload="true"/>
 	<texture force="true" path="units/pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map_df" unload="true"/>
-	<unit path="units/mainman/characters/ene_gb/ene_gb" unload="true"/>
-	<unit path="units/mainman/characters/ene_gb/ene_gb_husk" unload="true"/>
+	<unit path="units/mainman/characters/ene_gb/ene_gb" load="true" unload="true"/>
+	<unit path="units/mainman/characters/ene_gb/ene_gb_husk" load="true" unload="true"/>
 	<cooked_physics path="units/mainman/characters/ene_gb/ene_gb" unload="true"/>
 	<material_config path="units/mainman/characters/ene_gb/ene_gb" unload="true"/>
 	<model path="units/mainman/characters/ene_gb/ene_gb" unload="true"/>
