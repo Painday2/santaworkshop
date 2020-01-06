@@ -213,10 +213,17 @@
 		<unit force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_ceiling_tile_white_4x4m" unload="true"/>
 	</add>
 	<unit path="units/mainman/characters/civ_santa/civ_santa" load="true" unload="true"/>
-	<unit path="units/mainman/characters/civ_santa/civ_santa_husk" load="true" unload="true"/>
+	<unit path="units/mainman/characters/civ_santa/civ_santa_husk"  load="true" unload="true"/>
 	<material_config path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
 	<model path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
 	<object path="units/mainman/characters/civ_santa/civ_santa" unload="true"/>
+	
+	<unit path="units/mainman/characters/escort_santa/escort_santa" load="true" unload="true"/>
+    <unit path="units/mainman/characters/escort_santa/escort_santa_husk" load="true" unload="true"/>
+    <material_config path="units/mainman/characters/escort_santa/escort_santa" unload="true"/>
+    <model path="units/mainman/characters/escort_santa/escort_santa" unload="true"/>
+    <object path="units/mainman/characters/escort_santa/escort_santa" unload="true"/>
+	
 	<texture path="units/mainman/characters/santa_texture/beard_df" unload="true"/>
 	<texture path="units/mainman/characters/santa_texture/beard_nm" unload="true"/>
 	<texture path="units/mainman/characters/santa_texture/beard_op" unload="true"/>
@@ -356,7 +363,7 @@
 		<sequence_manager force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
 		<unit force="true" path="units/payday2/equipment/gen_interactable_zipline/gen_interactable_zipline_mount_ground" unload="true"/>
 	</add>
-	<sequence_manager path="units/zdann/characters/ragdoll" unload="true"/>
+	<sequence_manager path="units/zdann/characters/ragdoll" load="true" unload="true"/>
 	<cooked_physics path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
 	<material_config path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1" unload="true"/>
 	<material_config path="units/zdann/characters/civ_male_helper_1/civ_male_helper_1_contour" unload="true"/>

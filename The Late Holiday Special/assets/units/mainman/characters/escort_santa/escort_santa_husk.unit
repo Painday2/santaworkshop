@@ -1,26 +1,26 @@
 <?xml version="1.0"?>
 <unit type="being" slot="21">
-	<anim_state_machine name="anims/units/enemies/cop/cop_machine" />
-	<object file="units/mainman/characters/civ_santa/civ_santa" />
+	<anim_state_machine name="anims/units/escort_guy/escort_undercover_machine" />
+	<object file="units/mainman/characters/escort_santa/escort_santa" />
 
 	<dependencies>
-
+		
 	</dependencies>
 
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
-		<extension name="base" class="CivilianBase" >
-			<var name="_tweak_table" value="civilian" />
-			<var name="unintimidateable" value="true" />
+		<extension name="base" class="HuskCivilianBase" >
+			<var name="_tweak_table" value="escort_undercover" />
+			<var name="_spawn_state" value="escort_undercover/spawn/loop" />
 		</extension>
-		<extension name="inventory" class="CopInventory" />
-		<extension name="brain" class="CivilianBrain" />
+		<extension name="inventory" class="HuskCopInventory" />
+		<extension name="brain" class="HuskCivilianBrain" />
 		<extension name="anim_data" class="PlayerAnimationData" />
-		<extension name="character_damage" class="CivilianDamage" >
+		<extension name="character_damage" class="HuskCivilianDamage" >
 			<var name="immortal" value="true" />
 			<var name="_no_blood" value="true" />
 		</extension>
-		<extension name="movement" class="CopMovement" >
+		<extension name="movement" class="HuskCopMovement" >
 			<var name="_footwear" value="hardsole" />
 		</extension>
 		<extension name="interaction" class="IntimitateInteractionExt" >
@@ -34,9 +34,9 @@
 		<extension name="sound" class="CopSound" />
 	</extensions>
 
-	<network sync="spawn" remote_unit="units/mainman/characters/civ_santa/civ_santa_husk"/>
+  <network sync="husk" remote_unit=""/>
 
-	<sounds>
+  <sounds>
 		<default_soundsource source="Hips"/>
-	</sounds>
+  </sounds>
 </unit>
