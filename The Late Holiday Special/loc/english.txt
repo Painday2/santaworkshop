@@ -18,6 +18,8 @@ That'll show that dumb fuck Santa for trying to ruin my Christmas.
 	"hud_int_take_bike" : "Hold $BTN_INTERACT to grab Pain's Bike",
 	"hud_action_taking_bike" : "Grabbing Pain's Bike...",
 	
+	"spain_nvg" : "Hold firemode button to turn on Night Vision Goggles",
+	
 	"hud_int_scan_files" : "Hold $BTN_INTERACT to scan the document",
 	"hud_action_scan_files" : "Scanning Document...",
 	"hud_int_press_open_truck_door" : "Press $BTN_INTERACT to open the truck door",

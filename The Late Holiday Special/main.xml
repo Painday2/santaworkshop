@@ -23,12 +23,13 @@
 			<hook file="CarryTweakData.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="assetstweakdata.lua" source_file="lib/tweak_data/assetstweakdata"/>
 			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="hintmanager.lua" source_file="lib/managers/hintmanager"/>
 		</hooks>
 		<include directory="levels/santa_pain">
-			<file file="nav_manager_data.nav_data" type="binary"/>
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>
 			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
 			<file file="world_sounds.world_sounds" type="binary"/>
 			<file file="world_cameras.world_cameras" type="binary"/>
 			<file file="whitebox/whitebox.continent" type="binary"/>
@@ -145,9 +146,8 @@
 		<outro_event/>
 		<packages>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
-			<value_node value="levels/narratives/locke/tag/art/art"/>
-			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
 			<value_node value="levels/narratives/bain/shadow_raid/editor_only/editor_only"/>
+			<value_node value="levels/narratives/locke/tag/art/art"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
