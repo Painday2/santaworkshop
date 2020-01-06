@@ -12,7 +12,7 @@
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData"/>
 		<extension name="base" class="CivilianBase" >
-			<var name="_tweak_table" value="civilian" />
+			<var name="_tweak_table" value="escort_undercover" />
 		</extension>
 		<extension name="inventory" class="CopInventory" />
 		<extension name="brain" class="CivilianBrain" />

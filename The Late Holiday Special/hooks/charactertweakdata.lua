@@ -122,3 +122,7 @@ Hooks:PostHook(CharacterTweakData, "_init_drug_lord_boss", "tlhs_boss", function
 	self.drug_lord_boss.damage.hurt_severity = presets.hurt_severities.no_hurts
 	self.drug_lord_boss.die_sound_event = "bdz_x02a_any_3p"
 end)
+
+Hooks:PostHook(CharacterTweakData, "_init_escort_undercover", "tlhs_santa_escort", function(self, presets)
+	self.escort_undercover.escort_idle_talk = false
+end)
