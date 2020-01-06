@@ -4,17 +4,17 @@
 	<object file="units/mainman/characters/civ_santa/civ_santa" />
 
 	<dependencies>
-		
+		<depends_on bnk="soundbanks/regular_vox" />
 	</dependencies>
 
 	<extensions>
-		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="unit_data" class="ScriptUnitData"/>
+		
 		<extension name="base" class="HuskCivilianBase" >
 			<var name="_tweak_table" value="civilian" />
-			<var name="unintimidateable" value="true" />
 		</extension>
 		<extension name="inventory" class="HuskCopInventory" />
-		<extension name="brain" class="HuskCivilianBrain" />
+		<extension name="brain" class="HuskCopBrain" />
 		<extension name="anim_data" class="PlayerAnimationData" />
 		<extension name="character_damage" class="HuskCivilianDamage" >
 			<var name="immortal" value="true" />
@@ -30,13 +30,13 @@
 		<extension name="damage" class="UnitDamage" >
 			<var name="_skip_save_anim_state_machine" value="true" />
 		</extension>
-		<extension name="contour" class="ContourExt" />
+		<extension name="contour" class="ContourExt"/>
 		<extension name="sound" class="CopSound" />
 	</extensions>
 
-  <network sync="husk" remote_unit=""/>
+	<network sync="husk" remote_unit=""/>
 
-  <sounds>
+	<sounds>
 		<default_soundsource source="Hips"/>
-  </sounds>
+	</sounds>
 </unit>

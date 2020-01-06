@@ -4,14 +4,15 @@
 	<object file="units/mainman/characters/escort_santa/escort_santa" />
 
 	<dependencies>
-
+		<depends_on animation_state_machine="anims/units/escort_guy/escort_undercover_machine" />
+		<depends_on animation_def="anims/units/escort_guy/escort_undercover_def" />
+		<depends_on bnk="soundbanks/regular_vox" />
 	</dependencies>
 
 	<extensions>
-		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="unit_data" class="ScriptUnitData"/>
 		<extension name="base" class="CivilianBase" >
-			<var name="_tweak_table" value="escort_undercover" />
-			<var name="_spawn_state" value="escort_undercover/spawn/loop" />
+			<var name="_tweak_table" value="civilian" />
 		</extension>
 		<extension name="inventory" class="CopInventory" />
 		<extension name="brain" class="CivilianBrain" />
@@ -30,7 +31,9 @@
 		<extension name="damage" class="UnitDamage" >
 			<var name="_skip_save_anim_state_machine" value="true" />
 		</extension>
-		<extension name="contour" class="ContourExt" />
+		<extension name="contour" class="ContourExt" >
+			<!-- <var name="init_contour" value="taxman" /> -->
+		</extension>
 		<extension name="sound" class="CopSound" />
 	</extensions>
 
