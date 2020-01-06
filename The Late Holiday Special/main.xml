@@ -89,6 +89,7 @@
 			<value_node value="levels/narratives/bain/roberts/world_sounds"/>
 			<value_node value="levels/instances/unique/bph/bph_cell_keypad/world/world"/>
 			<value_node value="levels/instances/unique/crojob/random_loot/world/world"/>
+			<value_node value="packages/narr_man"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

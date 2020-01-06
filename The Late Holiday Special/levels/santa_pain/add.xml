@@ -439,8 +439,5 @@
 		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
 	</add>
 	
-	<animation_states force="true" path="anims/units/escort_guy/escort_undercover" unload="true"/>
 	<animation_subset force="true" path="anims/units/escort_guy/escort_undercover" unload="true"/>
-	<animation_def force="true" path="anims/units/escort_guy/escort_undercover_def" unload="true"/>
-	<animation_state_machine force="true" path="anims/units/escort_guy/escort_undercover_machine" unload="true"/>
 </table>
