@@ -34,7 +34,7 @@ That'll show that dumb fuck Santa for trying to ruin my Christmas.
 	"pain_zipline_name" : "Bag Zipline",
 	"pain_zipline_desc" : "A zipline to help move bags to the escape zone.",
 	"pain_chimichanga_name" : "Chimichanga",
-	"pain_chimichanga_desc" : "For if anyone gets a little hungry.",
+	"pain_chimichanga_desc" : "A cold Chimichanga for if anyone gets hungry. Don't forget to heat it up.",
 	"pain_radio_name" : "Radio assistance",
 	"pain_radio_desc" : "Cocke has sent in a radio for you to get some assistance with one of the objectives.",
 	

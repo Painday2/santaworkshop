@@ -102,4 +102,82 @@ Hooks:PostHook(InteractionTweakData, "init", "pain3_interactions", function(self
 		text_id = "hud_int_hold_answer_clause",
 		start_active = false
 	}
+	
+	self.cas_button_01 = {
+		text_id = "hud_int_press_01",
+		start_active = false,
+        sound_done = "button_push",
+		interact_distance = 50
+	}
+	self.cas_button_02 = {
+		text_id = "hud_int_press_02",
+		start_active = false,
+        sound_done = "button_push",
+		interact_distance = 50
+	}
+	self.cas_button_03 = {
+		text_id = "hud_int_press_03",
+		start_active = false,
+        sound_done = "button_push",
+		interact_distance = 50
+	}
+	self.cas_button_04 = {
+		text_id = "hud_int_press_04",
+		start_active = false,
+        sound_done = "button_push",
+		interact_distance = 50
+	}
+	self.cas_button_05 = {
+		text_id = "hud_int_press_05",
+		start_active = false,
+        sound_done = "button_push",
+		interact_distance = 50
+	}
+	self.cas_button_06 = {
+		text_id = "hud_int_press_06",
+		start_active = false,
+        sound_done = "button_push",
+		interact_distance = 50
+	}
+	self.cas_button_07 = {
+		text_id = "hud_int_press_07",
+		start_active = false,
+        sound_done = "button_push",
+		interact_distance = 50
+	}
+	self.cas_button_08 = {
+		text_id = "hud_int_press_08",
+		start_active = false,
+        sound_done = "button_push",
+		interact_distance = 50
+	}
+	self.cas_button_09 = {
+		text_id = "hud_int_press_09",
+		start_active = false,
+        sound_done = "button_push",
+		interact_distance = 50
+	}
+	self.cas_button_0 = {
+		text_id = "hud_int_press_0",
+		start_active = false,
+        sound_done = "button_push",
+		interact_distance = 50
+	}
+	self.cas_button_clear = {
+		text_id = "hud_int_press_clear",
+		start_active = false,
+        sound_done = "bar_scan_hand_finished",
+		interact_distance = 50
+	}
+	self.cas_button_enter = {
+		text_id = "hud_int_press_enter",
+		start_active = false,
+        sound_done = "bar_scan_hand_finished",
+		interact_distance = 50
+	}
+	self.push_button = {
+		text_id = "hud_int_push_button",
+		sound_done = "button_push",
+		axis = "z"
+	}
 end)

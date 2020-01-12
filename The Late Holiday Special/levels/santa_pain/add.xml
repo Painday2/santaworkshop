@@ -431,13 +431,22 @@
 	<texture path="units/mainman/characters/ene_gb/npc_enemy_gb_body_df" unload="true"/>
 	<texture path="units/mainman/characters/ene_gb/npc_enemy_gb_body_nm" unload="true"/>
 	<add path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" type="unit">
-		<unit force="true" path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
-		<object force="true" path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
-		<material_config force="true" path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
-		<sequence_manager force="true" path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
 		<gui force="true" path="guis/timer_gui" unload="true"/>
+		<material_config force="true" path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+		<object force="true" path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+		<unit force="true" path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+	</add>
+	<add path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" type="unit">
+		<unit force="true" path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" unload="true"/>
+		<object force="true" path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" unload="true"/>
+		<material_config force="true" path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" unload="true"/>
 		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
 	</add>
-	
+	<animation_def force="true" path="anims/units/escort_guy/escort_undercover_def" unload="true"/>
+	<animation_state_machine force="true" path="anims/units/escort_guy/escort_undercover_machine" unload="true"/>
+	<animation_states force="true" path="anims/units/escort_guy/escort_undercover" unload="true"/>
 	<animation_subset force="true" path="anims/units/escort_guy/escort_undercover" unload="true"/>
 </table>

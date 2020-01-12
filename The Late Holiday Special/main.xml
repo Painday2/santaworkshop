@@ -225,6 +225,16 @@
 		<sound id="pain_skydive3" path="pain/skydive3.ogg" subtitle_id="pain_skydive3_sub"/>
 		<sound id="pain_skydive4" path="pain/skydive4.ogg" subtitle_id="pain_skydive4_sub"/>
 		<sound id="pain_skydive5" path="pain/skydive5.ogg" subtitle_id="pain_skydive5_sub"/>
+		<sound id="pain_wrong_reindeer1" path="pain/wrong_reindeer1.ogg" subtitle_id="pain_wrong_reindeer1_sub"/>
+		<sound id="pain_blitzen1" path="pain/blitzen1.ogg" subtitle_id="pain_blitzen1_sub"/>
+		<sound id="pain_comet1" path="pain/comet1.ogg" subtitle_id="pain_comet1_sub"/>
+		<sound id="pain_cupid1" path="pain/cupid1.ogg" subtitle_id="pain_cupid1_sub"/>
+		<sound id="pain_dancer1" path="pain/dancer1.ogg" subtitle_id="pain_dancer1_sub"/>
+		<sound id="pain_dasher1" path="pain/dasher1.ogg" subtitle_id="pain_dasher1_sub"/>
+		<sound id="pain_donner1" path="pain/donner1.ogg" subtitle_id="pain_donner1_sub"/>
+		<sound id="pain_prancer1" path="pain/prancer1.ogg" subtitle_id="pain_prancer1_sub"/>
+		<sound id="pain_rudolph1" path="pain/rudolph1.ogg" subtitle_id="pain_rudolph1_sub"/>
+		<sound id="pain_vixen1" path="pain/vixen1.ogg" subtitle_id="pain_vixen1_sub"/>
 	</Sounds>
 	<WeaponSkin desc="bm_wskn_universalspain_desc" id="universalspain" name="bm_wskn_universalspain" rarity="epic" skin_folder="assets/weapon_skin/skins/universalspain" universal="true" weapon_id="flint"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Pain" name_id="contract_pain" package="packages/contact_bain"/>
