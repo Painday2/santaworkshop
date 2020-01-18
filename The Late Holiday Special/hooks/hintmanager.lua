@@ -4,7 +4,7 @@ HintManager.spain = HintManager.init;
 function HintManager:init(...)
 
 	self:spain(...)
-	self:addCustomHint("spain_nvg", "stinger_feedback_positive")
+	self:addCustomHint("spain_nvg", "")
 	
 end
 
