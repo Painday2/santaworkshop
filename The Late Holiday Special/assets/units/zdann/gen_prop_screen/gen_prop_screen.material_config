@@ -1,0 +1,9 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:DIFFUSE_UVANIM:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM:SELF_ILLUMINATION_UVANIM" name="mat_tv_screen" version="2">
+        <diffuse_texture file="units/zdann/gen_prop_screen/list_df"/>
+		<variable value="0 0.03 0" type="vector3" name="uv_speed"/>
+        <self_illumination_texture file="units/zdann/gen_prop_screen/list_il"/>
+        <variable type="scalar" name="il_multiplier" value="streetlight"/>
+        <variable type="scalar" name="il_bloom" value="8.8530004204949"/>
+    </material>
+</materials>

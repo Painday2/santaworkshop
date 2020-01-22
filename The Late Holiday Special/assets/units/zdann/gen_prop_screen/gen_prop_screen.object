@@ -1,0 +1,18 @@
+<dynamic_object>
+	<diesel materials="units/zdann/gen_prop_screen/gen_prop_screen" orientation_object="rp_vit_prop_peoc_tv" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_vit_prop_peoc_tv" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="glass">
+		<decal_mesh name="dm_glass" enabled="false" material="glass" />
+		<decal_mesh name="dm_metal" enabled="false" material="metal" />
+		<decal_mesh name="dm_plastic" enabled="false" material="plastic" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_g" enabled="false" />
+		<object name="g_tv_screens_bluescreen" enabled="false" />
+		<object name="g_tv_screens_on" enabled="true" />
+	</graphics>
+</dynamic_object>

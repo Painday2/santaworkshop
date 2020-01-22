@@ -1,0 +1,8 @@
+<unit type="vit" slot="1">
+	<network sync="spawn"/>
+	<object file="units/zdann/gen_prop_screen/gen_prop_screen" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>
