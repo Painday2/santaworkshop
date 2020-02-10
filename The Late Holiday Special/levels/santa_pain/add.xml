@@ -462,4 +462,10 @@
     <unit path="units/zdann/gen_prop_screen/gen_prop_screen" unload="true"/>
     <texture path="units/zdann/gen_prop_screen/list_il" unload="true"/>
     <texture path="units/zdann/gen_prop_screen/list_df" unload="true"/>
+	<material_config path="units/pd2_mod_craft/props/chest"/>
+	<model path="units/pd2_mod_craft/props/chest"/>
+	<object path="units/pd2_mod_craft/props/chest"/>
+	<sequence_manager path="units/pd2_mod_craft/props/chest"/>
+	<unit path="units/pd2_mod_craft/props/chest"/>
+	<texture path="units/pd2_mod_craft/props/chest"/>
 </table>
