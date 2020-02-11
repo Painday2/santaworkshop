@@ -347,6 +347,8 @@
 		<sound id="pain_kuziz2" path="pain/kuziz2.ogg" subtitle_id="pain_kuziz2_sub"/>
 		<sound id="pain_matt1" path="pain/matt1.ogg" subtitle_id="pain_matt1_sub"/>
 		<sound id="pain_matt2" path="pain/matt2.ogg" subtitle_id="pain_matt2_sub"/>
+		<sound id="pain_vyse1" path="pain/vyse1.ogg" subtitle_id="pain_vyse1_sub"/>
+		<sound id="pain_den1" path="pain/den1.ogg" subtitle_id="pain_den1_sub"/>
 		<sound id="pain_palmtop1" path="pain/palmtop1.ogg" subtitle_id="pain_palmtop1_sub"/>
 		<sound id="pain_palmtop2" path="pain/palmtop2.ogg" subtitle_id="pain_palmtop2_sub"/>
 		<sound id="pain_senpai1" path="pain/senpai1.ogg" subtitle_id="pain_senpai1_sub"/>
