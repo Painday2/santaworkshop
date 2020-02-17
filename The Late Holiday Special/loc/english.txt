@@ -102,7 +102,7 @@ That'll show that dumb fuck Santa for trying to ruin my Christmas.
 	"p_santa_truck_objective" : "Have pain yell at you for doing nothing.",
 	"p_santa_secret_name" : "Lump of Coal",
 	"p_santa_secret_desc" : "",
-	"p_santa_secret_objective" : "",
+	"p_santa_secret_objective" : "apolgy for bad english\n\nwhen were u when pain dies\n\ni was sat at home hiestin when cocke ring \n\n'Pain is kil'\n\n'no'\n\n and you?",
 	"p_santa_kill_name" : "Happy Holidays Painsters",
 	"p_santa_kill_desc" : "",
 	"p_santa_kill_objective" : "Kill 1225 enemies as a team in a single round.",

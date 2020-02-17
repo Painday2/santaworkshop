@@ -364,6 +364,27 @@
 		<sound id="pain_pain_file3" path="pain/pain_file3.ogg" subtitle_id="pain_pain_file3_sub"/>
 		<sound id="pain_chimichanga" path="pain/chimichanga.ogg" subtitle_id="pain_chimichanga_sub"/>
 		<sound id="pain_society" path="pain/society.ogg" subtitle_id="pain_society_sub"/>
+		<sound id="pain_s_gb" path="pain/s_gb.ogg" subtitle_id="pain_s_gb_sub"/>
+		<sound id="pain_s_grab_key" path="pain/s_grab_key.ogg" subtitle_id="pain_s_grab_key_sub"/>
+		<sound id="pain_s_drill_done" path="pain/s_drill_done.ogg" subtitle_id="pain_s_drill_done_sub"/>
+		<sound id="pain_s_see_bo" path="pain/s_see_bo.ogg" subtitle_id="pain_s_see_bo_sub"/>
+		<sound id="pain_s_crowbar_hatch" path="pain/s_crowbar_hatch.ogg" subtitle_id="pain_s_crowbar_hatch_sub"/>
+		<sound id="pain_s_done_trivia" path="pain/s_done_trivia.ogg" subtitle_id="pain_s_done_trivia_sub"/>
+		<sound id="pain_s_grab_crowbar" path="pain/s_grab_crowbar.ogg" subtitle_id="pain_s_grab_crowbar_sub"/>
+		<sound id="pain_s_start_trivia" path="pain/s_start_trivia.ogg" subtitle_id="pain_s_start_trivia_sub"/>
+		<sound id="pain_s_q2" path="pain/s_q2.ogg" subtitle_id="pain_s_q2_sub"/>
+		<sound id="pain_s_drill_start" path="pain/s_drill_start.ogg" subtitle_id="pain_s_drill_start_sub"/>
+		<sound id="pain_s_q3" path="pain/s_q3.ogg" subtitle_id="pain_s_q3_sub"/>
+		<sound id="pain_s_blueprint" path="pain/s_blueprint.ogg" subtitle_id="pain_s_blueprint_sub"/>
+		<sound id="pain_s_in_room" path="pain/s_in_room.ogg" subtitle_id="pain_s_in_room_sub"/>
+		<sound id="pain_s_drill_see" path="pain/s_drill_see.ogg" subtitle_id="pain_s_drill_see_sub"/>
+		<sound id="pain_s_vault" path="pain/s_vault.ogg" subtitle_id="pain_s_vault_sub"/>
+		<sound id="pain_s_q1" path="pain/s_q1.ogg" subtitle_id="pain_s_q1_sub"/>
+		<sound id="pain_s_end_convo" path="pain/s_end_convo.ogg" subtitle_id="pain_s_end_convo_sub"/>
+		<sound id="pain_s_wrong_c4" path="pain/s_wrong_c4.ogg" subtitle_id="pain_s_wrong_c4_sub"/>
+		<sound id="pain_s_start_convo" path="pain/s_start_convo.ogg" subtitle_id="pain_s_start_convo_sub"/>
+		<sound id="pain_s_continue" path="pain/s_continue.ogg" subtitle_id="pain_s_continue_sub"/>
+		<sound id="pain_s_see_crowbar" path="pain/s_see_crowbar.ogg" subtitle_id="pain_s_see_crowbar_sub"/>
 		<sound id="pain_s_escape_beatdown" path="pain/s_escape_beatdown.ogg" subtitle_id="pain_s_escape_beatdown_sub"/>
 	</Sounds>
 	<WeaponSkin desc="bm_wskn_universalspain_desc" id="universalspain" name="bm_wskn_universalspain" rarity="epic" skin_folder="assets/weapon_skin/skins/universalspain" universal="true" weapon_id="flint"/>
