@@ -330,8 +330,6 @@
 		<sound id="pain_bike_built1" path="pain/bike_built1.ogg" subtitle_id="pain_bike_built1_sub"/>
 		<sound id="pain_bike_built2" path="pain/bike_built2.ogg" subtitle_id="pain_bike_built2_sub"/>
 		<sound id="pain_bike_built3" path="pain/bike_built3.ogg" subtitle_id="pain_bike_built3_sub"/>
-		<sound id="pain_beat_santa1" path="pain/beat_santa1.ogg" subtitle_id="pain_beat_santa1_sub"/>
-		<sound id="pain_beat_santa2" path="pain/beat_santa2.ogg" subtitle_id="pain_beat_santa2_sub"/>
 		<sound id="pain_library_open1" path="pain/library_open1.ogg" subtitle_id="pain_library_open1_sub"/>
 		<sound id="pain_library_open2" path="pain/library_open2.ogg" subtitle_id="pain_library_open2_sub"/>
 		<sound id="pain_library_open3" path="pain/library_open3.ogg" subtitle_id="pain_library_open3_sub"/>
@@ -362,6 +360,33 @@
 		<sound id="pain_pain_file1" path="pain/pain_file1.ogg" subtitle_id="pain_pain_file1_sub"/>
 		<sound id="pain_pain_file2" path="pain/pain_file2.ogg" subtitle_id="pain_pain_file2_sub"/>
 		<sound id="pain_pain_file3" path="pain/pain_file3.ogg" subtitle_id="pain_pain_file3_sub"/>
+		<sound id="pain_beat_santa1" path="pain/beat_santa1.ogg" subtitle_id="pain_beat_santa1_sub"/>
+		<sound id="pain_beat_santa2" path="pain/beat_santa2.ogg" subtitle_id="pain_beat_santa2_sub"/>
+		<sound id="pain_sec_convo1" path="pain/sec_convo1.ogg" subtitle_id="pain_sec_convo1_sub"/>
+		<sound id="pain_sec_convo2" path="pain/sec_convo2.ogg" subtitle_id="pain_sec_convo2_sub"/>
+		<sound id="pain_sec_convo3" path="pain/sec_convo3.ogg" subtitle_id="pain_sec_convo3_sub"/>
+		<sound id="pain_sec_convo4" path="pain/sec_convo4.ogg" subtitle_id="pain_sec_convo4_sub"/>
+		<sound id="pain_sec_convo5" path="pain/sec_convo5.ogg" subtitle_id="pain_sec_convo5_sub"/>
+		<sound id="pain_threaten_santa1" path="pain/threaten_santa1.ogg" subtitle_id="pain_threaten_santa1_sub"/>
+		<sound id="pain_threaten_santa2" path="pain/threaten_santa2.ogg" subtitle_id="pain_threaten_santa2_sub"/>
+		<sound id="pain_threaten_santa3" path="pain/threaten_santa3.ogg" subtitle_id="pain_threaten_santa3_sub"/>
+		<sound id="pain_threaten_santa4" path="pain/threaten_santa4.ogg" subtitle_id="pain_threaten_santa4_sub"/>
+		<sound id="pain_get_inside_vault1" path="pain/get_inside_vault1.ogg" subtitle_id="pain_get_inside_vault1_sub"/>
+		<sound id="pain_get_inside_vault2" path="pain/get_inside_vault2.ogg" subtitle_id="pain_get_inside_vault2_sub"/>
+		<sound id="pain_get_inside_vault3" path="pain/get_inside_vault3.ogg" subtitle_id="pain_get_inside_vault3_sub"/>
+		<sound id="pain_get_inside_vault4" path="pain/get_inside_vault4.ogg" subtitle_id="pain_get_inside_vault4_sub"/>
+		<sound id="pain_inside_vault1" path="pain/inside_vault1.ogg" subtitle_id="pain_inside_vault1_sub"/>
+		<sound id="pain_inside_vault2" path="pain/inside_vault2.ogg" subtitle_id="pain_inside_vault2_sub"/>
+		<sound id="pain_inside_vault3" path="pain/inside_vault3.ogg" subtitle_id="pain_inside_vault3_sub"/>
+		<sound id="pain_inside_vault4" path="pain/inside_vault4.ogg" subtitle_id="pain_inside_vault4_sub"/>
+		<sound id="pain_grabbed_cookie_bag1" path="pain/grabbed_cookie_bag1.ogg" subtitle_id="pain_grabbed_cookie_bag1_sub"/>
+		<sound id="pain_grabbed_cookie_bag2" path="pain/grabbed_cookie_bag2.ogg" subtitle_id="pain_grabbed_cookie_bag2_sub"/>
+		<sound id="pain_grabbed_cookie_bag3" path="pain/grabbed_cookie_bag3.ogg" subtitle_id="pain_grabbed_cookie_bag3_sub"/>
+		<sound id="pain_grabbed_cookie_bag4" path="pain/grabbed_cookie_bag4.ogg" subtitle_id="pain_grabbed_cookie_bag4_sub"/>
+		<sound id="pain_grabbed_cookie_bag5" path="pain/grabbed_cookie_bag5.ogg" subtitle_id="pain_grabbed_cookie_bag5_sub"/>
+		<sound id="pain_head_to_switch1" path="pain/head_to_switch1.ogg" subtitle_id="pain_head_to_switch1_sub"/>
+		<sound id="pain_head_to_switch2" path="pain/head_to_switch2.ogg" subtitle_id="pain_head_to_switch2_sub"/>
+		<sound id="pain_head_to_switch3" path="pain/head_to_switch3.ogg" subtitle_id="pain_head_to_switch3_sub"/>
 		<sound id="pain_chimichanga" path="pain/chimichanga.ogg" subtitle_id="pain_chimichanga_sub"/>
 		<sound id="pain_society" path="pain/society.ogg" subtitle_id="pain_society_sub"/>
 		<sound id="pain_s_gb" path="pain/s_gb.ogg" subtitle_id="pain_s_gb_sub"/>
