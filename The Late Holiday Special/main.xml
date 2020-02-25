@@ -100,17 +100,17 @@
 	<level ai_group_type="america" id="instance_snowmen">
 		<add file="levels/instance_snowmen/add.xml"/>
 		<include directory="levels/instance_snowmen">
-			<file file="world.world" type="generic_xml"/>
-			<file file="continents.continents" type="custom_xml"/>
-			<file file="mission.mission" type="custom_xml"/>
-			<file file="nav_manager_data.nav_data" type="generic_xml"/>
-			<file file="world_sounds.world_sounds" type="generic_xml"/>
-			<file file="world_cameras.world_cameras" type="custom_xml"/>
-			<file file="editor_only/editor_only.continent" type="custom_xml"/>
-			<file file="editor_only/editor_only.mission" type="generic_xml"/>
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
-			<file file="cover_data.cover_data" type="custom_xml"/>
+			<file file="world.world" type="binary"/>
+			<file file="continents.continents" type="binary"/>
+			<file file="mission.mission" type="binary"/>
+			<file file="nav_manager_data.nav_data" type="binary"/>
+			<file file="world_sounds.world_sounds" type="binary"/>
+			<file file="world_cameras.world_cameras" type="binary"/>
+			<file file="editor_only/editor_only.continent" type="binary"/>
+			<file file="editor_only/editor_only.mission" type="binary"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
+			<file file="cover_data.cover_data" type="binary"/>
 			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
 		<packages>
@@ -316,6 +316,10 @@
 		<sound id="pain_bike_spawn1" path="pain/bike_spawn1.ogg" subtitle_id="pain_bike_spawn1_sub"/>
 		<sound id="pain_bike_spawn2" path="pain/bike_spawn2.ogg" subtitle_id="pain_bike_spawn2_sub"/>
 		<sound id="pain_bike_spawn3" path="pain/bike_spawn3.ogg" subtitle_id="pain_bike_spawn3_sub"/>
+		<sound id="pain_dial_60s1" path="pain/dial_60s1.ogg" subtitle_id="pain_dial_60s1_sub"/>
+		<sound id="pain_dial_60s2" path="pain/dial_60s2.ogg" subtitle_id="pain_dial_60s2_sub"/>
+		<sound id="pain_dial_60s3" path="pain/dial_60s3.ogg" subtitle_id="pain_dial_60s3_sub"/>
+		<sound id="pain_dial_drop" path="pain/dial_drop.ogg" subtitle_id="pain_dial_drop_sub"/>
 		<sound id="pain_bike_table1" path="pain/bike_table1.ogg" subtitle_id="pain_bike_table1_sub"/>
 		<sound id="pain_assemble_bike1" path="pain/assemble_bike1.ogg" subtitle_id="pain_assemble_bike1_sub"/>
 		<sound id="pain_assemble_bike2" path="pain/assemble_bike2.ogg" subtitle_id="pain_assemble_bike2_sub"/>
@@ -362,6 +366,8 @@
 		<sound id="pain_pain_file3" path="pain/pain_file3.ogg" subtitle_id="pain_pain_file3_sub"/>
 		<sound id="pain_beat_santa1" path="pain/beat_santa1.ogg" subtitle_id="pain_beat_santa1_sub"/>
 		<sound id="pain_beat_santa2" path="pain/beat_santa2.ogg" subtitle_id="pain_beat_santa2_sub"/>
+		<sound id="pain_call_mrs1" path="pain/call_mrs1.ogg" subtitle_id="pain_call_mrs1_sub"/>
+		<sound id="pain_call_mrs2" path="pain/call_mrs2.ogg" subtitle_id="pain_call_mrs2_sub"/>
 		<sound id="pain_sec_convo1" path="pain/sec_convo1.ogg" subtitle_id="pain_sec_convo1_sub"/>
 		<sound id="pain_sec_convo2" path="pain/sec_convo2.ogg" subtitle_id="pain_sec_convo2_sub"/>
 		<sound id="pain_sec_convo3" path="pain/sec_convo3.ogg" subtitle_id="pain_sec_convo3_sub"/>
@@ -388,6 +394,7 @@
 		<sound id="pain_head_to_switch2" path="pain/head_to_switch2.ogg" subtitle_id="pain_head_to_switch2_sub"/>
 		<sound id="pain_head_to_switch3" path="pain/head_to_switch3.ogg" subtitle_id="pain_head_to_switch3_sub"/>
 		<sound id="pain_chimichanga" path="pain/chimichanga.ogg" subtitle_id="pain_chimichanga_sub"/>
+		<sound id="pain_robo_mrs" path="pain/robo_mrs.ogg" subtitle_id="pain_robo_mrs_sub"/>
 		<sound id="pain_society" path="pain/society.ogg" subtitle_id="pain_society_sub"/>
 		<sound id="pain_s_gb" path="pain/s_gb.ogg" subtitle_id="pain_s_gb_sub"/>
 		<sound id="pain_s_grab_key" path="pain/s_grab_key.ogg" subtitle_id="pain_s_grab_key_sub"/>
