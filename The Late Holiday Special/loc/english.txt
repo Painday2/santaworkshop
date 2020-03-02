@@ -1,4 +1,6 @@
 {
+	"contract_pain" : "Pain",
+	"contract_pain_desc" : "While Bain is away, the pain comes out to play.",
 	"heist_The Late Holiday Special_name" : "The Late Holiday Special",
 	"heist_The Late Holiday Special_brief" : "",
 	"heist_santa_pain_name" : "The North Pole",
@@ -99,7 +101,7 @@ That'll show that dumb fuck Santa for trying to ruin my Christmas.
 	"p_santa_rein_objective" : "Don't get the wrong reindeer once.",
 	"p_santa_truck_name" : "I'm not ready!",
 	"p_santa_truck_desc" : "",
-	"p_santa_truck_objective" : "Have pain yell at you for doing nothing.",
+	"p_santa_truck_objective" : "Have Pain yell at you for doing nothing.",
 	"p_santa_secret_name" : "Lump of Coal",
 	"p_santa_secret_desc" : "",
 	"p_santa_secret_objective" : "apolgy for bad english\n\nwhen were u when pain dies\n\ni was sat at home hiestin when cocke ring \n\n'Pain is kil'\n\n'no'\n\n and you?",
@@ -111,7 +113,7 @@ That'll show that dumb fuck Santa for trying to ruin my Christmas.
 	"p_santa_ds_objective" : "Complete the heist on Death Sentence.",
 	"p_santa_all_name" : "Full Stocking",
 	"p_santa_all_desc" : "",
-	"p_santa_all_objective" : "Secure all of the bags on Overkill and above."
+	"p_santa_all_objective" : "Secure all of the cookies on Overkill and above."
 	"p_santa_speed_name" : "5:35",
 	"p_santa_speed_desc" : "",
 	"p_santa_speed_objective" : "Open Santa's office in 5:35.",

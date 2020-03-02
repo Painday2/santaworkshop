@@ -159,8 +159,8 @@
 	<instance id="instance_snowman">
 		<add file="levels/instance_snowmen/add.xml"/>
 		<include directory="levels/instance_snowmen">
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
 		</include>
 		<packages/>
 		<script_data_mods/>
