@@ -234,6 +234,9 @@
 		<sound id="pain_blow_fuse2" path="pain/blow_fuse2.ogg" subtitle_id="pain_blow_fuse2_sub"/>
 		<sound id="pain_blow_fuse3" path="pain/blow_fuse3.ogg" subtitle_id="pain_blow_fuse3_sub"/>
 		<sound id="pain_blow_fuse4" path="pain/blow_fuse4.ogg" subtitle_id="pain_blow_fuse4_sub"/>
+		<sound id="pain_blow_fuse_loud1" path="pain/blow_fuse_loud1.ogg" subtitle_id="pain_blow_fuse_loud1_sub"/>
+		<sound id="pain_blow_fuse_loud2" path="pain/blow_fuse_loud2.ogg" subtitle_id="pain_blow_fuse_loud2_sub"/>
+		<sound id="pain_blow_fuse_loud3" path="pain/blow_fuse_loud3.ogg" subtitle_id="pain_blow_fuse_loud3_sub"/>
 		<sound id="pain_fuse_blown1" path="pain/fuse_blown1.ogg" subtitle_id="pain_fuse_blown1_sub"/>
 		<sound id="pain_fuse_blown2" path="pain/fuse_blown2.ogg" subtitle_id="pain_fuse_blown2_sub"/>
 		<sound id="pain_fuse_blown3" path="pain/fuse_blown3.ogg" subtitle_id="pain_fuse_blown3_sub"/>
@@ -393,6 +396,19 @@
 		<sound id="pain_head_to_switch1" path="pain/head_to_switch1.ogg" subtitle_id="pain_head_to_switch1_sub"/>
 		<sound id="pain_head_to_switch2" path="pain/head_to_switch2.ogg" subtitle_id="pain_head_to_switch2_sub"/>
 		<sound id="pain_head_to_switch3" path="pain/head_to_switch3.ogg" subtitle_id="pain_head_to_switch3_sub"/>
+		<sound id="pain_call_switch1" path="pain/call_switch1.ogg" subtitle_id="pain_call_switch1_sub"/>
+		<sound id="pain_call_switch2" path="pain/call_switch2.ogg" subtitle_id="pain_call_switch2_sub"/>
+		<sound id="pain_call_switch3" path="pain/call_switch3.ogg" subtitle_id="pain_call_switch3_sub"/>
+		<sound id="pain_signal_or_more1" path="pain/signal_or_more1.ogg" subtitle_id="pain_signal_or_more1_sub"/>
+		<sound id="pain_signal_or_more2" path="pain/signal_or_more2.ogg" subtitle_id="pain_signal_or_more2_sub"/>
+		<sound id="pain_signal_or_more3" path="pain/signal_or_more3.ogg" subtitle_id="pain_signal_or_more3_sub"/>
+		<sound id="pain_secure_bike1" path="pain/secure_bike1.ogg" subtitle_id="pain_secure_bike1_sub"/>
+		<sound id="pain_secure_bike2" path="pain/secure_bike2.ogg" subtitle_id="pain_secure_bike2_sub"/>
+		<sound id="pain_secure_bike3" path="pain/secure_bike3.ogg" subtitle_id="pain_secure_bike3_sub"/>
+		<sound id="pain_go_escape1" path="pain/go_escape1.ogg" subtitle_id="pain_go_escape1_sub"/>
+		<sound id="pain_go_escape2" path="pain/go_escape2.ogg" subtitle_id="pain_go_escape2_sub"/>
+		<sound id="pain_go_escape3" path="pain/go_escape3.ogg" subtitle_id="pain_go_escape3_sub"/>
+		<sound id="pain_escaped" path="pain/escaped.ogg" subtitle_id="pain_escaped_sub"/>
 		<sound id="pain_chimichanga" path="pain/chimichanga.ogg" subtitle_id="pain_chimichanga_sub"/>
 		<sound id="pain_robo_mrs" path="pain/robo_mrs.ogg" subtitle_id="pain_robo_mrs_sub"/>
 		<sound id="pain_society" path="pain/society.ogg" subtitle_id="pain_society_sub"/>
