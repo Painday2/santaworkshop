@@ -1,0 +1,82 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_tag/props/tag_prop_escape_driver/tag_prop_escape_driver" orientation_object="rp_tag_prop_escape_driver" />
+	<sequence_manager file="units/pd2_dlc_tag/props/tag_prop_escape_driver/tag_prop_escape_driver" />
+	<animations>
+		<animation_group name="anim_driver" enabled="false">
+			<object name="root_point" />
+			<object name="Hips" />
+			<object name="Spine" />
+			<object name="Spine1" />
+			<object name="Spine2" />
+			<object name="Neck" />
+			<object name="Head" />
+
+			<object name="LeftShoulder" />
+			<object name="LeftArm" />
+			<object name="LeftForeArm" />
+			<object name="LeftForeArmRoll" />
+			<object name="LeftHand" />
+			<object name="LeftHandThumb1" />
+			<object name="LeftHandThumb2" />
+			<object name="LeftHandThumb3" />
+			<object name="LeftHandIndex1" />
+			<object name="LeftHandIndex2" />
+			<object name="LeftHandIndex3" />
+			<object name="LeftHandMiddle1" />
+			<object name="LeftHandMiddle2" />
+			<object name="LeftHandMiddle3" />
+			<object name="LeftHandRing1" />
+			<object name="LeftHandRing2" />
+			<object name="LeftHandRing3" />
+			<object name="LeftHandPinky1" />
+			<object name="LeftHandPinky2" />
+			<object name="LeftHandPinky3" />
+			<object name="LeftUpLeg" />
+			<object name="LeftLeg" />
+			<object name="LeftFoot" />
+			<object name="LeftToeBase" />
+
+			<object name="RightShoulder" />
+			<object name="RightArm" />
+			<object name="RightForeArm" />
+			<object name="RightForeArmRoll" />
+			<object name="RightHand" />
+			<object name="RightHandThumb1" />
+			<object name="RightHandThumb2" />
+			<object name="RightHandThumb3" />
+			<object name="RightHandIndex1" />
+			<object name="RightHandIndex2" />
+			<object name="RightHandIndex3" />
+			<object name="RightHandMiddle1" />
+			<object name="RightHandMiddle2" />
+			<object name="RightHandMiddle3" />
+			<object name="RightHandRing1" />
+			<object name="RightHandRing2" />
+			<object name="RightHandRing3" />
+			<object name="RightHandPinky1" />
+			<object name="RightHandPinky2" />
+			<object name="RightHandPinky3" />
+			<object name="RightUpLeg" />
+			<object name="RightLeg" />
+			<object name="RightFoot" />
+			<object name="RightToeBase" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_collision_01" enabled="true" template="static">
+			<object name="Head" />
+			<object name="c_sphere_head" collision_type="sphere" padding="-2.5" />
+		</body>
+		<body name="body_collision_02" enabled="true" template="static">
+			<object name="Spine1" />
+			<object name="c_capsule_body" collision_type="capsule" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<graphic_group name="grp_driver" enabled="true" culling_object="co_box">
+			<object name="g_body" enabled="true" />
+			<object name="g_hand" enabled="true" />
+			<object name="g_head" enabled="true" />
+		</graphic_group>
+	</graphics>
+</dynamic_object>

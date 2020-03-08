@@ -1,0 +1,14 @@
+<materials version="3" group="anim_vehicle_van_player">
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" name="mtr_head" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/merit_head_nm"/>
+        <diffuse_texture file="units/payday2/characters/shared_textures/merit_head_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" name="mtr_suite_body" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/suite_driver_body_nm" mip="1"/>
+        <diffuse_texture file="units/payday2/characters/shared_textures/suite_driver_body_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_3WEIGHTS" name="mtr_hands" version="2">
+        <bump_normal_texture file="units/payday2/characters/shared_textures/driver_gloves_nm"/>
+        <diffuse_texture file="units/payday2/characters/shared_textures/driver_gloves_df"/>
+    </material>
+</materials>

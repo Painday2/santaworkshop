@@ -444,28 +444,33 @@
 		<unit force="true" path="units/payday2/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" unload="true"/>
 	</add>
 	<add path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" type="unit">
-		<unit force="true" path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" unload="true"/>
-		<object force="true" path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" unload="true"/>
-		<material_config force="true" path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" unload="true"/>
-		<sequence_manager force="true" path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" unload="true"/>
 		<bnk force="true" path="soundbanks/regular_sfx" unload="true"/>
+		<material_config force="true" path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" unload="true"/>
+		<object force="true" path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" unload="true"/>
+		<sequence_manager force="true" path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" unload="true"/>
+		<unit force="true" path="units/payday2/props/bnk_prop_vault_door_medium/bnk_prop_vault_door_medium" unload="true"/>
 	</add>
-	<animation_def force="true" path="anims/units/escort_guy/escort_undercover_def" unload="true"/>
-	<animation_state_machine force="true" path="anims/units/escort_guy/escort_undercover_machine" unload="true"/>
-	<animation_states force="true" path="anims/units/escort_guy/escort_undercover" unload="true"/>
-	<animation_subset force="true" path="anims/units/escort_guy/escort_undercover" unload="true"/>
-	
 	<cooked_physics path="units/zdann/gen_prop_screen/gen_prop_screen" unload="true"/>
-    <material_config path="units/zdann/gen_prop_screen/gen_prop_screen" unload="true"/>
-    <model path="units/zdann/gen_prop_screen/gen_prop_screen" unload="true"/>
-    <object path="units/zdann/gen_prop_screen/gen_prop_screen" unload="true"/>
-    <unit path="units/zdann/gen_prop_screen/gen_prop_screen" unload="true"/>
-    <texture path="units/zdann/gen_prop_screen/list_il" unload="true"/>
-    <texture path="units/zdann/gen_prop_screen/list_df" unload="true"/>
+	<material_config path="units/zdann/gen_prop_screen/gen_prop_screen" unload="true"/>
+	<model path="units/zdann/gen_prop_screen/gen_prop_screen" unload="true"/>
+	<object path="units/zdann/gen_prop_screen/gen_prop_screen" unload="true"/>
+	<unit path="units/zdann/gen_prop_screen/gen_prop_screen" unload="true"/>
+	<texture path="units/zdann/gen_prop_screen/list_il" unload="true"/>
+	<texture path="units/zdann/gen_prop_screen/list_df" unload="true"/>
 	<material_config path="units/pd2_mod_craft/props/chest"/>
 	<model path="units/pd2_mod_craft/props/chest"/>
 	<object path="units/pd2_mod_craft/props/chest"/>
 	<sequence_manager path="units/pd2_mod_craft/props/chest"/>
 	<unit path="units/pd2_mod_craft/props/chest"/>
 	<texture path="units/pd2_mod_craft/props/chest"/>
+	<add path="units/pd2_dlc_tag/props/tag_prop_escape_driver/tag_prop_escape_driver" type="unit">
+		<material_config path="units/pd2_dlc_tag/props/tag_prop_escape_driver/tag_prop_escape_driver" unload="true"/>
+		<object path="units/pd2_dlc_tag/props/tag_prop_escape_driver/tag_prop_escape_driver" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_tag/props/tag_prop_escape_driver/tag_prop_escape_driver" unload="true"/>
+		<unit path="units/pd2_dlc_tag/props/tag_prop_escape_driver/tag_prop_escape_driver" unload="true"/>
+	</add>
+	<animation_def force="true" path="anims/units/escort_guy/escort_undercover_def" unload="true"/>
+	<animation_state_machine force="true" path="anims/units/escort_guy/escort_undercover_machine" unload="true"/>
+	<animation_states force="true" path="anims/units/escort_guy/escort_undercover" unload="true"/>
+	<animation_subset force="true" path="anims/units/escort_guy/escort_undercover" unload="true"/>
 </table>

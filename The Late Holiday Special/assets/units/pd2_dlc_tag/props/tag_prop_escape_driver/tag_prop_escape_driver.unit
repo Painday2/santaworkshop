@@ -1,0 +1,8 @@
+<unit type="tag" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_dlc_tag/props/tag_prop_escape_driver/tag_prop_escape_driver" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>
