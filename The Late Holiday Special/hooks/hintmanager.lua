@@ -1,9 +1,9 @@
 --Adding custom hints, by MiamiCenter
-HintManager.spain = HintManager.init;
+HintManager.tlhspain = HintManager.init;
 
 function HintManager:init(...)
 
-	self:spain(...)
+	self:tlhspain(...)
 	self:addCustomHint("spain_nvg", "")
 	
 end
