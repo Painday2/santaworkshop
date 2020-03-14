@@ -358,7 +358,6 @@
 		<sound id="pain_palmtop2" path="pain/palmtop2.ogg" subtitle_id="pain_palmtop2_sub"/>
 		<sound id="pain_senpai1" path="pain/senpai1.ogg" subtitle_id="pain_senpai1_sub"/>
 		<sound id="pain_shimagtr1" path="pain/shimagtr1.ogg" subtitle_id="pain_shimagtr1_sub"/>
-		<sound id="pain_shimagtr2" path="pain/shimagtr2.ogg" subtitle_id="pain_shimagtr2_sub"/>
 		<sound id="pain_smiley1" path="pain/smiley1.ogg" subtitle_id="pain_smiley1_sub"/>
 		<sound id="pain_steiner1" path="pain/steiner1.ogg" subtitle_id="pain_steiner1_sub"/>
 		<sound id="pain_steiner2" path="pain/steiner2.ogg" subtitle_id="pain_steiner2_sub"/>
