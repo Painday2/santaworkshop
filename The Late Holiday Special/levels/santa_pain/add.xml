@@ -1,4 +1,5 @@
 <table directory="assets">
+	<sequence_manager force="true" path="units/pd2_dlc_jerry/props/jry_equipment_parachute"/>
 	<movie force="true" path="movies/contact_bain1"/>
 	<movie force="true" path="movies/contact_bain2"/>
 	<movie force="true" path="movies/contact_bain3"/>
