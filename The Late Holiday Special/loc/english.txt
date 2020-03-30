@@ -117,6 +117,8 @@
 	"bm_wskn_universalspain_desc" : "Ho ho ho, Merry Christmas Painsters!",
 	
 	
+	"pain_truck_intro_sub" : "Alright guys, were at the warehouse. There's civilians everywhere, make sure not to kill them. Its like no mercy all over again. Open the truck once youre ready to go.",
+	"pain_truck_5_min_sub" : "Are you really not ready yet? It's been 5 fucking minutes! Dont fucking blue ball me while were this close to getting my fucking bike.",
 	"pain_landed_skydiving1_sub" : "Okay, nobodys dead, right? Now, figure out how the hell youre going to get into Santas workshop.",
 	"pain_landed_skydiving2_sub" : "Okay, nobodys dead, right? Now, figure out how the hell youre going to get into Santas workshop.",
 	"pain_landed_skydiving3_sub" : "I hope nobody hit a tree or something. Heh, cause thatd be pretty funny. Now, head over to Santas workshop.",
@@ -315,7 +317,7 @@
 	"pain_go_escape3_sub" : "What the f-Well that was, something. Uh, lets get the reindeer and lets get the hell out of here.",
 	"pain_escaped_sub" : "Hell yeah! Thats what you get you big red fuck! See you next year santa.",
 	"pain_chimichanga_sub" : "Fucking hell! You put it in for too long and now its ruined.",
-	"pain_robo_mrs_sub" : "",
+	"pain_s_sec_convo_sub" : "",
 	"pain_society_sub" : "We live in a society.",
 	"pain_s_gb_sub" : "Okay whats ne-*laughs* Oh my god if you fucking die by this guy, youre a fucking bitch.",
 	"pain_s_grab_key_sub" : "You just got the crystal key! Hopefully this is your third key or youre not a real gamer. I think I know what this is all about, hold on.",

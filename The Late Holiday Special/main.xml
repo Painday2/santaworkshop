@@ -409,7 +409,9 @@
 		<sound id="pain_go_escape3" path="pain/go_escape3.ogg" subtitle_id="pain_go_escape3_sub"/>
 		<sound id="pain_escaped" path="pain/escaped.ogg" subtitle_id="pain_escaped_sub"/>
 		<sound id="pain_chimichanga" path="pain/chimichanga.ogg" subtitle_id="pain_chimichanga_sub"/>
-		<sound id="pain_robo_mrs" path="pain/robo_mrs.ogg" subtitle_id="pain_robo_mrs_sub"/>
+		<sound id="pain_s_sec_convo" path="pain/s_sec_convo.ogg" subtitle_id="pain_s_sec_convo_sub"/>
+		<sound id="pain_truck_intro" path="pain/truck_intro.ogg" subtitle_id="pain_truck_intro_sub"/>
+		<sound id="pain_truck_5_min" path="pain/truck_5_min.ogg" subtitle_id="pain_truck_5_min_sub"/>
 		<sound id="pain_society" path="pain/society.ogg" subtitle_id="pain_society_sub"/>
 		<sound id="pain_s_gb" path="pain/s_gb.ogg" subtitle_id="pain_s_gb_sub"/>
 		<sound id="pain_s_grab_key" path="pain/s_grab_key.ogg" subtitle_id="pain_s_grab_key_sub"/>
