@@ -1,5 +1,5 @@
 <table name="The Late Holiday Special">
-	<level ai_group_type="America" briefing_dialog="tlhs_brief" cube="cube_apply_heist_bank" id="santa_pain" max_bags="91" music="heist" team_ai_off="false">
+	<level ai_group_type="America" briefing_dialog="tlhs_brief" cube="cube_apply_heist_bank" id="santa_pain" max_bags="91" music="heist">
 		<AddFiles directory="assets">
 			<font load="true" path="fonts/marker_large" unload="false"/>
 			<texture path="fonts/marker_large"/>
@@ -24,6 +24,7 @@
 			<hook file="assetstweakdata.lua" source_file="lib/tweak_data/assetstweakdata"/>
 			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
 			<hook file="hintmanager.lua" source_file="lib/managers/hintmanager"/>
+			<hook file="musicmanager.lua" source_file="lua/managers/musicmanager"/>
 		</hooks>
 		<include directory="levels/santa_pain">
 			<file file="world.world" type="binary"/>
@@ -201,14 +202,17 @@
 		<texture path="fonts/marker_large"/>
 		<font load="true" path="fonts/marker_large" unload="false"/>
 	</AddFiles>
-	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
+	<AssetUpdates id="27132" provider="modworkshop" use_local_dir="true" version="1.8"/>
 	<HeistMusic directory="assets/sounds/song" id="music_painchristmas" volume="0.9">
 		<event name="setup" source="stealth.ogg" start_source="stealthintro.ogg"/>
 		<event name="anticipation" source="anticiloop.ogg" start_source="anticipation.ogg"/>
 		<event alt_source="assaultalt.ogg" name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
 		<event name="control" source="control.ogg" start_source="controlintro.ogg"/>
 	</HeistMusic>
-	<Localization default="english.txt" directory="loc"/>
+	<Localization default="english.txt" directory="loc">
+		<localization file="italian.txt" language="italian"/>
+		<localization file="english.txt" language="english"/>
+	</Localization>
 	<Sounds directory="assets/sounds/vo">
 		<sound id="tlhs_brief" path="pain/tlhs_briefing.ogg"/>
 		<sound id="pain_landed_skydiving1" path="pain/landed_skydiving1.ogg" subtitle_id="pain_landed_skydiving1_sub"/>
@@ -409,7 +413,9 @@
 		<sound id="pain_go_escape3" path="pain/go_escape3.ogg" subtitle_id="pain_go_escape3_sub"/>
 		<sound id="pain_escaped" path="pain/escaped.ogg" subtitle_id="pain_escaped_sub"/>
 		<sound id="pain_chimichanga" path="pain/chimichanga.ogg" subtitle_id="pain_chimichanga_sub"/>
-		<sound id="pain_s_sec_convo" path="pain/s_sec_convo.ogg" subtitle_id="pain_s_sec_convo_sub"/>
+		<sound id="pain_s_sec_convo1" path="pain/s_sec_convo1.ogg" subtitle_id="pain_s_sec_convo1_sub"/>
+		<sound id="pain_s_sec_convo2" path="pain/s_sec_convo2.ogg" subtitle_id="pain_s_sec_convo2_sub"/>
+		<sound id="pain_s_sec_convo3" path="pain/s_sec_convo3.ogg" subtitle_id="pain_s_sec_convo3_sub"/>
 		<sound id="pain_truck_intro" path="pain/truck_intro.ogg" subtitle_id="pain_truck_intro_sub"/>
 		<sound id="pain_truck_5_min" path="pain/truck_5_min.ogg" subtitle_id="pain_truck_5_min_sub"/>
 		<sound id="pain_society" path="pain/society.ogg" subtitle_id="pain_society_sub"/>
@@ -425,6 +431,7 @@
 		<sound id="pain_s_drill_start" path="pain/s_drill_start.ogg" subtitle_id="pain_s_drill_start_sub"/>
 		<sound id="pain_s_q3" path="pain/s_q3.ogg" subtitle_id="pain_s_q3_sub"/>
 		<sound id="pain_s_blueprint" path="pain/s_blueprint.ogg" subtitle_id="pain_s_blueprint_sub"/>
+		<sound id="pain_s_bp_hint" path="pain/s_bp_hint.ogg" subtitle_id="pain_s_bp_hint_sub"/>
 		<sound id="pain_s_in_room" path="pain/s_in_room.ogg" subtitle_id="pain_s_in_room_sub"/>
 		<sound id="pain_s_drill_see" path="pain/s_drill_see.ogg" subtitle_id="pain_s_drill_see_sub"/>
 		<sound id="pain_s_vault" path="pain/s_vault.ogg" subtitle_id="pain_s_vault_sub"/>
@@ -434,7 +441,8 @@
 		<sound id="pain_s_start_convo" path="pain/s_start_convo.ogg" subtitle_id="pain_s_start_convo_sub"/>
 		<sound id="pain_s_continue" path="pain/s_continue.ogg" subtitle_id="pain_s_continue_sub"/>
 		<sound id="pain_s_see_crowbar" path="pain/s_see_crowbar.ogg" subtitle_id="pain_s_see_crowbar_sub"/>
-		<sound id="pain_s_escape_beatdown" path="pain/s_escape_beatdown.ogg" subtitle_id="pain_s_escape_beatdown_sub"/>
+		<sound id="pain_s_escape_beatdown1" path="pain/s_escape_beatdown1.ogg" subtitle_id="pain_s_escape_beatdown1_sub"/>
+		<sound id="pain_s_escape_beatdown2" path="pain/s_escape_beatdown2.ogg" subtitle_id="pain_s_escape_beatdown2_sub"/>
 	</Sounds>
 	<WeaponSkin desc="bm_wskn_universalspain_desc" id="universalspain" name="bm_wskn_universalspain" rarity="epic" skin_folder="assets/weapon_skin/skins/universalspain" universal="true" weapon_id="flint"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Pain" name_id="contract_pain" package="packages/contact_bain"/>

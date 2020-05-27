@@ -1,6 +1,6 @@
 <dynamic_object>
-	<diesel materials="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" orientation_object="rp_gen_interactable_drill_small" />
-	<sequence_manager file="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" />
+	<diesel materials="units/payday2/equipment/gen_interactable_drill_9999/gen_interactable_drill_9999" orientation_object="rp_gen_interactable_drill_small" />
+	<sequence_manager file="units/payday2/equipment/gen_interactable_drill_9999/gen_interactable_drill_9999" />
 	<animations>
 		<animation_group name="anim" enabled="false" loop="true" >
 			<object name="a_anim_drill" />

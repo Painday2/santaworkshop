@@ -83,7 +83,8 @@ Hooks:PostHook(InteractionTweakData, "init", "pain3_interactions", function(self
 	
 	self.press_open_truck = {
 		text_id = "hud_int_press_open_truck_door",
-		start_active = false
+		start_active = false,
+		interact_distance = 250
 	}
 	
 	self.hold_remove_rope = {
@@ -91,7 +92,7 @@ Hooks:PostHook(InteractionTweakData, "init", "pain3_interactions", function(self
 		action_text_id = "hud_action_add_rope",
 		start_active = true,
 		timer = 3,
-		interact_distance = 150,
+		interact_distance = 250,
 		sound_start = "bar_remove_rope_start",
 		sound_cancel = "bar_remove_rope_cancel",
 		sound_done = "bar_remove_rope_finish"
@@ -179,5 +180,19 @@ Hooks:PostHook(InteractionTweakData, "init", "pain3_interactions", function(self
 		text_id = "hud_int_push_button",
 		sound_done = "button_push",
 		axis = "z"
+	}
+	
+	self.c4_special = {
+		icon = "equipment_c4",
+		text_id = "debug_interact_c4",
+		equipment_text_id = "debug_interact_equipment_c4",
+		equipment_consume = true,
+		timer = 4,
+		sound_start = "bar_c4_apply",
+		sound_interupt = "bar_c4_apply_cancel",
+		sound_done = "bar_c4_apply_finished",
+		axis = "z",
+		start_active = false,
+		action_text_id = "hud_action_placing_c4"
 	}
 end)
