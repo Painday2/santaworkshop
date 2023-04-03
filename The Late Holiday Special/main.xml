@@ -62,7 +62,7 @@
 		<outro_event>
 			<value_node value=""/>
 		</outro_event>
-		<Sounds directory="assets/sounds/vo">
+		<sounds directory="assets/sounds/vo">
 			<sound id="tlhs_brief" path="pain/tlhs_briefing.ogg"/>
 			<sound id="pain_landed_skydiving1" path="pain/landed_skydiving1.ogg" subtitle_id="pain_landed_skydiving1_sub"/>
 			<sound id="pain_landed_skydiving2" path="pain/landed_skydiving2.ogg" subtitle_id="pain_landed_skydiving2_sub"/>
@@ -292,7 +292,7 @@
 			<sound id="pain_s_see_crowbar" path="pain/s_see_crowbar.ogg" subtitle_id="pain_s_see_crowbar_sub"/>
 			<sound id="pain_s_escape_beatdown1" path="pain/s_escape_beatdown1.ogg" subtitle_id="pain_s_escape_beatdown1_sub"/>
 			<sound id="pain_s_escape_beatdown2" path="pain/s_escape_beatdown2.ogg" subtitle_id="pain_s_escape_beatdown2_sub"/>
-		</Sounds>
+		</sounds>
 		<packages>
 			<value_node value="packages/lvl_mad"/>
 			<value_node value="levels/narratives/elephant/mad/world"/>
