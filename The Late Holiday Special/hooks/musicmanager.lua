@@ -1,8 +1,9 @@
-Hooks:PostHook(MusicManager, "jukebox_heist_specific", "spain_music+init", function (self)
-    if not Global.music_manager.track_attachment.music_painchristmas then
-        Global.music_manager.track_attachment.music_painchristmas = "music_painchristmas"
-    end
-    if managers.job:current_level_id() == "santa_pain" then
-        return self:track_attachment("music_painchristmas")
-	end
-end)
+local jukebox_default_tracks_ori = MusicManager.jukebox_default_tracks
+
+function MusicManager:jukebox_default_tracks()
+    local default_options = jukebox_default_tracks_ori(self)
+
+    default_options.heist_santa_pain_name = "music_painchristmas"
+
+    return default_options
+end

@@ -3,7 +3,7 @@
 	"contract_pain_desc" : "While Bain is away, the pain comes out to play.",
 	"heist_The Late Holiday Special_name" : "The Late Holiday Special",
 	"heist_The Late Holiday Special_brief" : "Pain was put on the naughty list. This isn't acceptable for him, so he is taking things into his own hands..\n\n» Enter Santa's Workshop\n»Build Pain's Bike \n» Torture Santa for fun\n» Escape",
-	"heist_santa_pain_name" : "The North Pole",
+	"heist_santa_pain_name" : "The Late Holiday Special",
 	"heist_santa_pain_brief" : "It's that time of year again, boys. Time for people to sing shitty Christmas songs, watch shitty Christmas films, and eat shitty Christmas food. Oh, and time for me not to get any fucking presents!\n\nI've been on Santa's naughty list ever since we killed Bo, or maybe it was the other time we killed him. Either way, that means I'm not gonna get a sick bike for Christmas this year.\nBut you guys can fix that.\n\nSwitch is gonna drop you off at the North Pole. You're gonna sneak in, put me on the nice list, and steal that bike I wanted for good measure.\nThat'll show that dumb fuck Santa for trying to ruin my Christmas.",
 
 	"hud_carry_bike" : "Pain's Bike",

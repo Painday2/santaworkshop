@@ -2,6 +2,8 @@ Hooks:PostHook(InteractionTweakData, "init", "pain3_interactions", function(self
 	self.hostage_stay.interaction_obj = Idstring("Hips")
     self.hostage_move.interaction_obj = Idstring("Hips")
 	
+	self.drill_jammed.timer = 3
+	
 	self.use_files = {
 		text_id = "hud_int_use_files",
 		action_text_id = "hud_action_use_files",

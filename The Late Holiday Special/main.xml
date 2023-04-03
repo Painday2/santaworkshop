@@ -1,5 +1,8 @@
 <table name="The Late Holiday Special">
-	<level ai_group_type="America" briefing_dialog="tlhs_brief" cube="cube_apply_heist_bank" id="santa_pain" max_bags="91" music="heist">
+	<Sounds directory="assets/sounds/vo">
+		<sound id="tlhs_brief" path="pain/tlhs_briefing.ogg"/>
+	</Sounds>
+	<level ai_group_type="America" briefing_dialog="tlhs_brief" cube="cube_apply_heist_bank" id="santa_pain" max_bags="91">
 		<AddFiles directory="assets">
 			<font load="true" path="fonts/marker_large" unload="false"/>
 			<texture path="fonts/marker_large"/>
@@ -16,6 +19,7 @@
 			<asset name="pain_chimichanga"/>
 		</assets>
 		<hooks directory="hooks">
+			<hook file="dialogmanager.lua" source_file="lib/tweak_data/tweakdata"/>
 			<hook file="copbase.lua" source_file="lib/units/enemies/cop/copbase"/>
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="ifiwereblueiwoulddie.lua" source_file="lib/tweak_data/tweakdata"/>
@@ -24,7 +28,6 @@
 			<hook file="assetstweakdata.lua" source_file="lib/tweak_data/assetstweakdata"/>
 			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
 			<hook file="hintmanager.lua" source_file="lib/managers/hintmanager"/>
-			<hook file="musicmanager.lua" source_file="lua/managers/musicmanager"/>
 		</hooks>
 		<include directory="levels/santa_pain">
 			<file file="world.world" type="binary"/>
@@ -59,6 +62,237 @@
 		<outro_event>
 			<value_node value=""/>
 		</outro_event>
+		<Sounds directory="assets/sounds/vo">
+			<sound id="tlhs_brief" path="pain/tlhs_briefing.ogg"/>
+			<sound id="pain_landed_skydiving1" path="pain/landed_skydiving1.ogg" subtitle_id="pain_landed_skydiving1_sub"/>
+			<sound id="pain_landed_skydiving2" path="pain/landed_skydiving2.ogg" subtitle_id="pain_landed_skydiving2_sub"/>
+			<sound id="pain_landed_skydiving3" path="pain/landed_skydiving3.ogg" subtitle_id="pain_landed_skydiving3_sub"/>
+			<sound id="pain_landed_skydiving4" path="pain/landed_skydiving4.ogg" subtitle_id="pain_landed_skydiving4_sub"/>
+			<sound id="pain_landed_skydiving5" path="pain/landed_skydiving5.ogg" subtitle_id="pain_landed_skydiving5_sub"/>
+			<sound id="pain_blow_wall1" path="pain/blow_wall1.ogg" subtitle_id="pain_blow_wall1_sub"/>
+			<sound id="pain_blow_wall2" path="pain/blow_wall2.ogg" subtitle_id="pain_blow_wall2_sub"/>
+			<sound id="pain_blow_wall3" path="pain/blow_wall3.ogg" subtitle_id="pain_blow_wall3_sub"/>
+			<sound id="pain_see_snowmen1" path="pain/see_snowmen1.ogg" subtitle_id="pain_see_snowmen1_sub"/>
+			<sound id="pain_see_snowmen2" path="pain/see_snowmen2.ogg" subtitle_id="pain_see_snowmen2_sub"/>
+			<sound id="pain_see_snowmen3" path="pain/see_snowmen3.ogg" subtitle_id="pain_see_snowmen3_sub"/>
+			<sound id="pain_snowmen_count_1_1" path="pain/snowmen_count_1_1.ogg" subtitle_id="pain_snowmen_count_1_1_sub"/>
+			<sound id="pain_snowmen_count_1_2" path="pain/snowmen_count_1_2.ogg" subtitle_id="pain_snowmen_count_1_2_sub"/>
+			<sound id="pain_snowmen_count_3_1" path="pain/snowmen_count_3_1.ogg" subtitle_id="pain_snowmen_count_3_1_sub"/>
+			<sound id="pain_snowmen_count_3_2" path="pain/snowmen_count_3_2.ogg" subtitle_id="pain_snowmen_count_3_2_sub"/>
+			<sound id="pain_snowmen_count_5_1" path="pain/snowmen_count_5_1.ogg" subtitle_id="pain_snowmen_count_5_1_sub"/>
+			<sound id="pain_snowmen_count_5_2" path="pain/snowmen_count_5_2.ogg" subtitle_id="pain_snowmen_count_5_2_sub"/>
+			<sound id="pain_snowmen_count_7_1" path="pain/snowmen_count_7_1.ogg" subtitle_id="pain_snowmen_count_7_1_sub"/>
+			<sound id="pain_snowmen_count_7_2" path="pain/snowmen_count_7_2.ogg" subtitle_id="pain_snowmen_count_7_2_sub"/>
+			<sound id="pain_blow_fuse1" path="pain/blow_fuse1.ogg" subtitle_id="pain_blow_fuse1_sub"/>
+			<sound id="pain_blow_fuse2" path="pain/blow_fuse2.ogg" subtitle_id="pain_blow_fuse2_sub"/>
+			<sound id="pain_blow_fuse3" path="pain/blow_fuse3.ogg" subtitle_id="pain_blow_fuse3_sub"/>
+			<sound id="pain_blow_fuse4" path="pain/blow_fuse4.ogg" subtitle_id="pain_blow_fuse4_sub"/>
+			<sound id="pain_blow_fuse_loud1" path="pain/blow_fuse_loud1.ogg" subtitle_id="pain_blow_fuse_loud1_sub"/>
+			<sound id="pain_blow_fuse_loud2" path="pain/blow_fuse_loud2.ogg" subtitle_id="pain_blow_fuse_loud2_sub"/>
+			<sound id="pain_blow_fuse_loud3" path="pain/blow_fuse_loud3.ogg" subtitle_id="pain_blow_fuse_loud3_sub"/>
+			<sound id="pain_fuse_blown1" path="pain/fuse_blown1.ogg" subtitle_id="pain_fuse_blown1_sub"/>
+			<sound id="pain_fuse_blown2" path="pain/fuse_blown2.ogg" subtitle_id="pain_fuse_blown2_sub"/>
+			<sound id="pain_fuse_blown3" path="pain/fuse_blown3.ogg" subtitle_id="pain_fuse_blown3_sub"/>
+			<sound id="pain_open_hatch1" path="pain/open_hatch1.ogg" subtitle_id="pain_open_hatch1_sub"/>
+			<sound id="pain_open_hatch2" path="pain/open_hatch2.ogg" subtitle_id="pain_open_hatch2_sub"/>
+			<sound id="pain_open_hatch3" path="pain/open_hatch3.ogg" subtitle_id="pain_open_hatch3_sub"/>
+			<sound id="pain_hack_hatch1" path="pain/hack_hatch1.ogg" subtitle_id="pain_hack_hatch1_sub"/>
+			<sound id="pain_hack_hatch2" path="pain/hack_hatch2.ogg" subtitle_id="pain_hack_hatch2_sub"/>
+			<sound id="pain_hack_hatch3" path="pain/hack_hatch3.ogg" subtitle_id="pain_hack_hatch3_sub"/>
+			<sound id="pain_alarm_hatch1" path="pain/alarm_hatch1.ogg" subtitle_id="pain_alarm_hatch1_sub"/>
+			<sound id="pain_alarm_hatch2" path="pain/alarm_hatch2.ogg" subtitle_id="pain_alarm_hatch2_sub"/>
+			<sound id="pain_alarm_hatch3" path="pain/alarm_hatch3.ogg" subtitle_id="pain_alarm_hatch3_sub"/>
+			<sound id="pain_alarm_hatch4" path="pain/alarm_hatch4.ogg" subtitle_id="pain_alarm_hatch4_sub"/>
+			<sound id="pain_hacked_hatch_loud1" path="pain/hacked_hatch_loud1.ogg" subtitle_id="pain_hacked_hatch_loud1_sub"/>
+			<sound id="pain_hacked_hatch_loud2" path="pain/hacked_hatch_loud2.ogg" subtitle_id="pain_hacked_hatch_loud2_sub"/>
+			<sound id="pain_hacked_hatch_loud3" path="pain/hacked_hatch_loud3.ogg" subtitle_id="pain_hacked_hatch_loud3_sub"/>
+			<sound id="pain_hacked_hatch_stealth1" path="pain/hacked_hatch_stealth1.ogg" subtitle_id="pain_hacked_hatch_stealth1_sub"/>
+			<sound id="pain_hacked_hatch_stealth2" path="pain/hacked_hatch_stealth2.ogg" subtitle_id="pain_hacked_hatch_stealth2_sub"/>
+			<sound id="pain_hacked_hatch_stealth3" path="pain/hacked_hatch_stealth3.ogg" subtitle_id="pain_hacked_hatch_stealth3_sub"/>
+			<sound id="pain_c4_hatch1" path="pain/c4_hatch1.ogg" subtitle_id="pain_c4_hatch1_sub"/>
+			<sound id="pain_c4_hatch2" path="pain/c4_hatch2.ogg" subtitle_id="pain_c4_hatch2_sub"/>
+			<sound id="pain_c4_hatch3" path="pain/c4_hatch3.ogg" subtitle_id="pain_c4_hatch3_sub"/>
+			<sound id="pain_hatch_blown1" path="pain/hatch_blown1.ogg" subtitle_id="pain_hatch_blown1_sub"/>
+			<sound id="pain_hatch_blown2" path="pain/hatch_blown2.ogg" subtitle_id="pain_hatch_blown2_sub"/>
+			<sound id="pain_hatch_blown3" path="pain/hatch_blown3.ogg" subtitle_id="pain_hatch_blown3_sub"/>
+			<sound id="pain_hatch_blown4" path="pain/hatch_blown4.ogg" subtitle_id="pain_hatch_blown4_sub"/>
+			<sound id="pain_hack_computer1" path="pain/hack_computer1.ogg" subtitle_id="pain_hack_computer1_sub"/>
+			<sound id="pain_hack_computer2" path="pain/hack_computer2.ogg" subtitle_id="pain_hack_computer2_sub"/>
+			<sound id="pain_hack_computer3" path="pain/hack_computer3.ogg" subtitle_id="pain_hack_computer3_sub"/>
+			<sound id="pain_hack_computer4" path="pain/hack_computer4.ogg" subtitle_id="pain_hack_computer4_sub"/>
+			<sound id="pain_hack_computer5" path="pain/hack_computer5.ogg" subtitle_id="pain_hack_computer5_sub"/>
+			<sound id="pain_security_no_open1" path="pain/security_no_open1.ogg" subtitle_id="pain_security_no_open1_sub"/>
+			<sound id="pain_security_no_open2" path="pain/security_no_open2.ogg" subtitle_id="pain_security_no_open2_sub"/>
+			<sound id="pain_security_no_open3" path="pain/security_no_open3.ogg" subtitle_id="pain_security_no_open3_sub"/>
+			<sound id="pain_press_button1" path="pain/press_button1.ogg" subtitle_id="pain_press_button1_sub"/>
+			<sound id="pain_press_button2" path="pain/press_button2.ogg" subtitle_id="pain_press_button2_sub"/>
+			<sound id="pain_press_button3" path="pain/press_button3.ogg" subtitle_id="pain_press_button3_sub"/>
+			<sound id="pain_head_santa1" path="pain/head_santa1.ogg" subtitle_id="pain_head_santa1_sub"/>
+			<sound id="pain_head_santa2" path="pain/head_santa2.ogg" subtitle_id="pain_head_santa2_sub"/>
+			<sound id="pain_head_santa3" path="pain/head_santa3.ogg" subtitle_id="pain_head_santa3_sub"/>
+			<sound id="pain_drill_santa1" path="pain/drill_santa1.ogg" subtitle_id="pain_drill_santa1_sub"/>
+			<sound id="pain_drill_santa2" path="pain/drill_santa2.ogg" subtitle_id="pain_drill_santa2_sub"/>
+			<sound id="pain_drill_santa3" path="pain/drill_santa3.ogg" subtitle_id="pain_drill_santa3_sub"/>
+			<sound id="pain_drill_jam1" path="pain/drill_jam1.ogg" subtitle_id="pain_drill_jam1_sub"/>
+			<sound id="pain_drill_jam2" path="pain/drill_jam2.ogg" subtitle_id="pain_drill_jam2_sub"/>
+			<sound id="pain_drill_jam3" path="pain/drill_jam3.ogg" subtitle_id="pain_drill_jam3_sub"/>
+			<sound id="pain_santa_open1" path="pain/santa_open1.ogg" subtitle_id="pain_santa_open1_sub"/>
+			<sound id="pain_santa_open2" path="pain/santa_open2.ogg" subtitle_id="pain_santa_open2_sub"/>
+			<sound id="pain_santa_open3" path="pain/santa_open3.ogg" subtitle_id="pain_santa_open3_sub"/>
+			<sound id="pain_santa_open4" path="pain/santa_open4.ogg" subtitle_id="pain_santa_open4_sub"/>
+			<sound id="pain_santa_open5" path="pain/santa_open5.ogg" subtitle_id="pain_santa_open5_sub"/>
+			<sound id="pain_tie_santa1" path="pain/tie_santa1.ogg" subtitle_id="pain_tie_santa1_sub"/>
+			<sound id="pain_tie_santa2" path="pain/tie_santa2.ogg" subtitle_id="pain_tie_santa2_sub"/>
+			<sound id="pain_tie_santa3" path="pain/tie_santa3.ogg" subtitle_id="pain_tie_santa3_sub"/>
+			<sound id="pain_tie_santa4" path="pain/tie_santa4.ogg" subtitle_id="pain_tie_santa4_sub"/>
+			<sound id="pain_reindeer_open1" path="pain/reindeer_open1.ogg" subtitle_id="pain_reindeer_open1_sub"/>
+			<sound id="pain_reindeer_open2" path="pain/reindeer_open2.ogg" subtitle_id="pain_reindeer_open2_sub"/>
+			<sound id="pain_reindeer_open3" path="pain/reindeer_open3.ogg" subtitle_id="pain_reindeer_open3_sub"/>
+			<sound id="pain_reindeer_wrong1" path="pain/reindeer_wrong1.ogg" subtitle_id="pain_reindeer_wrong1_sub"/>
+			<sound id="pain_reindeer_wrong2" path="pain/reindeer_wrong2.ogg" subtitle_id="pain_reindeer_wrong2_sub"/>
+			<sound id="pain_reindeer_wrong3" path="pain/reindeer_wrong3.ogg" subtitle_id="pain_reindeer_wrong3_sub"/>
+			<sound id="pain_reindeer_wrong4" path="pain/reindeer_wrong4.ogg" subtitle_id="pain_reindeer_wrong4_sub"/>
+			<sound id="pain_reindeer_wrong5" path="pain/reindeer_wrong5.ogg" subtitle_id="pain_reindeer_wrong5_sub"/>
+			<sound id="pain_reindeer_wrong6" path="pain/reindeer_wrong6.ogg" subtitle_id="pain_reindeer_wrong6_sub"/>
+			<sound id="pain_reindeer_wrong7" path="pain/reindeer_wrong7.ogg" subtitle_id="pain_reindeer_wrong7_sub"/>
+			<sound id="pain_reindeer_wrong8" path="pain/reindeer_wrong8.ogg" subtitle_id="pain_reindeer_wrong8_sub"/>
+			<sound id="pain_blitzen1" path="pain/blitzen1.ogg" subtitle_id="pain_blitzen1_sub"/>
+			<sound id="pain_comet1" path="pain/comet1.ogg" subtitle_id="pain_comet1_sub"/>
+			<sound id="pain_cupid1" path="pain/cupid1.ogg" subtitle_id="pain_cupid1_sub"/>
+			<sound id="pain_dancer1" path="pain/dancer1.ogg" subtitle_id="pain_dancer1_sub"/>
+			<sound id="pain_dasher1" path="pain/dasher1.ogg" subtitle_id="pain_dasher1_sub"/>
+			<sound id="pain_donner1" path="pain/donner1.ogg" subtitle_id="pain_donner1_sub"/>
+			<sound id="pain_prancer1" path="pain/prancer1.ogg" subtitle_id="pain_prancer1_sub"/>
+			<sound id="pain_rudolph1" path="pain/rudolph1.ogg" subtitle_id="pain_rudolph1_sub"/>
+			<sound id="pain_rudolph2" path="pain/rudolph2.ogg" subtitle_id="pain_rudolph2_sub"/>
+			<sound id="pain_vixen1" path="pain/vixen1.ogg" subtitle_id="pain_vixen1_sub"/>
+			<sound id="pain_bike_open1" path="pain/bike_open1.ogg" subtitle_id="pain_bike_open1_sub"/>
+			<sound id="pain_bike_open2" path="pain/bike_open2.ogg" subtitle_id="pain_bike_open2_sub"/>
+			<sound id="pain_bike_open3" path="pain/bike_open3.ogg" subtitle_id="pain_bike_open3_sub"/>
+			<sound id="pain_bike_spawn1" path="pain/bike_spawn1.ogg" subtitle_id="pain_bike_spawn1_sub"/>
+			<sound id="pain_bike_spawn2" path="pain/bike_spawn2.ogg" subtitle_id="pain_bike_spawn2_sub"/>
+			<sound id="pain_bike_spawn3" path="pain/bike_spawn3.ogg" subtitle_id="pain_bike_spawn3_sub"/>
+			<sound id="pain_dial_60s1" path="pain/dial_60s1.ogg" subtitle_id="pain_dial_60s1_sub"/>
+			<sound id="pain_dial_60s2" path="pain/dial_60s2.ogg" subtitle_id="pain_dial_60s2_sub"/>
+			<sound id="pain_dial_60s3" path="pain/dial_60s3.ogg" subtitle_id="pain_dial_60s3_sub"/>
+			<sound id="pain_dial_drop" path="pain/dial_drop.ogg" subtitle_id="pain_dial_drop_sub"/>
+			<sound id="pain_bike_table1" path="pain/bike_table1.ogg" subtitle_id="pain_bike_table1_sub"/>
+			<sound id="pain_assemble_bike1" path="pain/assemble_bike1.ogg" subtitle_id="pain_assemble_bike1_sub"/>
+			<sound id="pain_assemble_bike2" path="pain/assemble_bike2.ogg" subtitle_id="pain_assemble_bike2_sub"/>
+			<sound id="pain_assemble_bike3" path="pain/assemble_bike3.ogg" subtitle_id="pain_assemble_bike3_sub"/>
+			<sound id="pain_more_parts1" path="pain/more_parts1.ogg" subtitle_id="pain_more_parts1_sub"/>
+			<sound id="pain_more_parts2" path="pain/more_parts2.ogg" subtitle_id="pain_more_parts2_sub"/>
+			<sound id="pain_more_parts3" path="pain/more_parts3.ogg" subtitle_id="pain_more_parts3_sub"/>
+			<sound id="pain_more_parts4" path="pain/more_parts4.ogg" subtitle_id="pain_more_parts4_sub"/>
+			<sound id="pain_bike_assembled1" path="pain/bike_assembled1.ogg" subtitle_id="pain_bike_assembled1_sub"/>
+			<sound id="pain_bike_assembled2" path="pain/bike_assembled2.ogg" subtitle_id="pain_bike_assembled2_sub"/>
+			<sound id="pain_bike_assembled3" path="pain/bike_assembled3.ogg" subtitle_id="pain_bike_assembled3_sub"/>
+			<sound id="pain_bike_built1" path="pain/bike_built1.ogg" subtitle_id="pain_bike_built1_sub"/>
+			<sound id="pain_bike_built2" path="pain/bike_built2.ogg" subtitle_id="pain_bike_built2_sub"/>
+			<sound id="pain_bike_built3" path="pain/bike_built3.ogg" subtitle_id="pain_bike_built3_sub"/>
+			<sound id="pain_library_open1" path="pain/library_open1.ogg" subtitle_id="pain_library_open1_sub"/>
+			<sound id="pain_library_open2" path="pain/library_open2.ogg" subtitle_id="pain_library_open2_sub"/>
+			<sound id="pain_library_open3" path="pain/library_open3.ogg" subtitle_id="pain_library_open3_sub"/>
+			<sound id="pain_check_file1" path="pain/check_file1.ogg" subtitle_id="pain_check_file1_sub"/>
+			<sound id="pain_check_file2" path="pain/check_file2.ogg" subtitle_id="pain_check_file2_sub"/>
+			<sound id="pain_check_file3" path="pain/check_file3.ogg" subtitle_id="pain_check_file3_sub"/>
+			<sound id="pain_bo1" path="pain/bo1.ogg" subtitle_id="pain_bo1_sub"/>
+			<sound id="pain_bo2" path="pain/bo2.ogg" subtitle_id="pain_bo2_sub"/>
+			<sound id="pain_bo3" path="pain/bo3.ogg" subtitle_id="pain_bo3_sub"/>
+			<sound id="pain_captainalpha1" path="pain/captainalpha1.ogg" subtitle_id="pain_captainalpha1_sub"/>
+			<sound id="pain_captainalpha2" path="pain/captainalpha2.ogg" subtitle_id="pain_captainalpha2_sub"/>
+			<sound id="pain_kuziz1" path="pain/kuziz1.ogg" subtitle_id="pain_kuziz1_sub"/>
+			<sound id="pain_kuziz2" path="pain/kuziz2.ogg" subtitle_id="pain_kuziz2_sub"/>
+			<sound id="pain_matt1" path="pain/matt1.ogg" subtitle_id="pain_matt1_sub"/>
+			<sound id="pain_matt2" path="pain/matt2.ogg" subtitle_id="pain_matt2_sub"/>
+			<sound id="pain_vyse1" path="pain/vyse1.ogg" subtitle_id="pain_vyse1_sub"/>
+			<sound id="pain_den1" path="pain/den1.ogg" subtitle_id="pain_den1_sub"/>
+			<sound id="pain_palmtop1" path="pain/palmtop1.ogg" subtitle_id="pain_palmtop1_sub"/>
+			<sound id="pain_palmtop2" path="pain/palmtop2.ogg" subtitle_id="pain_palmtop2_sub"/>
+			<sound id="pain_senpai1" path="pain/senpai1.ogg" subtitle_id="pain_senpai1_sub"/>
+			<sound id="pain_shimagtr1" path="pain/shimagtr1.ogg" subtitle_id="pain_shimagtr1_sub"/>
+			<sound id="pain_smiley1" path="pain/smiley1.ogg" subtitle_id="pain_smiley1_sub"/>
+			<sound id="pain_steiner1" path="pain/steiner1.ogg" subtitle_id="pain_steiner1_sub"/>
+			<sound id="pain_steiner2" path="pain/steiner2.ogg" subtitle_id="pain_steiner2_sub"/>
+			<sound id="pain_wolf1" path="pain/wolf1.ogg" subtitle_id="pain_wolf1_sub"/>
+			<sound id="pain_wolf2" path="pain/wolf2.ogg" subtitle_id="pain_wolf2_sub"/>
+			<sound id="pain_pain_file1" path="pain/pain_file1.ogg" subtitle_id="pain_pain_file1_sub"/>
+			<sound id="pain_pain_file2" path="pain/pain_file2.ogg" subtitle_id="pain_pain_file2_sub"/>
+			<sound id="pain_pain_file3" path="pain/pain_file3.ogg" subtitle_id="pain_pain_file3_sub"/>
+			<sound id="pain_beat_santa1" path="pain/beat_santa1.ogg" subtitle_id="pain_beat_santa1_sub"/>
+			<sound id="pain_beat_santa2" path="pain/beat_santa2.ogg" subtitle_id="pain_beat_santa2_sub"/>
+			<sound id="pain_call_mrs1" path="pain/call_mrs1.ogg" subtitle_id="pain_call_mrs1_sub"/>
+			<sound id="pain_call_mrs2" path="pain/call_mrs2.ogg" subtitle_id="pain_call_mrs2_sub"/>
+			<sound id="pain_sec_convo1" path="pain/sec_convo1.ogg" subtitle_id="pain_sec_convo1_sub"/>
+			<sound id="pain_sec_convo2" path="pain/sec_convo2.ogg" subtitle_id="pain_sec_convo2_sub"/>
+			<sound id="pain_sec_convo3" path="pain/sec_convo3.ogg" subtitle_id="pain_sec_convo3_sub"/>
+			<sound id="pain_sec_convo4" path="pain/sec_convo4.ogg" subtitle_id="pain_sec_convo4_sub"/>
+			<sound id="pain_sec_convo5" path="pain/sec_convo5.ogg" subtitle_id="pain_sec_convo5_sub"/>
+			<sound id="pain_threaten_santa1" path="pain/threaten_santa1.ogg" subtitle_id="pain_threaten_santa1_sub"/>
+			<sound id="pain_threaten_santa2" path="pain/threaten_santa2.ogg" subtitle_id="pain_threaten_santa2_sub"/>
+			<sound id="pain_threaten_santa3" path="pain/threaten_santa3.ogg" subtitle_id="pain_threaten_santa3_sub"/>
+			<sound id="pain_threaten_santa4" path="pain/threaten_santa4.ogg" subtitle_id="pain_threaten_santa4_sub"/>
+			<sound id="pain_get_inside_vault1" path="pain/get_inside_vault1.ogg" subtitle_id="pain_get_inside_vault1_sub"/>
+			<sound id="pain_get_inside_vault2" path="pain/get_inside_vault2.ogg" subtitle_id="pain_get_inside_vault2_sub"/>
+			<sound id="pain_get_inside_vault3" path="pain/get_inside_vault3.ogg" subtitle_id="pain_get_inside_vault3_sub"/>
+			<sound id="pain_get_inside_vault4" path="pain/get_inside_vault4.ogg" subtitle_id="pain_get_inside_vault4_sub"/>
+			<sound id="pain_inside_vault1" path="pain/inside_vault1.ogg" subtitle_id="pain_inside_vault1_sub"/>
+			<sound id="pain_inside_vault2" path="pain/inside_vault2.ogg" subtitle_id="pain_inside_vault2_sub"/>
+			<sound id="pain_inside_vault3" path="pain/inside_vault3.ogg" subtitle_id="pain_inside_vault3_sub"/>
+			<sound id="pain_inside_vault4" path="pain/inside_vault4.ogg" subtitle_id="pain_inside_vault4_sub"/>
+			<sound id="pain_grabbed_cookie_bag1" path="pain/grabbed_cookie_bag1.ogg" subtitle_id="pain_grabbed_cookie_bag1_sub"/>
+			<sound id="pain_grabbed_cookie_bag2" path="pain/grabbed_cookie_bag2.ogg" subtitle_id="pain_grabbed_cookie_bag2_sub"/>
+			<sound id="pain_grabbed_cookie_bag3" path="pain/grabbed_cookie_bag3.ogg" subtitle_id="pain_grabbed_cookie_bag3_sub"/>
+			<sound id="pain_grabbed_cookie_bag4" path="pain/grabbed_cookie_bag4.ogg" subtitle_id="pain_grabbed_cookie_bag4_sub"/>
+			<sound id="pain_grabbed_cookie_bag5" path="pain/grabbed_cookie_bag5.ogg" subtitle_id="pain_grabbed_cookie_bag5_sub"/>
+			<sound id="pain_head_to_switch1" path="pain/head_to_switch1.ogg" subtitle_id="pain_head_to_switch1_sub"/>
+			<sound id="pain_head_to_switch2" path="pain/head_to_switch2.ogg" subtitle_id="pain_head_to_switch2_sub"/>
+			<sound id="pain_head_to_switch3" path="pain/head_to_switch3.ogg" subtitle_id="pain_head_to_switch3_sub"/>
+			<sound id="pain_call_switch1" path="pain/call_switch1.ogg" subtitle_id="pain_call_switch1_sub"/>
+			<sound id="pain_call_switch2" path="pain/call_switch2.ogg" subtitle_id="pain_call_switch2_sub"/>
+			<sound id="pain_call_switch3" path="pain/call_switch3.ogg" subtitle_id="pain_call_switch3_sub"/>
+			<sound id="pain_signal_or_more1" path="pain/signal_or_more1.ogg" subtitle_id="pain_signal_or_more1_sub"/>
+			<sound id="pain_signal_or_more2" path="pain/signal_or_more2.ogg" subtitle_id="pain_signal_or_more2_sub"/>
+			<sound id="pain_signal_or_more3" path="pain/signal_or_more3.ogg" subtitle_id="pain_signal_or_more3_sub"/>
+			<sound id="pain_secure_bike1" path="pain/secure_bike1.ogg" subtitle_id="pain_secure_bike1_sub"/>
+			<sound id="pain_secure_bike2" path="pain/secure_bike2.ogg" subtitle_id="pain_secure_bike2_sub"/>
+			<sound id="pain_secure_bike3" path="pain/secure_bike3.ogg" subtitle_id="pain_secure_bike3_sub"/>
+			<sound id="pain_go_escape1" path="pain/go_escape1.ogg" subtitle_id="pain_go_escape1_sub"/>
+			<sound id="pain_go_escape2" path="pain/go_escape2.ogg" subtitle_id="pain_go_escape2_sub"/>
+			<sound id="pain_go_escape3" path="pain/go_escape3.ogg" subtitle_id="pain_go_escape3_sub"/>
+			<sound id="pain_escaped" path="pain/escaped.ogg" subtitle_id="pain_escaped_sub"/>
+			<sound id="pain_chimichanga" path="pain/chimichanga.ogg" subtitle_id="pain_chimichanga_sub"/>
+			<sound id="pain_s_sec_convo1" path="pain/s_sec_convo1.ogg" subtitle_id="pain_s_sec_convo1_sub"/>
+			<sound id="pain_s_sec_convo2" path="pain/s_sec_convo2.ogg" subtitle_id="pain_s_sec_convo2_sub"/>
+			<sound id="pain_s_sec_convo3" path="pain/s_sec_convo3.ogg" subtitle_id="pain_s_sec_convo3_sub"/>
+			<sound id="pain_truck_intro" path="pain/truck_intro.ogg" subtitle_id="pain_truck_intro_sub"/>
+			<sound id="pain_truck_5_min" path="pain/truck_5_min.ogg" subtitle_id="pain_truck_5_min_sub"/>
+			<sound id="pain_society" path="pain/society.ogg" subtitle_id="pain_society_sub"/>
+			<sound id="pain_s_gb" path="pain/s_gb.ogg" subtitle_id="pain_s_gb_sub"/>
+			<sound id="pain_s_grab_key" path="pain/s_grab_key.ogg" subtitle_id="pain_s_grab_key_sub"/>
+			<sound id="pain_s_drill_done" path="pain/s_drill_done.ogg" subtitle_id="pain_s_drill_done_sub"/>
+			<sound id="pain_s_see_bo" path="pain/s_see_bo.ogg" subtitle_id="pain_s_see_bo_sub"/>
+			<sound id="pain_s_crowbar_hatch" path="pain/s_crowbar_hatch.ogg" subtitle_id="pain_s_crowbar_hatch_sub"/>
+			<sound id="pain_s_done_trivia" path="pain/s_done_trivia.ogg" subtitle_id="pain_s_done_trivia_sub"/>
+			<sound id="pain_s_grab_crowbar" path="pain/s_grab_crowbar.ogg" subtitle_id="pain_s_grab_crowbar_sub"/>
+			<sound id="pain_s_start_trivia" path="pain/s_start_trivia.ogg" subtitle_id="pain_s_start_trivia_sub"/>
+			<sound id="pain_s_q2" path="pain/s_q2.ogg" subtitle_id="pain_s_q2_sub"/>
+			<sound id="pain_s_drill_start" path="pain/s_drill_start.ogg" subtitle_id="pain_s_drill_start_sub"/>
+			<sound id="pain_s_q3" path="pain/s_q3.ogg" subtitle_id="pain_s_q3_sub"/>
+			<sound id="pain_s_blueprint" path="pain/s_blueprint.ogg" subtitle_id="pain_s_blueprint_sub"/>
+			<sound id="pain_s_bp_hint" path="pain/s_bp_hint.ogg" subtitle_id="pain_s_bp_hint_sub"/>
+			<sound id="pain_s_in_room" path="pain/s_in_room.ogg" subtitle_id="pain_s_in_room_sub"/>
+			<sound id="pain_s_drill_see" path="pain/s_drill_see.ogg" subtitle_id="pain_s_drill_see_sub"/>
+			<sound id="pain_s_vault" path="pain/s_vault.ogg" subtitle_id="pain_s_vault_sub"/>
+			<sound id="pain_s_q1" path="pain/s_q1.ogg" subtitle_id="pain_s_q1_sub"/>
+			<sound id="pain_s_end_convo" path="pain/s_end_convo.ogg" subtitle_id="pain_s_end_convo_sub"/>
+			<sound id="pain_s_wrong_c4" path="pain/s_wrong_c4.ogg" subtitle_id="pain_s_wrong_c4_sub"/>
+			<sound id="pain_s_start_convo" path="pain/s_start_convo.ogg" subtitle_id="pain_s_start_convo_sub"/>
+			<sound id="pain_s_continue" path="pain/s_continue.ogg" subtitle_id="pain_s_continue_sub"/>
+			<sound id="pain_s_see_crowbar" path="pain/s_see_crowbar.ogg" subtitle_id="pain_s_see_crowbar_sub"/>
+			<sound id="pain_s_escape_beatdown1" path="pain/s_escape_beatdown1.ogg" subtitle_id="pain_s_escape_beatdown1_sub"/>
+			<sound id="pain_s_escape_beatdown2" path="pain/s_escape_beatdown2.ogg" subtitle_id="pain_s_escape_beatdown2_sub"/>
+		</Sounds>
 		<packages>
 			<value_node value="packages/lvl_mad"/>
 			<value_node value="levels/narratives/elephant/mad/world"/>
@@ -199,254 +433,28 @@
 		<texture load="true" path="guis/textures/assets/asset_zipline"/>
 		<texture load="true" path="guis/textures/assets/asset_chimichanga"/>
 		<texture load="true" path="guis/textures/assets/asset_radio"/>
+		<texture load="true" path="guis/textures/pain_003_icon"/>
 		<texture path="fonts/marker_large"/>
 		<font load="true" path="fonts/marker_large" unload="false"/>
 	</AddFiles>
-	<AssetUpdates id="27132" provider="modworkshop" use_local_dir="true" version="1.8"/>
+	<AssetUpdates id="27132" provider="modworkshop" use_local_dir="true" version="2"/>
 	<HeistMusic directory="assets/sounds/song" id="music_painchristmas" volume="0.9">
 		<event name="setup" source="stealth.ogg" start_source="stealthintro.ogg"/>
 		<event name="anticipation" source="anticiloop.ogg" start_source="anticipation.ogg"/>
 		<event alt_source="assaultalt.ogg" name="assault" source="assault.ogg" start_source="assaultintro.ogg"/>
 		<event name="control" source="control.ogg" start_source="controlintro.ogg"/>
 	</HeistMusic>
+	<Hooks directory="hooks">
+		<hook file="musicmanager.lua" source_file="lib/managers/musicmanager"/>
+		<hook file="contractorheistitem.lua" source_file="lib/managers/menu/items/contractbrokerheistitem"/>
+	</Hooks>
 	<Localization default="english.txt" directory="loc">
 		<localization file="italian.txt" language="italian"/>
 		<localization file="english.txt" language="english"/>
 	</Localization>
-	<Sounds directory="assets/sounds/vo">
-		<sound id="tlhs_brief" path="pain/tlhs_briefing.ogg"/>
-		<sound id="pain_landed_skydiving1" path="pain/landed_skydiving1.ogg" subtitle_id="pain_landed_skydiving1_sub"/>
-		<sound id="pain_landed_skydiving2" path="pain/landed_skydiving2.ogg" subtitle_id="pain_landed_skydiving2_sub"/>
-		<sound id="pain_landed_skydiving3" path="pain/landed_skydiving3.ogg" subtitle_id="pain_landed_skydiving3_sub"/>
-		<sound id="pain_landed_skydiving4" path="pain/landed_skydiving4.ogg" subtitle_id="pain_landed_skydiving4_sub"/>
-		<sound id="pain_landed_skydiving5" path="pain/landed_skydiving5.ogg" subtitle_id="pain_landed_skydiving5_sub"/>
-		<sound id="pain_blow_wall1" path="pain/blow_wall1.ogg" subtitle_id="pain_blow_wall1_sub"/>
-		<sound id="pain_blow_wall2" path="pain/blow_wall2.ogg" subtitle_id="pain_blow_wall2_sub"/>
-		<sound id="pain_blow_wall3" path="pain/blow_wall3.ogg" subtitle_id="pain_blow_wall3_sub"/>
-		<sound id="pain_see_snowmen1" path="pain/see_snowmen1.ogg" subtitle_id="pain_see_snowmen1_sub"/>
-		<sound id="pain_see_snowmen2" path="pain/see_snowmen2.ogg" subtitle_id="pain_see_snowmen2_sub"/>
-		<sound id="pain_see_snowmen3" path="pain/see_snowmen3.ogg" subtitle_id="pain_see_snowmen3_sub"/>
-		<sound id="pain_snowmen_count_1_1" path="pain/snowmen_count_1_1.ogg" subtitle_id="pain_snowmen_count_1_1_sub"/>
-		<sound id="pain_snowmen_count_1_2" path="pain/snowmen_count_1_2.ogg" subtitle_id="pain_snowmen_count_1_2_sub"/>
-		<sound id="pain_snowmen_count_3_1" path="pain/snowmen_count_3_1.ogg" subtitle_id="pain_snowmen_count_3_1_sub"/>
-		<sound id="pain_snowmen_count_3_2" path="pain/snowmen_count_3_2.ogg" subtitle_id="pain_snowmen_count_3_2_sub"/>
-		<sound id="pain_snowmen_count_5_1" path="pain/snowmen_count_5_1.ogg" subtitle_id="pain_snowmen_count_5_1_sub"/>
-		<sound id="pain_snowmen_count_5_2" path="pain/snowmen_count_5_2.ogg" subtitle_id="pain_snowmen_count_5_2_sub"/>
-		<sound id="pain_snowmen_count_7_1" path="pain/snowmen_count_7_1.ogg" subtitle_id="pain_snowmen_count_7_1_sub"/>
-		<sound id="pain_snowmen_count_7_2" path="pain/snowmen_count_7_2.ogg" subtitle_id="pain_snowmen_count_7_2_sub"/>
-		<sound id="pain_blow_fuse1" path="pain/blow_fuse1.ogg" subtitle_id="pain_blow_fuse1_sub"/>
-		<sound id="pain_blow_fuse2" path="pain/blow_fuse2.ogg" subtitle_id="pain_blow_fuse2_sub"/>
-		<sound id="pain_blow_fuse3" path="pain/blow_fuse3.ogg" subtitle_id="pain_blow_fuse3_sub"/>
-		<sound id="pain_blow_fuse4" path="pain/blow_fuse4.ogg" subtitle_id="pain_blow_fuse4_sub"/>
-		<sound id="pain_blow_fuse_loud1" path="pain/blow_fuse_loud1.ogg" subtitle_id="pain_blow_fuse_loud1_sub"/>
-		<sound id="pain_blow_fuse_loud2" path="pain/blow_fuse_loud2.ogg" subtitle_id="pain_blow_fuse_loud2_sub"/>
-		<sound id="pain_blow_fuse_loud3" path="pain/blow_fuse_loud3.ogg" subtitle_id="pain_blow_fuse_loud3_sub"/>
-		<sound id="pain_fuse_blown1" path="pain/fuse_blown1.ogg" subtitle_id="pain_fuse_blown1_sub"/>
-		<sound id="pain_fuse_blown2" path="pain/fuse_blown2.ogg" subtitle_id="pain_fuse_blown2_sub"/>
-		<sound id="pain_fuse_blown3" path="pain/fuse_blown3.ogg" subtitle_id="pain_fuse_blown3_sub"/>
-		<sound id="pain_open_hatch1" path="pain/open_hatch1.ogg" subtitle_id="pain_open_hatch1_sub"/>
-		<sound id="pain_open_hatch2" path="pain/open_hatch2.ogg" subtitle_id="pain_open_hatch2_sub"/>
-		<sound id="pain_open_hatch3" path="pain/open_hatch3.ogg" subtitle_id="pain_open_hatch3_sub"/>
-		<sound id="pain_hack_hatch1" path="pain/hack_hatch1.ogg" subtitle_id="pain_hack_hatch1_sub"/>
-		<sound id="pain_hack_hatch2" path="pain/hack_hatch2.ogg" subtitle_id="pain_hack_hatch2_sub"/>
-		<sound id="pain_hack_hatch3" path="pain/hack_hatch3.ogg" subtitle_id="pain_hack_hatch3_sub"/>
-		<sound id="pain_alarm_hatch1" path="pain/alarm_hatch1.ogg" subtitle_id="pain_alarm_hatch1_sub"/>
-		<sound id="pain_alarm_hatch2" path="pain/alarm_hatch2.ogg" subtitle_id="pain_alarm_hatch2_sub"/>
-		<sound id="pain_alarm_hatch3" path="pain/alarm_hatch3.ogg" subtitle_id="pain_alarm_hatch3_sub"/>
-		<sound id="pain_alarm_hatch4" path="pain/alarm_hatch4.ogg" subtitle_id="pain_alarm_hatch4_sub"/>
-		<sound id="pain_hacked_hatch_loud1" path="pain/hacked_hatch_loud1.ogg" subtitle_id="pain_hacked_hatch_loud1_sub"/>
-		<sound id="pain_hacked_hatch_loud2" path="pain/hacked_hatch_loud2.ogg" subtitle_id="pain_hacked_hatch_loud2_sub"/>
-		<sound id="pain_hacked_hatch_loud3" path="pain/hacked_hatch_loud3.ogg" subtitle_id="pain_hacked_hatch_loud3_sub"/>
-		<sound id="pain_hacked_hatch_stealth1" path="pain/hacked_hatch_stealth1.ogg" subtitle_id="pain_hacked_hatch_stealth1_sub"/>
-		<sound id="pain_hacked_hatch_stealth2" path="pain/hacked_hatch_stealth2.ogg" subtitle_id="pain_hacked_hatch_stealth2_sub"/>
-		<sound id="pain_hacked_hatch_stealth3" path="pain/hacked_hatch_stealth3.ogg" subtitle_id="pain_hacked_hatch_stealth3_sub"/>
-		<sound id="pain_c4_hatch1" path="pain/c4_hatch1.ogg" subtitle_id="pain_c4_hatch1_sub"/>
-		<sound id="pain_c4_hatch2" path="pain/c4_hatch2.ogg" subtitle_id="pain_c4_hatch2_sub"/>
-		<sound id="pain_c4_hatch3" path="pain/c4_hatch3.ogg" subtitle_id="pain_c4_hatch3_sub"/>
-		<sound id="pain_hatch_blown1" path="pain/hatch_blown1.ogg" subtitle_id="pain_hatch_blown1_sub"/>
-		<sound id="pain_hatch_blown2" path="pain/hatch_blown2.ogg" subtitle_id="pain_hatch_blown2_sub"/>
-		<sound id="pain_hatch_blown3" path="pain/hatch_blown3.ogg" subtitle_id="pain_hatch_blown3_sub"/>
-		<sound id="pain_hatch_blown4" path="pain/hatch_blown4.ogg" subtitle_id="pain_hatch_blown4_sub"/>
-		<sound id="pain_hack_computer1" path="pain/hack_computer1.ogg" subtitle_id="pain_hack_computer1_sub"/>
-		<sound id="pain_hack_computer2" path="pain/hack_computer2.ogg" subtitle_id="pain_hack_computer2_sub"/>
-		<sound id="pain_hack_computer3" path="pain/hack_computer3.ogg" subtitle_id="pain_hack_computer3_sub"/>
-		<sound id="pain_hack_computer4" path="pain/hack_computer4.ogg" subtitle_id="pain_hack_computer4_sub"/>
-		<sound id="pain_hack_computer5" path="pain/hack_computer5.ogg" subtitle_id="pain_hack_computer5_sub"/>
-		<sound id="pain_security_no_open1" path="pain/security_no_open1.ogg" subtitle_id="pain_security_no_open1_sub"/>
-		<sound id="pain_security_no_open2" path="pain/security_no_open2.ogg" subtitle_id="pain_security_no_open2_sub"/>
-		<sound id="pain_security_no_open3" path="pain/security_no_open3.ogg" subtitle_id="pain_security_no_open3_sub"/>
-		<sound id="pain_press_button1" path="pain/press_button1.ogg" subtitle_id="pain_press_button1_sub"/>
-		<sound id="pain_press_button2" path="pain/press_button2.ogg" subtitle_id="pain_press_button2_sub"/>
-		<sound id="pain_press_button3" path="pain/press_button3.ogg" subtitle_id="pain_press_button3_sub"/>
-		<sound id="pain_head_santa1" path="pain/head_santa1.ogg" subtitle_id="pain_head_santa1_sub"/>
-		<sound id="pain_head_santa2" path="pain/head_santa2.ogg" subtitle_id="pain_head_santa2_sub"/>
-		<sound id="pain_head_santa3" path="pain/head_santa3.ogg" subtitle_id="pain_head_santa3_sub"/>
-		<sound id="pain_drill_santa1" path="pain/drill_santa1.ogg" subtitle_id="pain_drill_santa1_sub"/>
-		<sound id="pain_drill_santa2" path="pain/drill_santa2.ogg" subtitle_id="pain_drill_santa2_sub"/>
-		<sound id="pain_drill_santa3" path="pain/drill_santa3.ogg" subtitle_id="pain_drill_santa3_sub"/>
-		<sound id="pain_drill_jam1" path="pain/drill_jam1.ogg" subtitle_id="pain_drill_jam1_sub"/>
-		<sound id="pain_drill_jam2" path="pain/drill_jam2.ogg" subtitle_id="pain_drill_jam2_sub"/>
-		<sound id="pain_drill_jam3" path="pain/drill_jam3.ogg" subtitle_id="pain_drill_jam3_sub"/>
-		<sound id="pain_santa_open1" path="pain/santa_open1.ogg" subtitle_id="pain_santa_open1_sub"/>
-		<sound id="pain_santa_open2" path="pain/santa_open2.ogg" subtitle_id="pain_santa_open2_sub"/>
-		<sound id="pain_santa_open3" path="pain/santa_open3.ogg" subtitle_id="pain_santa_open3_sub"/>
-		<sound id="pain_santa_open4" path="pain/santa_open4.ogg" subtitle_id="pain_santa_open4_sub"/>
-		<sound id="pain_santa_open5" path="pain/santa_open5.ogg" subtitle_id="pain_santa_open5_sub"/>
-		<sound id="pain_tie_santa1" path="pain/tie_santa1.ogg" subtitle_id="pain_tie_santa1_sub"/>
-		<sound id="pain_tie_santa2" path="pain/tie_santa2.ogg" subtitle_id="pain_tie_santa2_sub"/>
-		<sound id="pain_tie_santa3" path="pain/tie_santa3.ogg" subtitle_id="pain_tie_santa3_sub"/>
-		<sound id="pain_tie_santa4" path="pain/tie_santa4.ogg" subtitle_id="pain_tie_santa4_sub"/>
-		<sound id="pain_reindeer_open1" path="pain/reindeer_open1.ogg" subtitle_id="pain_reindeer_open1_sub"/>
-		<sound id="pain_reindeer_open2" path="pain/reindeer_open2.ogg" subtitle_id="pain_reindeer_open2_sub"/>
-		<sound id="pain_reindeer_open3" path="pain/reindeer_open3.ogg" subtitle_id="pain_reindeer_open3_sub"/>
-		<sound id="pain_reindeer_wrong1" path="pain/reindeer_wrong1.ogg" subtitle_id="pain_reindeer_wrong1_sub"/>
-		<sound id="pain_reindeer_wrong2" path="pain/reindeer_wrong2.ogg" subtitle_id="pain_reindeer_wrong2_sub"/>
-		<sound id="pain_reindeer_wrong3" path="pain/reindeer_wrong3.ogg" subtitle_id="pain_reindeer_wrong3_sub"/>
-		<sound id="pain_reindeer_wrong4" path="pain/reindeer_wrong4.ogg" subtitle_id="pain_reindeer_wrong4_sub"/>
-		<sound id="pain_reindeer_wrong5" path="pain/reindeer_wrong5.ogg" subtitle_id="pain_reindeer_wrong5_sub"/>
-		<sound id="pain_reindeer_wrong6" path="pain/reindeer_wrong6.ogg" subtitle_id="pain_reindeer_wrong6_sub"/>
-		<sound id="pain_reindeer_wrong7" path="pain/reindeer_wrong7.ogg" subtitle_id="pain_reindeer_wrong7_sub"/>
-		<sound id="pain_reindeer_wrong8" path="pain/reindeer_wrong8.ogg" subtitle_id="pain_reindeer_wrong8_sub"/>
-		<sound id="pain_blitzen1" path="pain/blitzen1.ogg" subtitle_id="pain_blitzen1_sub"/>
-		<sound id="pain_comet1" path="pain/comet1.ogg" subtitle_id="pain_comet1_sub"/>
-		<sound id="pain_cupid1" path="pain/cupid1.ogg" subtitle_id="pain_cupid1_sub"/>
-		<sound id="pain_dancer1" path="pain/dancer1.ogg" subtitle_id="pain_dancer1_sub"/>
-		<sound id="pain_dasher1" path="pain/dasher1.ogg" subtitle_id="pain_dasher1_sub"/>
-		<sound id="pain_donner1" path="pain/donner1.ogg" subtitle_id="pain_donner1_sub"/>
-		<sound id="pain_prancer1" path="pain/prancer1.ogg" subtitle_id="pain_prancer1_sub"/>
-		<sound id="pain_rudolph1" path="pain/rudolph1.ogg" subtitle_id="pain_rudolph1_sub"/>
-		<sound id="pain_rudolph2" path="pain/rudolph2.ogg" subtitle_id="pain_rudolph2_sub"/>
-		<sound id="pain_vixen1" path="pain/vixen1.ogg" subtitle_id="pain_vixen1_sub"/>
-		<sound id="pain_bike_open1" path="pain/bike_open1.ogg" subtitle_id="pain_bike_open1_sub"/>
-		<sound id="pain_bike_open2" path="pain/bike_open2.ogg" subtitle_id="pain_bike_open2_sub"/>
-		<sound id="pain_bike_open3" path="pain/bike_open3.ogg" subtitle_id="pain_bike_open3_sub"/>
-		<sound id="pain_bike_spawn1" path="pain/bike_spawn1.ogg" subtitle_id="pain_bike_spawn1_sub"/>
-		<sound id="pain_bike_spawn2" path="pain/bike_spawn2.ogg" subtitle_id="pain_bike_spawn2_sub"/>
-		<sound id="pain_bike_spawn3" path="pain/bike_spawn3.ogg" subtitle_id="pain_bike_spawn3_sub"/>
-		<sound id="pain_dial_60s1" path="pain/dial_60s1.ogg" subtitle_id="pain_dial_60s1_sub"/>
-		<sound id="pain_dial_60s2" path="pain/dial_60s2.ogg" subtitle_id="pain_dial_60s2_sub"/>
-		<sound id="pain_dial_60s3" path="pain/dial_60s3.ogg" subtitle_id="pain_dial_60s3_sub"/>
-		<sound id="pain_dial_drop" path="pain/dial_drop.ogg" subtitle_id="pain_dial_drop_sub"/>
-		<sound id="pain_bike_table1" path="pain/bike_table1.ogg" subtitle_id="pain_bike_table1_sub"/>
-		<sound id="pain_assemble_bike1" path="pain/assemble_bike1.ogg" subtitle_id="pain_assemble_bike1_sub"/>
-		<sound id="pain_assemble_bike2" path="pain/assemble_bike2.ogg" subtitle_id="pain_assemble_bike2_sub"/>
-		<sound id="pain_assemble_bike3" path="pain/assemble_bike3.ogg" subtitle_id="pain_assemble_bike3_sub"/>
-		<sound id="pain_more_parts1" path="pain/more_parts1.ogg" subtitle_id="pain_more_parts1_sub"/>
-		<sound id="pain_more_parts2" path="pain/more_parts2.ogg" subtitle_id="pain_more_parts2_sub"/>
-		<sound id="pain_more_parts3" path="pain/more_parts3.ogg" subtitle_id="pain_more_parts3_sub"/>
-		<sound id="pain_more_parts4" path="pain/more_parts4.ogg" subtitle_id="pain_more_parts4_sub"/>
-		<sound id="pain_bike_assembled1" path="pain/bike_assembled1.ogg" subtitle_id="pain_bike_assembled1_sub"/>
-		<sound id="pain_bike_assembled2" path="pain/bike_assembled2.ogg" subtitle_id="pain_bike_assembled2_sub"/>
-		<sound id="pain_bike_assembled3" path="pain/bike_assembled3.ogg" subtitle_id="pain_bike_assembled3_sub"/>
-		<sound id="pain_bike_built1" path="pain/bike_built1.ogg" subtitle_id="pain_bike_built1_sub"/>
-		<sound id="pain_bike_built2" path="pain/bike_built2.ogg" subtitle_id="pain_bike_built2_sub"/>
-		<sound id="pain_bike_built3" path="pain/bike_built3.ogg" subtitle_id="pain_bike_built3_sub"/>
-		<sound id="pain_library_open1" path="pain/library_open1.ogg" subtitle_id="pain_library_open1_sub"/>
-		<sound id="pain_library_open2" path="pain/library_open2.ogg" subtitle_id="pain_library_open2_sub"/>
-		<sound id="pain_library_open3" path="pain/library_open3.ogg" subtitle_id="pain_library_open3_sub"/>
-		<sound id="pain_check_file1" path="pain/check_file1.ogg" subtitle_id="pain_check_file1_sub"/>
-		<sound id="pain_check_file2" path="pain/check_file2.ogg" subtitle_id="pain_check_file2_sub"/>
-		<sound id="pain_check_file3" path="pain/check_file3.ogg" subtitle_id="pain_check_file3_sub"/>
-		<sound id="pain_bo1" path="pain/bo1.ogg" subtitle_id="pain_bo1_sub"/>
-		<sound id="pain_bo2" path="pain/bo2.ogg" subtitle_id="pain_bo2_sub"/>
-		<sound id="pain_bo3" path="pain/bo3.ogg" subtitle_id="pain_bo3_sub"/>
-		<sound id="pain_captainalpha1" path="pain/captainalpha1.ogg" subtitle_id="pain_captainalpha1_sub"/>
-		<sound id="pain_captainalpha2" path="pain/captainalpha2.ogg" subtitle_id="pain_captainalpha2_sub"/>
-		<sound id="pain_kuziz1" path="pain/kuziz1.ogg" subtitle_id="pain_kuziz1_sub"/>
-		<sound id="pain_kuziz2" path="pain/kuziz2.ogg" subtitle_id="pain_kuziz2_sub"/>
-		<sound id="pain_matt1" path="pain/matt1.ogg" subtitle_id="pain_matt1_sub"/>
-		<sound id="pain_matt2" path="pain/matt2.ogg" subtitle_id="pain_matt2_sub"/>
-		<sound id="pain_vyse1" path="pain/vyse1.ogg" subtitle_id="pain_vyse1_sub"/>
-		<sound id="pain_den1" path="pain/den1.ogg" subtitle_id="pain_den1_sub"/>
-		<sound id="pain_palmtop1" path="pain/palmtop1.ogg" subtitle_id="pain_palmtop1_sub"/>
-		<sound id="pain_palmtop2" path="pain/palmtop2.ogg" subtitle_id="pain_palmtop2_sub"/>
-		<sound id="pain_senpai1" path="pain/senpai1.ogg" subtitle_id="pain_senpai1_sub"/>
-		<sound id="pain_shimagtr1" path="pain/shimagtr1.ogg" subtitle_id="pain_shimagtr1_sub"/>
-		<sound id="pain_smiley1" path="pain/smiley1.ogg" subtitle_id="pain_smiley1_sub"/>
-		<sound id="pain_steiner1" path="pain/steiner1.ogg" subtitle_id="pain_steiner1_sub"/>
-		<sound id="pain_steiner2" path="pain/steiner2.ogg" subtitle_id="pain_steiner2_sub"/>
-		<sound id="pain_wolf1" path="pain/wolf1.ogg" subtitle_id="pain_wolf1_sub"/>
-		<sound id="pain_wolf2" path="pain/wolf2.ogg" subtitle_id="pain_wolf2_sub"/>
-		<sound id="pain_pain_file1" path="pain/pain_file1.ogg" subtitle_id="pain_pain_file1_sub"/>
-		<sound id="pain_pain_file2" path="pain/pain_file2.ogg" subtitle_id="pain_pain_file2_sub"/>
-		<sound id="pain_pain_file3" path="pain/pain_file3.ogg" subtitle_id="pain_pain_file3_sub"/>
-		<sound id="pain_beat_santa1" path="pain/beat_santa1.ogg" subtitle_id="pain_beat_santa1_sub"/>
-		<sound id="pain_beat_santa2" path="pain/beat_santa2.ogg" subtitle_id="pain_beat_santa2_sub"/>
-		<sound id="pain_call_mrs1" path="pain/call_mrs1.ogg" subtitle_id="pain_call_mrs1_sub"/>
-		<sound id="pain_call_mrs2" path="pain/call_mrs2.ogg" subtitle_id="pain_call_mrs2_sub"/>
-		<sound id="pain_sec_convo1" path="pain/sec_convo1.ogg" subtitle_id="pain_sec_convo1_sub"/>
-		<sound id="pain_sec_convo2" path="pain/sec_convo2.ogg" subtitle_id="pain_sec_convo2_sub"/>
-		<sound id="pain_sec_convo3" path="pain/sec_convo3.ogg" subtitle_id="pain_sec_convo3_sub"/>
-		<sound id="pain_sec_convo4" path="pain/sec_convo4.ogg" subtitle_id="pain_sec_convo4_sub"/>
-		<sound id="pain_sec_convo5" path="pain/sec_convo5.ogg" subtitle_id="pain_sec_convo5_sub"/>
-		<sound id="pain_threaten_santa1" path="pain/threaten_santa1.ogg" subtitle_id="pain_threaten_santa1_sub"/>
-		<sound id="pain_threaten_santa2" path="pain/threaten_santa2.ogg" subtitle_id="pain_threaten_santa2_sub"/>
-		<sound id="pain_threaten_santa3" path="pain/threaten_santa3.ogg" subtitle_id="pain_threaten_santa3_sub"/>
-		<sound id="pain_threaten_santa4" path="pain/threaten_santa4.ogg" subtitle_id="pain_threaten_santa4_sub"/>
-		<sound id="pain_get_inside_vault1" path="pain/get_inside_vault1.ogg" subtitle_id="pain_get_inside_vault1_sub"/>
-		<sound id="pain_get_inside_vault2" path="pain/get_inside_vault2.ogg" subtitle_id="pain_get_inside_vault2_sub"/>
-		<sound id="pain_get_inside_vault3" path="pain/get_inside_vault3.ogg" subtitle_id="pain_get_inside_vault3_sub"/>
-		<sound id="pain_get_inside_vault4" path="pain/get_inside_vault4.ogg" subtitle_id="pain_get_inside_vault4_sub"/>
-		<sound id="pain_inside_vault1" path="pain/inside_vault1.ogg" subtitle_id="pain_inside_vault1_sub"/>
-		<sound id="pain_inside_vault2" path="pain/inside_vault2.ogg" subtitle_id="pain_inside_vault2_sub"/>
-		<sound id="pain_inside_vault3" path="pain/inside_vault3.ogg" subtitle_id="pain_inside_vault3_sub"/>
-		<sound id="pain_inside_vault4" path="pain/inside_vault4.ogg" subtitle_id="pain_inside_vault4_sub"/>
-		<sound id="pain_grabbed_cookie_bag1" path="pain/grabbed_cookie_bag1.ogg" subtitle_id="pain_grabbed_cookie_bag1_sub"/>
-		<sound id="pain_grabbed_cookie_bag2" path="pain/grabbed_cookie_bag2.ogg" subtitle_id="pain_grabbed_cookie_bag2_sub"/>
-		<sound id="pain_grabbed_cookie_bag3" path="pain/grabbed_cookie_bag3.ogg" subtitle_id="pain_grabbed_cookie_bag3_sub"/>
-		<sound id="pain_grabbed_cookie_bag4" path="pain/grabbed_cookie_bag4.ogg" subtitle_id="pain_grabbed_cookie_bag4_sub"/>
-		<sound id="pain_grabbed_cookie_bag5" path="pain/grabbed_cookie_bag5.ogg" subtitle_id="pain_grabbed_cookie_bag5_sub"/>
-		<sound id="pain_head_to_switch1" path="pain/head_to_switch1.ogg" subtitle_id="pain_head_to_switch1_sub"/>
-		<sound id="pain_head_to_switch2" path="pain/head_to_switch2.ogg" subtitle_id="pain_head_to_switch2_sub"/>
-		<sound id="pain_head_to_switch3" path="pain/head_to_switch3.ogg" subtitle_id="pain_head_to_switch3_sub"/>
-		<sound id="pain_call_switch1" path="pain/call_switch1.ogg" subtitle_id="pain_call_switch1_sub"/>
-		<sound id="pain_call_switch2" path="pain/call_switch2.ogg" subtitle_id="pain_call_switch2_sub"/>
-		<sound id="pain_call_switch3" path="pain/call_switch3.ogg" subtitle_id="pain_call_switch3_sub"/>
-		<sound id="pain_signal_or_more1" path="pain/signal_or_more1.ogg" subtitle_id="pain_signal_or_more1_sub"/>
-		<sound id="pain_signal_or_more2" path="pain/signal_or_more2.ogg" subtitle_id="pain_signal_or_more2_sub"/>
-		<sound id="pain_signal_or_more3" path="pain/signal_or_more3.ogg" subtitle_id="pain_signal_or_more3_sub"/>
-		<sound id="pain_secure_bike1" path="pain/secure_bike1.ogg" subtitle_id="pain_secure_bike1_sub"/>
-		<sound id="pain_secure_bike2" path="pain/secure_bike2.ogg" subtitle_id="pain_secure_bike2_sub"/>
-		<sound id="pain_secure_bike3" path="pain/secure_bike3.ogg" subtitle_id="pain_secure_bike3_sub"/>
-		<sound id="pain_go_escape1" path="pain/go_escape1.ogg" subtitle_id="pain_go_escape1_sub"/>
-		<sound id="pain_go_escape2" path="pain/go_escape2.ogg" subtitle_id="pain_go_escape2_sub"/>
-		<sound id="pain_go_escape3" path="pain/go_escape3.ogg" subtitle_id="pain_go_escape3_sub"/>
-		<sound id="pain_escaped" path="pain/escaped.ogg" subtitle_id="pain_escaped_sub"/>
-		<sound id="pain_chimichanga" path="pain/chimichanga.ogg" subtitle_id="pain_chimichanga_sub"/>
-		<sound id="pain_s_sec_convo1" path="pain/s_sec_convo1.ogg" subtitle_id="pain_s_sec_convo1_sub"/>
-		<sound id="pain_s_sec_convo2" path="pain/s_sec_convo2.ogg" subtitle_id="pain_s_sec_convo2_sub"/>
-		<sound id="pain_s_sec_convo3" path="pain/s_sec_convo3.ogg" subtitle_id="pain_s_sec_convo3_sub"/>
-		<sound id="pain_truck_intro" path="pain/truck_intro.ogg" subtitle_id="pain_truck_intro_sub"/>
-		<sound id="pain_truck_5_min" path="pain/truck_5_min.ogg" subtitle_id="pain_truck_5_min_sub"/>
-		<sound id="pain_society" path="pain/society.ogg" subtitle_id="pain_society_sub"/>
-		<sound id="pain_s_gb" path="pain/s_gb.ogg" subtitle_id="pain_s_gb_sub"/>
-		<sound id="pain_s_grab_key" path="pain/s_grab_key.ogg" subtitle_id="pain_s_grab_key_sub"/>
-		<sound id="pain_s_drill_done" path="pain/s_drill_done.ogg" subtitle_id="pain_s_drill_done_sub"/>
-		<sound id="pain_s_see_bo" path="pain/s_see_bo.ogg" subtitle_id="pain_s_see_bo_sub"/>
-		<sound id="pain_s_crowbar_hatch" path="pain/s_crowbar_hatch.ogg" subtitle_id="pain_s_crowbar_hatch_sub"/>
-		<sound id="pain_s_done_trivia" path="pain/s_done_trivia.ogg" subtitle_id="pain_s_done_trivia_sub"/>
-		<sound id="pain_s_grab_crowbar" path="pain/s_grab_crowbar.ogg" subtitle_id="pain_s_grab_crowbar_sub"/>
-		<sound id="pain_s_start_trivia" path="pain/s_start_trivia.ogg" subtitle_id="pain_s_start_trivia_sub"/>
-		<sound id="pain_s_q2" path="pain/s_q2.ogg" subtitle_id="pain_s_q2_sub"/>
-		<sound id="pain_s_drill_start" path="pain/s_drill_start.ogg" subtitle_id="pain_s_drill_start_sub"/>
-		<sound id="pain_s_q3" path="pain/s_q3.ogg" subtitle_id="pain_s_q3_sub"/>
-		<sound id="pain_s_blueprint" path="pain/s_blueprint.ogg" subtitle_id="pain_s_blueprint_sub"/>
-		<sound id="pain_s_bp_hint" path="pain/s_bp_hint.ogg" subtitle_id="pain_s_bp_hint_sub"/>
-		<sound id="pain_s_in_room" path="pain/s_in_room.ogg" subtitle_id="pain_s_in_room_sub"/>
-		<sound id="pain_s_drill_see" path="pain/s_drill_see.ogg" subtitle_id="pain_s_drill_see_sub"/>
-		<sound id="pain_s_vault" path="pain/s_vault.ogg" subtitle_id="pain_s_vault_sub"/>
-		<sound id="pain_s_q1" path="pain/s_q1.ogg" subtitle_id="pain_s_q1_sub"/>
-		<sound id="pain_s_end_convo" path="pain/s_end_convo.ogg" subtitle_id="pain_s_end_convo_sub"/>
-		<sound id="pain_s_wrong_c4" path="pain/s_wrong_c4.ogg" subtitle_id="pain_s_wrong_c4_sub"/>
-		<sound id="pain_s_start_convo" path="pain/s_start_convo.ogg" subtitle_id="pain_s_start_convo_sub"/>
-		<sound id="pain_s_continue" path="pain/s_continue.ogg" subtitle_id="pain_s_continue_sub"/>
-		<sound id="pain_s_see_crowbar" path="pain/s_see_crowbar.ogg" subtitle_id="pain_s_see_crowbar_sub"/>
-		<sound id="pain_s_escape_beatdown1" path="pain/s_escape_beatdown1.ogg" subtitle_id="pain_s_escape_beatdown1_sub"/>
-		<sound id="pain_s_escape_beatdown2" path="pain/s_escape_beatdown2.ogg" subtitle_id="pain_s_escape_beatdown2_sub"/>
-	</Sounds>
 	<WeaponSkin desc="bm_wskn_universalspain_desc" id="universalspain" name="bm_wskn_universalspain" rarity="epic" skin_folder="assets/weapon_skin/skins/universalspain" universal="true" weapon_id="flint"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Pain" name_id="contract_pain" package="packages/contact_bain"/>
-	<narrative briefing_event="" contact="Pain" icon="guis/textures/spain_icon" id="The Late Holiday Special" jc="30" load_screen="guis/dlcs/pic/textures/loading/job_boilingpoint" region="street">
+	<narrative briefing_event="" contact="Pain" icon="guis/textures/spain_icon" id="santa_pain" jc="30" load_screen="guis/dlcs/pic/textures/loading/job_boilingpoint" pain_003="true" pain_003_icon="guis/textures/pain_003_icon">
 		<chain>
 			<table level_id="santa_pain" type="d" type_id="heist_type_assault"/>
 		</chain>
